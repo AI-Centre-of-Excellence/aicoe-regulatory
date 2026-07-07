@@ -104,6 +104,21 @@ The ICH E2 series above governs safety data management during development. The e
 | CDISC 360i | CDISC | https://www.cdisc.org/cdisc-360 | Metadata-driven, end-to-end standards automation (CDISC Library, biomedical concepts) |
 | Study Data Technical Conformance Guide | FDA | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/study-data-technical-conformance-guide-technical-specifications-document | FDA technical specifications for CDISC study-data submission |
 
+## Computerized systems, CSV & data integrity (GxP)
+
+| Document | Issuer | Link | Notes |
+|---|---|---|---|
+| GAMP 5 (Second Edition) — A Risk-Based Approach to Compliant GxP Computerized Systems | ISPE | https://ispe.org/publications/guidance-documents/gamp-5-guide-2nd-edition | Primary industry CSV framework; publication (paywalled) |
+| GAMP Guide: Records & Data Integrity (RDI) | ISPE | https://ispe.org/publications/guidance-documents/gamp-records-pharmaceutical-data-integrity | GAMP good-practice guidance on records and data integrity; publication (paywalled) |
+| EU GMP Annex 11 — Computerised Systems | European Commission (EudraLex Volume 4) | https://health.ec.europa.eu/system/files/2016-11/annex11_01-2011_en_0.pdf | EU GMP requirements for computerised systems |
+| Part 11, Electronic Records; Electronic Signatures — Scope and Application | FDA | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application | Narrows Part 11 enforcement scope; read with 21 CFR Part 11 above |
+| Computer Software Assurance for Production and Quality Management System Software | FDA | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/computer-software-assurance-production-and-quality-management-system-software | Risk-based successor approach to CSV; final, Feb 2026 |
+| General Principles of Software Validation | FDA | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/general-principles-software-validation | Software-validation principles for device and manufacturing software |
+| PI 041 — Good Practices for Data Management and Integrity in Regulated GMP/GDP Environments | PIC/S | https://picscheme.org/docview/4234 | Inspector data-integrity expectations; in force 1 Jul 2021 |
+| MHRA 'GXP' Data Integrity Guidance and Definitions | MHRA (GOV.UK) | https://www.gov.uk/government/publications/guidance-on-gxp-data-integrity | Cross-GxP data-governance guidance; Revision 1, Mar 2018 |
+| WHO Guideline on data integrity (TRS 1033, Annex 4) | WHO | https://www.who.int/publications/m/item/annex-4-trs-1033 | ALCOA+ data-governance principles |
+| Q9(R1) Quality Risk Management | ICH | https://database.ich.org/sites/default/files/ICH_Q9(R1)_Guideline_Step4_2025_0115.pdf | Risk-management basis for CSV; Step 4 |
+
 ## Reporting guidelines (EQUATOR Network)
 
 | Document | Issuer | Link | Notes |

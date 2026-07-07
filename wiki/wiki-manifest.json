@@ -1,0 +1,65 @@
+{
+  "site": "AICOE Regulatory Wiki",
+  "tagline": "Curated regulatory guidances, standards & best practices",
+  "source_of_truth": "docs/*.md",
+  "pages": [
+    {
+      "slug": "clinical-research",
+      "title": "Clinical research — regulatory guidances, standards & best practices",
+      "url": "clinical-research.html",
+      "source": "docs/clinical-research.md",
+      "intro": "A curated index of authoritative, primary-source regulatory guidances, standards, ethics foundations, and industry best practices governing clinical research. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 82,
+      "sections": [
+        {
+          "title": "ICH guidelines",
+          "id": "ich-guidelines"
+        },
+        {
+          "title": "Ethics foundations",
+          "id": "ethics-foundations"
+        },
+        {
+          "title": "United States / FDA",
+          "id": "united-states-fda"
+        },
+        {
+          "title": "European Union / EMA",
+          "id": "european-union-ema"
+        },
+        {
+          "title": "United Kingdom / MHRA",
+          "id": "united-kingdom-mhra"
+        },
+        {
+          "title": "World Health Organization",
+          "id": "world-health-organization"
+        },
+        {
+          "title": "Pharmacovigilance & drug safety",
+          "id": "pharmacovigilance-drug-safety"
+        },
+        {
+          "title": "Data standards (CDISC)",
+          "id": "data-standards-cdisc"
+        },
+        {
+          "title": "Computerized systems, CSV & data integrity (GxP)",
+          "id": "computerized-systems-csv-data-integrity-gxp"
+        },
+        {
+          "title": "Reporting guidelines (EQUATOR Network)",
+          "id": "reporting-guidelines-equator-network"
+        },
+        {
+          "title": "Industry best practice",
+          "id": "industry-best-practice"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    }
+  ]
+}
