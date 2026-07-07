@@ -15,3 +15,4 @@ venv/
 
 # Node (in case tooling is added later)
 node_modules/
+.vercel

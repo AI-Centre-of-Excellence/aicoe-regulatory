@@ -18,12 +18,14 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
+ASSETS = ROOT / "assets"
 OUT = ROOT / "wiki"
 
 SITE_NAME = "AICOE Regulatory Wiki"
@@ -280,6 +282,8 @@ def shell(*, title: str, body: str, pages: list[dict], active_slug: str | None,
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html.escape(title)} · {SITE_NAME}</title>
 <meta name="description" content="{html.escape(description)}">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -287,8 +291,11 @@ def shell(*, title: str, body: str, pages: list[dict], active_slug: str | None,
 <div class="layout">
   <aside class="sidebar">
     <a class="brand" href="index.html">
-      <span class="brand-mark">AICOE</span>
-      <span class="brand-sub">Regulatory Wiki</span>
+      <img class="brand-logo" src="logo.png" alt="AICOE logo" width="34" height="34">
+      <span class="brand-text">
+        <span class="brand-mark">AICOE</span>
+        <span class="brand-sub">Regulatory Wiki</span>
+      </span>
     </a>
     <div class="search">
       {_icon('search', 'icon search-icon')}
@@ -413,6 +420,11 @@ def render_index(pages: list[dict]) -> str:
 
 def build() -> None:
     OUT.mkdir(exist_ok=True)
+    # Copy static source assets (logo, etc.) into the generated output.
+    if ASSETS.is_dir():
+        for asset in ASSETS.iterdir():
+            if asset.is_file():
+                shutil.copy2(asset, OUT / asset.name)
     md_files = sorted(
         p for p in DOCS.glob("*.md") if p.stem.lower() != "readme"
     )
@@ -509,10 +521,13 @@ code{font-family:var(--mono);font-size:.85em;background:var(--bg-alt);
 .sidebar{width:var(--sidebar-w);flex:none;background:var(--white);
   border-right:1px solid var(--border);position:sticky;top:0;height:100vh;
   display:flex;flex-direction:column;overflow-y:auto;}
-.brand{display:flex;flex-direction:column;gap:.15rem;padding:1.6rem 1.5rem;
+.brand{display:flex;align-items:center;gap:.75rem;padding:1.35rem 1.5rem;
   border-bottom:1px solid var(--border);}
-.brand-mark{font-weight:700;letter-spacing:.18em;font-size:1.05rem;}
-.brand-sub{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;
+.brand-logo{width:34px;height:34px;flex:none;object-fit:contain;
+  border:1px solid var(--border);background:#fafafa;}
+.brand-text{display:flex;flex-direction:column;gap:.1rem;min-width:0;}
+.brand-mark{font-weight:700;letter-spacing:.16em;font-size:1rem;}
+.brand-sub{font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;
   color:var(--text-muted);}
 /* Search */
 .search{display:flex;align-items:center;gap:.5rem;margin:1rem 1rem .35rem;

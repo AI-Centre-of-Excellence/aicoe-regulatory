@@ -29,10 +29,13 @@ code{font-family:var(--mono);font-size:.85em;background:var(--bg-alt);
 .sidebar{width:var(--sidebar-w);flex:none;background:var(--white);
   border-right:1px solid var(--border);position:sticky;top:0;height:100vh;
   display:flex;flex-direction:column;overflow-y:auto;}
-.brand{display:flex;flex-direction:column;gap:.15rem;padding:1.6rem 1.5rem;
+.brand{display:flex;align-items:center;gap:.75rem;padding:1.35rem 1.5rem;
   border-bottom:1px solid var(--border);}
-.brand-mark{font-weight:700;letter-spacing:.18em;font-size:1.05rem;}
-.brand-sub{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;
+.brand-logo{width:34px;height:34px;flex:none;object-fit:contain;
+  border:1px solid var(--border);background:#fafafa;}
+.brand-text{display:flex;flex-direction:column;gap:.1rem;min-width:0;}
+.brand-mark{font-weight:700;letter-spacing:.16em;font-size:1rem;}
+.brand-sub{font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;
   color:var(--text-muted);}
 /* Search */
 .search{display:flex;align-items:center;gap:.5rem;margin:1rem 1rem .35rem;
