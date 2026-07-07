@@ -1,0 +1,60 @@
+# AI Centre of Excellence Regulatory List
+
+> Curated regulatory guidances, standards & best practices. A curated index of regulatory guidances, standards,
+> and best practices, organised so an agent can identify which standards
+> apply to a given situation. Every link points to the issuing body's
+> official source. This index contains factual metadata only; it does not
+> reproduce the text of any standard. Standards remain © their issuers.
+
+## Machine-readable data
+
+- `wiki-manifest.json` — the authoritative dataset. `pages[].entries[]`
+  is one record per document with routing metadata (see fields below).
+- `search-index.json` — flat search index used by the site UI.
+
+## Entry fields (all factual, for routing — not the standard's text)
+
+- `document`, `issuer`, `section` — identity
+- `link` — the issuing body's official URL; `url` — anchor in this list
+- `jurisdiction` — where it has force (e.g. US, EU, UK, International, Global)
+- `legal_force` — one of: law, regulation, directive, binding-standard,
+  guidance, framework, voluntary-standard, best-practice
+- `applies_to` — the factual trigger that brings it into scope
+- `tags` — controlled keywords
+- `status` — current | superseded | proposed | draft
+- `notes` — short factual note (version, successor, access)
+
+## How to route
+
+Filter `entries` by `jurisdiction` + `applies_to`/`tags`, then rank by
+`legal_force` (law/regulation/binding-standard are mandatory; guidance and
+voluntary-standard are advisory) and prefer `status: current`. Consult the
+`link` for the authoritative text — do not rely on this index for wording.
+
+## Domains & topics
+
+### Life Sciences
+- Clinical research — /clinical-research.html (82 links)
+- Healthcare — /healthcare.html (39 links)
+
+### Financial Services
+- Financial services — /financial-services.html (32 links)
+
+### Manufacturing
+- Manufacturing — /manufacturing.html (28 links)
+
+### Aerospace & Defense
+- Aerospace & defense — /aerospace-defense.html (29 links)
+
+### Hi-Tech / Technology
+- Data protection & privacy — /data-protection-privacy.html (26 links)
+- Cybersecurity — /cybersecurity.html (30 links)
+- AI governance — /ai-governance.html (24 links)
+
+### Logistics & Supply Chain
+- Logistics & supply chain — /logistics-supply-chain.html (28 links)
+
+### Sustainability & ESG
+- Sustainability & ESG — /sustainability-esg.html (30 links)
+
+Contact: hi@aicoe.io

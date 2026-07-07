@@ -156,6 +156,14 @@ tbody td{padding:.75rem 1rem;border-bottom:1px solid var(--border);vertical-alig
 tbody tr:last-child td{border-bottom:none;}
 tbody tr:hover{background:var(--bg-alt);}
 tbody td:first-child{font-weight:600;color:var(--gray-900);min-width:180px;}
+.badges{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.45rem;}
+.badge{display:inline-block;font-size:.62rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.06em;padding:.1rem .4rem;border:1px solid var(--border-dark);
+  color:var(--gray-700);white-space:nowrap;}
+.badge-jur{background:var(--bg-alt);}
+.badge-mandatory{border-color:var(--black);background:var(--black);color:var(--white);}
+.badge-guidance{border-color:var(--gray-500);color:var(--gray-700);}
+.badge-voluntary{border-style:dashed;color:var(--gray-500);}
 
 /* Home / hero */
 .hero{padding:1rem 0 2.5rem;border-bottom:1px solid var(--border);margin-bottom:2.5rem;}

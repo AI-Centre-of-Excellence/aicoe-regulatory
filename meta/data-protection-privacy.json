@@ -1,0 +1,213 @@
+{
+  "slug": "data-protection-privacy",
+  "entries": [
+    {
+      "document": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "processing of personal data of people in the EU/EEA, by controllers/processors inside or outside the EU targeting EU data subjects",
+      "tags": ["gdpr", "eu", "personal-data", "cross-border-transfer", "consent"],
+      "status": "current"
+    },
+    {
+      "document": "UK GDPR — retained Regulation (EU) 2016/679",
+      "jurisdiction": "UK",
+      "legal_force": "law",
+      "applies_to": "processing of personal data in the UK, the domesticated version of the EU GDPR after Brexit",
+      "tags": ["uk-gdpr", "uk", "personal-data", "retained-eu-law"],
+      "status": "current"
+    },
+    {
+      "document": "Data Protection Act 2018",
+      "jurisdiction": "UK",
+      "legal_force": "law",
+      "applies_to": "UK data protection generally, implements and supplements the UK GDPR including law-enforcement and intelligence-services processing",
+      "tags": ["uk", "dpa-2018", "personal-data", "statute"],
+      "status": "current"
+    },
+    {
+      "document": "UK GDPR guidance and resources",
+      "jurisdiction": "UK",
+      "legal_force": "guidance",
+      "applies_to": "organisations seeking practical interpretation of UK GDPR obligations from the UK's data protection regulator",
+      "tags": ["uk", "ico", "guidance", "uk-gdpr"],
+      "status": "current"
+    },
+    {
+      "document": "ePrivacy Directive — Directive 2002/58/EC",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "electronic communications privacy, including cookies, unsolicited marketing messages, and traffic/location data",
+      "tags": ["eprivacy", "eu", "cookies", "electronic-communications"],
+      "status": "current"
+    },
+    {
+      "document": "EDPB guidelines, recommendations & documents",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "entities needing interpretive guidance, recommendations, opinions, and binding decisions on GDPR application across EU supervisory authorities",
+      "tags": ["edpb", "eu", "guidance", "gdpr-interpretation"],
+      "status": "current"
+    },
+    {
+      "document": "Standard Contractual Clauses (SCC)",
+      "jurisdiction": "EU",
+      "legal_force": "binding-standard",
+      "applies_to": "international transfers of personal data from the EU to third countries lacking an adequacy decision",
+      "tags": ["scc", "eu", "cross-border-transfer", "contract-clauses"],
+      "status": "current"
+    },
+    {
+      "document": "Adequacy decisions for non-EU countries",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "transfers of personal data to specific third countries that the European Commission has determined provide adequate protection",
+      "tags": ["adequacy-decision", "eu", "cross-border-transfer", "article-45"],
+      "status": "current"
+    },
+    {
+      "document": "EU-U.S. Data Privacy Framework",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "transfers of EU/UK/Swiss personal data to US organisations that self-certify participation",
+      "tags": ["dpf", "eu-us", "cross-border-transfer", "self-certification", "ftc"],
+      "status": "current"
+    },
+    {
+      "document": "California Consumer Privacy Act (CCPA) — statute",
+      "jurisdiction": "US (California)",
+      "legal_force": "law",
+      "applies_to": "businesses collecting personal information of California residents meeting statutory thresholds",
+      "tags": ["ccpa", "california", "us-state-law", "consumer-privacy"],
+      "status": "current"
+    },
+    {
+      "document": "California Consumer Privacy Act (CCPA) — overview",
+      "jurisdiction": "US (California)",
+      "legal_force": "guidance",
+      "applies_to": "consumers and businesses seeking a plain-language summary of CCPA rights and obligations",
+      "tags": ["ccpa", "california", "guidance", "consumer-rights"],
+      "status": "current"
+    },
+    {
+      "document": "California Privacy Protection Agency (CPPA)",
+      "jurisdiction": "US (California)",
+      "legal_force": "guidance",
+      "applies_to": "entities interacting with California's dedicated state privacy regulator established by the CPRA",
+      "tags": ["cppa", "california", "regulator", "cpra"],
+      "status": "current"
+    },
+    {
+      "document": "CCPA regulations",
+      "jurisdiction": "US (California)",
+      "legal_force": "regulation",
+      "applies_to": "businesses subject to the CCPA needing the implementing rules issued under CPPA rulemaking authority",
+      "tags": ["ccpa", "california", "regulations", "cppa", "rulemaking"],
+      "status": "current"
+    },
+    {
+      "document": "Virginia Consumer Data Protection Act (VCDPA)",
+      "jurisdiction": "US (Virginia)",
+      "legal_force": "law",
+      "applies_to": "businesses processing personal data of Virginia residents meeting statutory thresholds",
+      "tags": ["vcdpa", "virginia", "us-state-law", "consumer-privacy"],
+      "status": "current"
+    },
+    {
+      "document": "State laws related to digital privacy",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "organisations tracking the broader landscape of US state privacy statutes beyond California and Virginia",
+      "tags": ["us-state-law", "ncsl", "tracker", "digital-privacy"],
+      "status": "current"
+    },
+    {
+      "document": "Children's Online Privacy Protection Rule (COPPA)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "online collection of personal data from children under 13 in the US",
+      "tags": ["coppa", "us", "children", "ftc", "online-services"],
+      "status": "current"
+    },
+    {
+      "document": "Federal Trade Commission Act",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US entities engaging in unfair or deceptive commercial practices, the primary federal privacy-enforcement basis absent a sector-specific law",
+      "tags": ["ftc-act", "us", "section-5", "enforcement"],
+      "status": "current"
+    },
+    {
+      "document": "Privacy and Security Enforcement",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "parties reviewing the FTC's record of privacy and data-security enforcement actions under Section 5",
+      "tags": ["ftc", "us", "enforcement", "guidance"],
+      "status": "current"
+    },
+    {
+      "document": "Gramm-Leach-Bliley Act",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "financial institutions handling consumer financial information, including the Safeguards Rule",
+      "tags": ["glba", "us", "financial-services", "safeguards-rule"],
+      "status": "current"
+    },
+    {
+      "document": "HIPAA — Health Information Privacy",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "covered entities and business associates handling protected health information in the US",
+      "tags": ["hipaa", "us", "healthcare", "phi"],
+      "status": "current"
+    },
+    {
+      "document": "HIPAA Privacy Rule",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "covered entities handling individually identifiable health information, sets national protection standards",
+      "tags": ["hipaa", "us", "healthcare", "privacy-rule", "phi"],
+      "status": "current"
+    },
+    {
+      "document": "Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "member-country policymakers and organisations seeking foundational cross-border privacy principles",
+      "tags": ["oecd", "international", "framework", "cross-border-transfer", "founding-principles"],
+      "status": "current"
+    },
+    {
+      "document": "Convention 108 and Protocol (Convention 108+)",
+      "jurisdiction": "International",
+      "legal_force": "law",
+      "applies_to": "signatory states bound by the first international treaty on data protection, as modernised by the 2018 protocol",
+      "tags": ["convention-108", "treaty", "council-of-europe", "international", "data-protection"],
+      "status": "current"
+    },
+    {
+      "document": "Cross-Border Privacy Rules (CBPR) System — Program Requirements",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "organisations seeking accountability-based certification for cross-border personal data transfers among participating economies",
+      "tags": ["cbpr", "apec", "cross-border-transfer", "certification", "international"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27701:2025 — Privacy information management systems",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organisations implementing a privacy information management system extension to ISO/IEC 27001",
+      "tags": ["iso-27701", "pims", "standard", "international", "paid-standard"],
+      "status": "current"
+    },
+    {
+      "document": "NIST Privacy Framework",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "organisations voluntarily identifying and managing privacy risk in products and services",
+      "tags": ["nist", "us", "framework", "privacy-risk", "voluntary"],
+      "status": "current"
+    }
+  ]
+}

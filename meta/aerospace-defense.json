@@ -1,0 +1,237 @@
+{
+  "slug": "aerospace-defense",
+  "entries": [
+    {
+      "document": "14 CFR Part 21 — Certification Procedures for Products and Articles",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "type, production, and airworthiness certification procedures for aircraft and articles",
+      "tags": ["faa", "certification", "airworthiness", "aircraft", "part-21"],
+      "status": "current"
+    },
+    {
+      "document": "14 CFR Part 23 — Airworthiness Standards: Normal Category Airplanes",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "design and airworthiness standards for normal-category aeroplanes",
+      "tags": ["faa", "airworthiness", "design-standards", "normal-category", "aircraft"],
+      "status": "current"
+    },
+    {
+      "document": "14 CFR Part 25 — Airworthiness Standards: Transport Category Airplanes",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "design and airworthiness standards for transport-category aeroplanes",
+      "tags": ["faa", "airworthiness", "design-standards", "transport-category", "aircraft"],
+      "status": "current"
+    },
+    {
+      "document": "14 CFR Part 33 — Airworthiness Standards: Aircraft Engines",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "design and airworthiness standards for aircraft engines",
+      "tags": ["faa", "airworthiness", "design-standards", "aircraft-engines"],
+      "status": "current"
+    },
+    {
+      "document": "Certification Specifications for Large Aeroplanes (CS-25)",
+      "jurisdiction": "EU",
+      "legal_force": "binding-standard",
+      "applies_to": "EU certification specifications for large aeroplanes, equivalent to FAA Part 25",
+      "tags": ["easa", "certification", "cs-25", "large-aeroplanes", "eu"],
+      "status": "current"
+    },
+    {
+      "document": "Certification Specifications (CS) index",
+      "jurisdiction": "EU",
+      "legal_force": "binding-standard",
+      "applies_to": "landing page indexing all EASA certification-specification series (CS-23/25/E/P and more)",
+      "tags": ["easa", "certification-specifications", "index", "eu"],
+      "status": "current"
+    },
+    {
+      "document": "Commission Regulation (EU) No 748/2012 — Initial Airworthiness (Part 21)",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "EU design and production certification procedures; Annex I is the EU Part 21",
+      "tags": ["easa", "eu-regulation", "part-21", "certification", "airworthiness"],
+      "status": "current"
+    },
+    {
+      "document": "Annex 8 — Airworthiness of Aircraft",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "international minimum standards and recommended practices for aircraft airworthiness",
+      "tags": ["icao", "annex-8", "airworthiness", "sarps", "international"],
+      "status": "current"
+    },
+    {
+      "document": "Convention on International Civil Aviation (Chicago Convention, Doc 7300)",
+      "jurisdiction": "International",
+      "legal_force": "law",
+      "applies_to": "founding multilateral treaty establishing international civil aviation governance",
+      "tags": ["icao", "treaty", "chicago-convention", "civil-aviation", "international"],
+      "status": "current"
+    },
+    {
+      "document": "Standards and Recommended Practices (SARPs)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "explains the 19 ICAO Annexes and the SARPs standard-setting framework",
+      "tags": ["icao", "sarps", "annexes", "framework", "international"],
+      "status": "current"
+    },
+    {
+      "document": "FAA Regulations (Title 14 CFR / Federal Aviation Regulations)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "FAA hub indexing the Federal Aviation Regulations and rulemaking activity",
+      "tags": ["faa", "far", "title-14", "regulations", "us"],
+      "status": "current"
+    },
+    {
+      "document": "Dynamic Regulatory System (DRS)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "searchable repository of FARs, advisory circulars, and FAA orders",
+      "tags": ["faa", "drs", "advisory-circulars", "search-tool", "us"],
+      "status": "current"
+    },
+    {
+      "document": "EASA Regulations",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "consolidated EU aviation safety regulations and implementing rules",
+      "tags": ["easa", "eu-regulation", "aviation-safety", "eu"],
+      "status": "current"
+    },
+    {
+      "document": "IATA Operational Safety Audit (IOSA)",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "global airline operational-safety audit standard for carriers",
+      "tags": ["iata", "iosa", "airline-safety", "audit", "voluntary-standard"],
+      "status": "current"
+    },
+    {
+      "document": "AS9100D — Quality Management Systems: Requirements for Aviation, Space, and Defense Organizations",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "quality-management-system requirements for aviation, space, and defense organizations, built on ISO 9001",
+      "tags": ["sae", "iaqg", "as9100", "qms", "aerospace-manufacturing"],
+      "status": "current"
+    },
+    {
+      "document": "Nadcap — special-process accreditation",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "industry-managed accreditation of special manufacturing processes for aerospace suppliers",
+      "tags": ["nadcap", "pri", "accreditation", "special-processes", "voluntary-standard"],
+      "status": "current"
+    },
+    {
+      "document": "AS9110 — Quality Maintenance Systems: Requirements for Aviation Maintenance Organizations",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "quality-management-system requirements for aviation maintenance, repair, and overhaul organizations",
+      "tags": ["sae", "iaqg", "as9110", "qms", "mro"],
+      "status": "current"
+    },
+    {
+      "document": "AS9120 — Quality Management Systems: Requirements for Stockist Distributors",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "quality-management-system requirements for aerospace stockist distributors",
+      "tags": ["sae", "iaqg", "as9120", "qms", "distribution"],
+      "status": "current"
+    },
+    {
+      "document": "14 CFR Part 450 — Launch and Reentry License Requirements",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "FAA licensing of commercial space launch and reentry operations",
+      "tags": ["faa", "commercial-space", "launch-license", "reentry", "part-450"],
+      "status": "current"
+    },
+    {
+      "document": "NASA Technical Standards",
+      "jurisdiction": "US",
+      "legal_force": "voluntary-standard",
+      "applies_to": "NASA Technical Standards System portal covering engineering and technical standards",
+      "tags": ["nasa", "ntss", "technical-standards", "space", "voluntary-standard"],
+      "status": "current"
+    },
+    {
+      "document": "ECSS — European Cooperation for Space Standardization",
+      "jurisdiction": "EU",
+      "legal_force": "voluntary-standard",
+      "applies_to": "single European set of space engineering, product-assurance, and management standards",
+      "tags": ["ecss", "space-engineering", "eu", "standards", "voluntary-standard"],
+      "status": "current"
+    },
+    {
+      "document": "Outer Space Treaty (1967)",
+      "jurisdiction": "International",
+      "legal_force": "law",
+      "applies_to": "foundational multilateral treaty governing the exploration and use of outer space",
+      "tags": ["unoosa", "treaty", "outer-space", "space-law", "international"],
+      "status": "current"
+    },
+    {
+      "document": "Radio Regulations",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "treaty-level governance of radio spectrum use and satellite orbital allocations",
+      "tags": ["itu", "radio-regulations", "spectrum", "satellite-orbits", "treaty"],
+      "status": "current"
+    },
+    {
+      "document": "International Traffic in Arms Regulations (ITAR, 22 CFR 120–130)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "export and transfer control of defense articles and services on the US Munitions List",
+      "tags": ["itar", "ddtc", "export-control", "usml", "defense-articles"],
+      "status": "current"
+    },
+    {
+      "document": "Export Administration Regulations (EAR, 15 CFR 730–774)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "export control of dual-use items on the Commerce Control List",
+      "tags": ["ear", "bis", "export-control", "dual-use", "commerce-control-list"],
+      "status": "current"
+    },
+    {
+      "document": "Wassenaar Arrangement",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "multilateral export-control coordination for conventional arms and dual-use goods and technologies",
+      "tags": ["wassenaar", "export-control", "dual-use", "conventional-arms", "multilateral"],
+      "status": "current"
+    },
+    {
+      "document": "Defense Federal Acquisition Regulation Supplement (DFARS)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "DoD supplement to the Federal Acquisition Regulation for defense procurement contracts",
+      "tags": ["dfars", "dod", "acquisition", "defense-contracting", "us"],
+      "status": "current"
+    },
+    {
+      "document": "MIL-STD (e.g. MIL-STD-810, Environmental Engineering)",
+      "jurisdiction": "US",
+      "legal_force": "binding-standard",
+      "applies_to": "DoD military standards and specifications applied contractually on defense programs",
+      "tags": ["mil-std", "dod", "dla-assist", "military-standards", "defense-contracting"],
+      "status": "current"
+    },
+    {
+      "document": "Standardization (STANAG)",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "NATO standardization agreements enabling interoperability among member forces",
+      "tags": ["nato", "stanag", "interoperability", "standardization", "defense"],
+      "status": "current"
+    }
+  ]
+}

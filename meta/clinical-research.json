@@ -1,0 +1,661 @@
+{
+  "slug": "clinical-research",
+  "entries": [
+    {
+      "document": "E6(R3) Good Clinical Practice (GCP)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "design, conduct, recording and reporting of clinical trials involving human subjects",
+      "tags": ["ich", "gcp", "clinical-trials", "e6", "current-standard"],
+      "status": "current"
+    },
+    {
+      "document": "E8(R1) General Considerations for Clinical Studies",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "overall planning and design of clinical studies supporting drug development",
+      "tags": ["ich", "clinical-studies", "study-design", "e8"],
+      "status": "current"
+    },
+    {
+      "document": "E9 Statistical Principles for Clinical Trials",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "statistical design and analysis of clinical trials submitted for regulatory review",
+      "tags": ["ich", "statistics", "clinical-trials", "e9"],
+      "status": "current"
+    },
+    {
+      "document": "E9(R1) Addendum — Estimands & Sensitivity Analysis",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "definition of estimands and sensitivity analyses in clinical trial statistical planning",
+      "tags": ["ich", "estimands", "statistics", "e9-r1"],
+      "status": "current"
+    },
+    {
+      "document": "E3 Structure and Content of Clinical Study Reports",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "preparation and format of clinical study reports submitted to regulators",
+      "tags": ["ich", "csr", "clinical-study-report", "e3"],
+      "status": "current"
+    },
+    {
+      "document": "E2A Clinical Safety Data Management: Expedited Reporting",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "expedited reporting of serious adverse drug reaction data during clinical development",
+      "tags": ["ich", "pharmacovigilance", "safety-reporting", "e2a"],
+      "status": "current"
+    },
+    {
+      "document": "E2B(R3) Electronic Transmission of ICSRs",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "electronic format and transmission of individual case safety reports",
+      "tags": ["ich", "icsr", "e2b", "data-exchange", "pharmacovigilance"],
+      "status": "current"
+    },
+    {
+      "document": "E2C(R2) Periodic Benefit-Risk Evaluation Report (PBRER)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "periodic post-authorization benefit-risk evaluation reporting for marketed products",
+      "tags": ["ich", "pbrer", "benefit-risk", "pharmacovigilance", "e2c"],
+      "status": "current"
+    },
+    {
+      "document": "E2D Post-Approval Safety Data Management",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "collection and management of post-approval adverse-event safety data",
+      "tags": ["ich", "pharmacovigilance", "post-approval-safety", "e2d"],
+      "status": "superseded"
+    },
+    {
+      "document": "E2E Pharmacovigilance Planning",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "planning of pharmacovigilance activities at the time of drug authorization",
+      "tags": ["ich", "pharmacovigilance", "risk-planning", "e2e"],
+      "status": "current"
+    },
+    {
+      "document": "E2F Development Safety Update Report (DSUR)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "annual safety reporting on investigational drugs during clinical development",
+      "tags": ["ich", "dsur", "safety-reporting", "e2f"],
+      "status": "current"
+    },
+    {
+      "document": "E11(R1) Clinical Investigation in the Pediatric Population",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "design and conduct of clinical trials enrolling pediatric subjects",
+      "tags": ["ich", "pediatric", "clinical-trials", "e11"],
+      "status": "current"
+    },
+    {
+      "document": "M4 Common Technical Document (CTD)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "structure and organization of marketing-authorization dossiers submitted to regulators",
+      "tags": ["ich", "ctd", "submission-format", "m4", "dossier"],
+      "status": "current"
+    },
+    {
+      "document": "Efficacy Guidelines (E-series index)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "navigation hub listing all ICH efficacy (E-series) guidelines",
+      "tags": ["ich", "index", "e-series", "efficacy"],
+      "status": "current"
+    },
+    {
+      "document": "Multidisciplinary Guidelines (M-series index)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "navigation hub listing all ICH multidisciplinary (M-series) guidelines",
+      "tags": ["ich", "index", "m-series", "multidisciplinary"],
+      "status": "current"
+    },
+    {
+      "document": "Declaration of Helsinki",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "ethical conduct of medical research involving human participants",
+      "tags": ["ethics", "wma", "human-subjects", "helsinki"],
+      "status": "current"
+    },
+    {
+      "document": "The Belmont Report",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "ethical principles underpinning US human-subjects research protections",
+      "tags": ["ethics", "ohrp", "human-subjects", "belmont"],
+      "status": "current"
+    },
+    {
+      "document": "International Ethical Guidelines for Health-related Research Involving Humans",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "ethical conduct and review of health-related research involving human participants",
+      "tags": ["ethics", "cioms", "human-subjects", "research-guidelines"],
+      "status": "current"
+    },
+    {
+      "document": "Nuremberg Code",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "foundational ethical directives governing human experimentation",
+      "tags": ["ethics", "human-experimentation", "historical", "nuremberg"],
+      "status": "current"
+    },
+    {
+      "document": "ICMJE Recommendations",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "conduct, reporting, editing and publication of research in medical journals",
+      "tags": ["ethics", "publication", "icmje", "authorship", "reporting"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 11 — Electronic Records; Electronic Signatures",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "use of electronic records and electronic signatures in FDA-regulated activities",
+      "tags": ["fda", "cfr", "electronic-records", "e-signatures", "part-11"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 50 — Protection of Human Subjects",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "informed consent and protection of human subjects in FDA-regulated research",
+      "tags": ["fda", "cfr", "informed-consent", "human-subjects", "part-50"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 54 — Financial Disclosure by Clinical Investigators",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "disclosure of financial interests by clinical investigators in FDA submissions",
+      "tags": ["fda", "cfr", "financial-disclosure", "investigators", "part-54"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 56 — Institutional Review Boards",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "composition, operation and review responsibilities of institutional review boards",
+      "tags": ["fda", "cfr", "irb", "ethics-review", "part-56"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 312 — Investigational New Drug Application",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "submission and conduct requirements for investigational new drug applications",
+      "tags": ["fda", "cfr", "ind", "clinical-trials", "part-312"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR Part 314 — Applications for FDA Approval to Market a New Drug",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "submission and approval requirements for new drug marketing applications",
+      "tags": ["fda", "cfr", "nda", "marketing-application", "part-314"],
+      "status": "current"
+    },
+    {
+      "document": "Regulations: Good Clinical Practice and Clinical Trials",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "orientation to FDA's GCP regulatory framework and related CFR parts",
+      "tags": ["fda", "gcp", "landing-page", "clinical-trials"],
+      "status": "current"
+    },
+    {
+      "document": "ClinicalTrials.gov",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "public registration and results reporting of clinical trials",
+      "tags": ["registry", "nih", "trial-registration", "public-database"],
+      "status": "current"
+    },
+    {
+      "document": "FDAAA 801 and the Final Rule",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "mandatory registration and results submission for applicable clinical trials",
+      "tags": ["fdaaa", "trial-registration", "results-reporting", "clinicaltrials-gov"],
+      "status": "current"
+    },
+    {
+      "document": "Clinical Trials Regulation (EU) No 536/2014",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "authorization, conduct and oversight of clinical trials of medicinal products in the EU",
+      "tags": ["eu", "regulation", "clinical-trials", "eudralex", "ctr"],
+      "status": "current"
+    },
+    {
+      "document": "Clinical Trials Information System (CTIS)",
+      "jurisdiction": "EU",
+      "legal_force": "framework",
+      "applies_to": "single EU portal for clinical trial application submission and authorisation",
+      "tags": ["eu", "ema", "ctis", "submission-portal"],
+      "status": "current"
+    },
+    {
+      "document": "EudraLex Volume 10 — Clinical trials guidelines",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "detailed implementation guidance for EU clinical trials legislation",
+      "tags": ["eu", "eudralex", "clinical-trials", "guidance"],
+      "status": "current"
+    },
+    {
+      "document": "Good Clinical Practice (GCP)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "GCP compliance expectations for clinical trials in the EU",
+      "tags": ["eu", "ema", "gcp", "compliance"],
+      "status": "current"
+    },
+    {
+      "document": "Good Clinical Practice for clinical trials",
+      "jurisdiction": "UK",
+      "legal_force": "guidance",
+      "applies_to": "GCP guidance for clinical trials conducted in the UK",
+      "tags": ["uk", "mhra", "gcp", "clinical-trials"],
+      "status": "current"
+    },
+    {
+      "document": "The Medicines for Human Use (Clinical Trials) Regulations 2004",
+      "jurisdiction": "UK",
+      "legal_force": "regulation",
+      "applies_to": "statutory requirements for authorisation and conduct of clinical trials in the UK",
+      "tags": ["uk", "statutory-instrument", "clinical-trials", "mhra"],
+      "status": "current"
+    },
+    {
+      "document": "Handbook for Good Clinical Research Practice (GCP)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "implementation guidance for GCP in WHO member states",
+      "tags": ["who", "gcp", "handbook", "implementation-guidance"],
+      "status": "current"
+    },
+    {
+      "document": "International Clinical Trials Registry Platform (ICTRP)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "global network linking national and regional clinical trial registries",
+      "tags": ["who", "registry", "trial-registration", "global-network"],
+      "status": "current"
+    },
+    {
+      "document": "MedDRA — Medical Dictionary for Regulatory Activities",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "coding of adverse events and medical terminology in regulatory submissions and safety databases",
+      "tags": ["meddra", "terminology", "coding", "pharmacovigilance", "msso"],
+      "status": "current"
+    },
+    {
+      "document": "ICH M1 — MedDRA terminology",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "term selection and data retrieval practices when using MedDRA terminology",
+      "tags": ["ich", "meddra", "m1", "terminology"],
+      "status": "current"
+    },
+    {
+      "document": "Good Pharmacovigilance Practices (GVP)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "conduct of pharmacovigilance activities for medicinal products authorised in the EU",
+      "tags": ["eu", "ema", "gvp", "pharmacovigilance"],
+      "status": "current"
+    },
+    {
+      "document": "EudraVigilance",
+      "jurisdiction": "EU",
+      "legal_force": "framework",
+      "applies_to": "collection and management of suspected adverse drug reaction reports in the EU",
+      "tags": ["eu", "ema", "adverse-reactions", "database", "pharmacovigilance"],
+      "status": "current"
+    },
+    {
+      "document": "EU Risk Management Plan (RMP)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "preparation of risk-management plans for EU marketing authorisation applications",
+      "tags": ["eu", "ema", "rmp", "risk-management", "pharmacovigilance"],
+      "status": "current"
+    },
+    {
+      "document": "CIOMS Working Groups",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "consensus recommendations on pharmacovigilance and drug-safety practice",
+      "tags": ["cioms", "pharmacovigilance", "working-groups", "consensus-guidance"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR 314.80 — Postmarketing reporting of adverse drug experiences",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "postmarketing adverse-event reporting obligations for approved drugs",
+      "tags": ["fda", "cfr", "postmarketing", "adverse-events", "314-80"],
+      "status": "current"
+    },
+    {
+      "document": "21 CFR 600.80 — Postmarketing reporting of adverse experiences",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "postmarketing adverse-experience reporting obligations for licensed biologics",
+      "tags": ["fda", "cfr", "postmarketing", "adverse-events", "biologics"],
+      "status": "current"
+    },
+    {
+      "document": "FDA Adverse Event Reporting System (FAERS)",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "collection and surveillance of post-market adverse-event and medication-error reports",
+      "tags": ["fda", "faers", "adverse-events", "database", "surveillance"],
+      "status": "current"
+    },
+    {
+      "document": "MedWatch",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "voluntary and mandatory reporting of safety information on FDA-regulated products",
+      "tags": ["fda", "medwatch", "adverse-event-reporting", "forms"],
+      "status": "current"
+    },
+    {
+      "document": "REMS — Risk Evaluation and Mitigation Strategies",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "post-approval risk-management requirements imposed on specific drug products",
+      "tags": ["fda", "rems", "risk-management", "post-approval"],
+      "status": "current"
+    },
+    {
+      "document": "Yellow Card scheme",
+      "jurisdiction": "UK",
+      "legal_force": "framework",
+      "applies_to": "spontaneous reporting of suspected adverse drug reactions in the UK",
+      "tags": ["uk", "mhra", "adverse-reactions", "yellow-card"],
+      "status": "current"
+    },
+    {
+      "document": "Programme for International Drug Monitoring / Uppsala Monitoring Centre",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "global collaborative pharmacovigilance monitoring across WHO member states",
+      "tags": ["who", "umc", "pharmacovigilance", "global-monitoring"],
+      "status": "current"
+    },
+    {
+      "document": "VigiBase",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "global repository of individual case safety reports contributed by member states",
+      "tags": ["who", "umc", "vigibase", "safety-database", "icsr"],
+      "status": "current"
+    },
+    {
+      "document": "SDTM — Study Data Tabulation Model",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "structure of tabulated clinical trial datasets submitted to FDA/PMDA",
+      "tags": ["cdisc", "sdtm", "data-standard", "fda-submission", "tabulation"],
+      "status": "current"
+    },
+    {
+      "document": "ADaM — Analysis Data Model",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "structure of analysis-ready datasets traceable to SDTM for regulatory submission",
+      "tags": ["cdisc", "adam", "analysis-datasets", "data-standard"],
+      "status": "current"
+    },
+    {
+      "document": "CDASH — Clinical Data Acquisition Standards Harmonization",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "standardized collection of clinical trial data feeding SDTM datasets",
+      "tags": ["cdisc", "cdash", "data-collection", "data-standard"],
+      "status": "current"
+    },
+    {
+      "document": "SEND — Standard for Exchange of Nonclinical Data",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "tabulation of nonclinical and toxicology study data submitted to FDA",
+      "tags": ["cdisc", "send", "nonclinical", "toxicology", "fda-submission"],
+      "status": "current"
+    },
+    {
+      "document": "Define-XML",
+      "jurisdiction": "International",
+      "legal_force": "binding-standard",
+      "applies_to": "machine-readable metadata describing submitted study datasets, required per study",
+      "tags": ["cdisc", "define-xml", "metadata", "fda-submission"],
+      "status": "current"
+    },
+    {
+      "document": "CDISC 360i",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "metadata-driven automation of end-to-end clinical data standards production",
+      "tags": ["cdisc", "automation", "metadata", "biomedical-concepts"],
+      "status": "current"
+    },
+    {
+      "document": "Study Data Technical Conformance Guide",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "technical specifications for CDISC-standardized study data submitted to FDA",
+      "tags": ["fda", "cdisc", "conformance", "submission-specifications"],
+      "status": "current"
+    },
+    {
+      "document": "GAMP 5 (Second Edition) — A Risk-Based Approach to Compliant GxP Computerized Systems",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "risk-based validation of computerized systems used in GxP-regulated environments",
+      "tags": ["ispe", "gamp5", "csv", "computerized-systems", "gxp"],
+      "status": "current"
+    },
+    {
+      "document": "GAMP Guide: Records & Data Integrity (RDI)",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "good practice for maintaining records and data integrity in GxP systems",
+      "tags": ["ispe", "gamp", "data-integrity", "records"],
+      "status": "current"
+    },
+    {
+      "document": "EU GMP Annex 11 — Computerised Systems",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "requirements for computerised systems used in EU GMP-regulated manufacturing",
+      "tags": ["eu", "gmp", "annex-11", "computerized-systems", "eudralex"],
+      "status": "current"
+    },
+    {
+      "document": "Part 11, Electronic Records; Electronic Signatures — Scope and Application",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "narrowed enforcement scope for electronic records and signatures under Part 11",
+      "tags": ["fda", "part-11", "electronic-records", "enforcement-scope"],
+      "status": "current"
+    },
+    {
+      "document": "Computer Software Assurance for Production and Quality Management System Software",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "risk-based assurance approach for software used in production and quality systems",
+      "tags": ["fda", "csa", "software-assurance", "quality-systems"],
+      "status": "current"
+    },
+    {
+      "document": "General Principles of Software Validation",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "validation principles for software used in medical devices and manufacturing",
+      "tags": ["fda", "software-validation", "medical-devices", "manufacturing"],
+      "status": "current"
+    },
+    {
+      "document": "PI 041 — Good Practices for Data Management and Integrity in Regulated GMP/GDP Environments",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "inspectorate expectations for data management and integrity in GMP/GDP environments",
+      "tags": ["pic-s", "data-integrity", "gmp", "gdp", "inspection"],
+      "status": "current"
+    },
+    {
+      "document": "MHRA 'GXP' Data Integrity Guidance and Definitions",
+      "jurisdiction": "UK",
+      "legal_force": "guidance",
+      "applies_to": "cross-GxP expectations for data governance and integrity in the UK",
+      "tags": ["uk", "mhra", "data-integrity", "gxp", "alcoa"],
+      "status": "current"
+    },
+    {
+      "document": "WHO Guideline on data integrity (TRS 1033, Annex 4)",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "data governance and ALCOA+ principles applied across regulated data systems",
+      "tags": ["who", "data-integrity", "alcoa-plus", "trs-1033"],
+      "status": "current"
+    },
+    {
+      "document": "Q9(R1) Quality Risk Management",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "risk-management principles applied to quality decisions, including computerized systems",
+      "tags": ["ich", "quality-risk-management", "q9", "csv"],
+      "status": "current"
+    },
+    {
+      "document": "CONSORT",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "reporting of results from randomised controlled trials",
+      "tags": ["equator-network", "reporting-guideline", "rct", "consort"],
+      "status": "current"
+    },
+    {
+      "document": "SPIRIT",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "specification of standard protocol items for clinical trials",
+      "tags": ["equator-network", "reporting-guideline", "protocol", "spirit"],
+      "status": "current"
+    },
+    {
+      "document": "STROBE",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "reporting of observational epidemiological studies",
+      "tags": ["equator-network", "reporting-guideline", "observational-studies", "strobe"],
+      "status": "current"
+    },
+    {
+      "document": "PRISMA",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "reporting of systematic reviews and meta-analyses",
+      "tags": ["equator-network", "reporting-guideline", "systematic-review", "meta-analysis"],
+      "status": "current"
+    },
+    {
+      "document": "EQUATOR Network (home)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "hub indexing health-research reporting guidelines across study types",
+      "tags": ["equator-network", "reporting-guideline", "index"],
+      "status": "current"
+    },
+    {
+      "document": "TransCelerate BioPharma",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "collaborative industry initiatives improving clinical R&D efficiency",
+      "tags": ["industry-initiative", "clinical-rd", "collaboration"],
+      "status": "current"
+    },
+    {
+      "document": "GCDMP — Good Clinical Data Management Practices",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "management of clinical trial data throughout the data lifecycle",
+      "tags": ["scdm", "data-management", "gcdmp", "reference-standard"],
+      "status": "current"
+    },
+    {
+      "document": "Pistoia Alliance",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "pre-competitive collaboration on life-science R&D data standards and interoperability",
+      "tags": ["industry-alliance", "interoperability", "data-standards", "collaboration"],
+      "status": "current"
+    },
+    {
+      "document": "HL7 FHIR",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "exchange of healthcare data between systems",
+      "tags": ["hl7", "fhir", "interoperability", "data-exchange"],
+      "status": "current"
+    },
+    {
+      "document": "Vulcan (HL7 FHIR Accelerator)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "bridging clinical care and clinical research data using FHIR",
+      "tags": ["hl7", "fhir", "vulcan", "clinical-research-data"],
+      "status": "current"
+    },
+    {
+      "document": "PHUSE",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "community collaboration on clinical data science and reporting practices",
+      "tags": ["phuse", "data-science", "clinical-reporting", "community"],
+      "status": "current"
+    },
+    {
+      "document": "PhRMA",
+      "jurisdiction": "US",
+      "legal_force": "best-practice",
+      "applies_to": "trade-association representation and positions for US research-based pharmaceutical companies",
+      "tags": ["phrma", "trade-association", "us-pharma"],
+      "status": "current"
+    },
+    {
+      "document": "EFPIA",
+      "jurisdiction": "EU",
+      "legal_force": "best-practice",
+      "applies_to": "trade-association representation of the European pharmaceutical industry",
+      "tags": ["efpia", "trade-association", "eu-pharma"],
+      "status": "current"
+    },
+    {
+      "document": "IFPMA",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "international representation of innovative pharmaceutical manufacturers",
+      "tags": ["ifpma", "trade-association", "global-pharma"],
+      "status": "current"
+    }
+  ]
+}

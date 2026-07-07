@@ -1,0 +1,245 @@
+{
+  "slug": "sustainability-esg",
+  "entries": [
+    {
+      "document": "GRI Standards",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations of any size or sector choosing to report sustainability impacts",
+      "tags": ["gri", "sustainability-reporting", "impact-reporting", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "SASB Standards",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "companies reporting industry-specific, financially material sustainability information",
+      "tags": ["sasb", "issb", "industry-standards", "financial-materiality"],
+      "status": "current"
+    },
+    {
+      "document": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "entities adopting ISSB sustainability-related financial disclosure requirements",
+      "tags": ["issb", "ifrs", "sustainability-disclosure", "financial-reporting"],
+      "status": "current"
+    },
+    {
+      "document": "IFRS S2 Climate-related Disclosures",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "entities adopting ISSB climate-related financial disclosure requirements",
+      "tags": ["issb", "ifrs", "climate-disclosure", "tcfd-aligned"],
+      "status": "current"
+    },
+    {
+      "document": "IFRS Sustainability Disclosure Standards navigator",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "anyone seeking free access to the issued ISSB sustainability disclosure standards",
+      "tags": ["issb", "ifrs", "navigator", "access-point"],
+      "status": "current"
+    },
+    {
+      "document": "TCFD Recommendations",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "organizations disclosing climate-related financial risks and opportunities",
+      "tags": ["tcfd", "climate-disclosure", "financial-risk", "four-pillar"],
+      "status": "superseded"
+    },
+    {
+      "document": "TCFD Publications",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "organizations implementing TCFD-aligned climate disclosure guidance",
+      "tags": ["tcfd", "implementation-guidance", "climate-disclosure"],
+      "status": "superseded"
+    },
+    {
+      "document": "International Integrated Reporting Framework (<IR>)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "organizations producing integrated reports connecting value creation across capitals",
+      "tags": ["integrated-reporting", "ifrs-foundation", "value-creation"],
+      "status": "current"
+    },
+    {
+      "document": "Corporate Sustainability Reporting Directive (CSRD) — Directive (EU) 2022/2464",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "large EU companies and listed SMEs subject to phased mandatory sustainability reporting from FY2024",
+      "tags": ["csrd", "eu-directive", "mandatory-reporting", "accounting-directive"],
+      "status": "current"
+    },
+    {
+      "document": "European Sustainability Reporting Standards (ESRS) — Delegated Regulation (EU) 2023/2772",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "companies in scope of CSRD applying the detailed ESRS disclosure requirements from 1 Jan 2024",
+      "tags": ["esrs", "csrd", "eu-regulation", "disclosure-standards"],
+      "status": "current"
+    },
+    {
+      "document": "ESRS development and technical advice",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "stakeholders following EFRAG's technical drafting and advisory work on ESRS",
+      "tags": ["efrag", "esrs", "technical-advice", "standard-setting"],
+      "status": "current"
+    },
+    {
+      "document": "Corporate sustainability reporting (CSRD hub)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "companies and advisers seeking the European Commission's overview of CSRD scope and timeline",
+      "tags": ["csrd", "european-commission", "overview", "guidance"],
+      "status": "current"
+    },
+    {
+      "document": "EU Taxonomy Regulation — Regulation (EU) 2020/852",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "financial market participants and companies classifying environmentally sustainable economic activities",
+      "tags": ["eu-taxonomy", "regulation", "sustainable-finance", "classification"],
+      "status": "current"
+    },
+    {
+      "document": "EU taxonomy for sustainable activities",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "companies and investors applying the EU Taxonomy classification system",
+      "tags": ["eu-taxonomy", "european-commission", "guidance", "sustainable-finance"],
+      "status": "current"
+    },
+    {
+      "document": "Sustainable Finance Disclosure Regulation (SFDR) — Regulation (EU) 2019/2088",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "financial market participants and advisers disclosing sustainability-related information in financial services",
+      "tags": ["sfdr", "eu-regulation", "financial-services", "sustainability-disclosure"],
+      "status": "current"
+    },
+    {
+      "document": "Sustainable finance (framework overview)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "stakeholders navigating the European Commission's linked taxonomy, disclosure and standards resources",
+      "tags": ["sustainable-finance", "european-commission", "overview", "hub"],
+      "status": "current"
+    },
+    {
+      "document": "SEC Adopts Rules to Enhance and Standardize Climate-Related Disclosures for Investors",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "SEC-registered public companies subject to climate-related disclosure requirements",
+      "tags": ["sec", "climate-disclosure", "us-regulation", "stayed-litigation"],
+      "status": "proposed"
+    },
+    {
+      "document": "Climate Disclosure Final Rule (Release 33-11275)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "SEC registrants required to disclose Scope 1/2 emissions and financial-statement climate effects",
+      "tags": ["sec", "final-rule", "scope-1-2", "climate-disclosure"],
+      "status": "proposed"
+    },
+    {
+      "document": "SB 253 — Climate Corporate Data Accountability Act",
+      "jurisdiction": "US (California)",
+      "legal_force": "law",
+      "applies_to": "large companies doing business in California disclosing Scope 1-3 GHG emissions",
+      "tags": ["california", "sb-253", "ghg-disclosure", "state-law"],
+      "status": "current"
+    },
+    {
+      "document": "SB 261 — Greenhouse gases: climate-related financial risk",
+      "jurisdiction": "US (California)",
+      "legal_force": "law",
+      "applies_to": "large companies doing business in California filing biennial climate financial-risk reports",
+      "tags": ["california", "sb-261", "climate-risk", "state-law"],
+      "status": "current"
+    },
+    {
+      "document": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations building corporate greenhouse gas emissions inventories",
+      "tags": ["ghg-protocol", "corporate-standard", "emissions-inventory", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "Corporate Value Chain (Scope 3) Standard",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations accounting for value-chain (Scope 3) emissions across 15 categories",
+      "tags": ["ghg-protocol", "scope-3", "value-chain", "emissions-accounting"],
+      "status": "current"
+    },
+    {
+      "document": "Science Based Targets initiative (SBTi)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "companies seeking independent validation of emissions-reduction targets against climate science",
+      "tags": ["sbti", "target-validation", "climate-science", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "SBTi Corporate Net-Zero Standard",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "companies setting and validating science-based corporate net-zero targets",
+      "tags": ["sbti", "net-zero", "target-setting", "framework"],
+      "status": "current"
+    },
+    {
+      "document": "CDP",
+      "jurisdiction": "Global",
+      "legal_force": "framework",
+      "applies_to": "companies, cities and investors disclosing environmental impact data",
+      "tags": ["cdp", "environmental-disclosure", "voluntary", "global-system"],
+      "status": "current"
+    },
+    {
+      "document": "Sustainable Development Goals (the 17 Goals)",
+      "jurisdiction": "Global",
+      "legal_force": "framework",
+      "applies_to": "UN Member States and organizations aligning strategy to the 2030 Agenda",
+      "tags": ["un-sdgs", "2030-agenda", "global-goals", "framework"],
+      "status": "current"
+    },
+    {
+      "document": "UN Global Compact",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "companies voluntarily committing to corporate sustainability principles",
+      "tags": ["un-global-compact", "corporate-sustainability", "voluntary", "membership"],
+      "status": "current"
+    },
+    {
+      "document": "The Ten Principles of the UN Global Compact",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "companies committing to human rights, labour, environment and anti-corruption principles",
+      "tags": ["un-global-compact", "ten-principles", "human-rights", "anti-corruption"],
+      "status": "current"
+    },
+    {
+      "document": "Principles for Responsible Investment (PRI)",
+      "jurisdiction": "Global",
+      "legal_force": "framework",
+      "applies_to": "investors incorporating ESG considerations into investment practice",
+      "tags": ["pri", "responsible-investment", "esg-integration", "un-supported"],
+      "status": "current"
+    },
+    {
+      "document": "Taskforce on Nature-related Financial Disclosures (TNFD)",
+      "jurisdiction": "Global",
+      "legal_force": "framework",
+      "applies_to": "organizations disclosing nature-related risks, dependencies and impacts",
+      "tags": ["tnfd", "nature-risk", "disclosure-framework", "biodiversity"],
+      "status": "current"
+    }
+  ]
+}

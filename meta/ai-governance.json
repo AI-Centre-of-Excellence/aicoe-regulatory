@@ -1,0 +1,197 @@
+{
+  "slug": "ai-governance",
+  "entries": [
+    {
+      "document": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "providers, deployers, and other operators of AI systems placed on the EU market, with risk-tiered obligations phasing in through 2027",
+      "tags": ["eu-ai-act", "risk-based", "binding-law", "general-purpose-ai", "high-risk-ai"],
+      "status": "current"
+    },
+    {
+      "document": "Regulatory framework for AI (AI Act)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "organizations seeking an official explanation of the AI Act's risk tiers, obligations, and implementation timeline",
+      "tags": ["eu-ai-act", "overview", "risk-tiers", "compliance-timeline"],
+      "status": "current"
+    },
+    {
+      "document": "European AI Office",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "providers of general-purpose AI models subject to EU AI Act enforcement and supervision",
+      "tags": ["eu-ai-act", "enforcement", "general-purpose-ai", "supervisory-body"],
+      "status": "current"
+    },
+    {
+      "document": "Executive Order 14179 — Removing Barriers to American Leadership in Artificial Intelligence",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US federal agencies and federal AI policy direction",
+      "tags": ["executive-order", "us-federal", "ai-policy", "deregulation"],
+      "status": "current"
+    },
+    {
+      "document": "OMB M-24-10 — Advancing Governance, Innovation, and Risk Management for Agency Use of AI",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US federal agencies' risk-management practices for their own use of AI",
+      "tags": ["omb-memo", "us-federal", "agency-ai-use", "risk-management", "superseded"],
+      "status": "superseded"
+    },
+    {
+      "document": "OMB M-25-21 — Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US federal agencies' current governance requirements for adopting and using AI",
+      "tags": ["omb-memo", "us-federal", "agency-ai-use", "governance", "current-memo"],
+      "status": "current"
+    },
+    {
+      "document": "Colorado AI Act — SB 24-205, Consumer Protections for Artificial Intelligence",
+      "jurisdiction": "US (Colorado)",
+      "legal_force": "law",
+      "applies_to": "developers and deployers of high-risk AI systems doing business in Colorado",
+      "tags": ["state-law", "colorado", "high-risk-ai", "consumer-protection", "us-state"],
+      "status": "current"
+    },
+    {
+      "document": "AI Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "organizations voluntarily managing AI risk across the Govern, Map, Measure, Manage functions",
+      "tags": ["nist", "voluntary-framework", "risk-management", "ai-rmf"],
+      "status": "current"
+    },
+    {
+      "document": "AI RMF: Generative AI Profile, NIST AI 600-1",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "organizations applying the AI RMF specifically to generative AI risks and mitigations",
+      "tags": ["nist", "voluntary-framework", "generative-ai", "risk-profile"],
+      "status": "current"
+    },
+    {
+      "document": "NIST AI Resource Center (AIRC)",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "organizations seeking implementation resources for the NIST AI RMF and trustworthy-AI practices",
+      "tags": ["nist", "resource-center", "playbook", "trustworthy-ai"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 42001:2023 — AI management system",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations seeking a certifiable management system for responsibly developing or using AI",
+      "tags": ["iso-iec", "certifiable", "ai-management-system", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 23894:2023 — Guidance on AI risk management",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations adapting ISO 31000 risk management practices to AI systems",
+      "tags": ["iso-iec", "risk-management", "guidance", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 22989:2022 — AI concepts and terminology",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations needing common vocabulary and concepts across the ISO/IEC AI standards suite",
+      "tags": ["iso-iec", "terminology", "vocabulary", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 42005:2025 — AI system impact assessment",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "organizations documenting AI system impacts across the development and deployment lifecycle",
+      "tags": ["iso-iec", "impact-assessment", "lifecycle", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 38507:2022 — Governance implications of the use of AI by organizations",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "governing bodies and boards overseeing organizational use of AI",
+      "tags": ["iso-iec", "board-governance", "organizational-ai", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "OECD AI Principles (OECD/LEGAL/0449)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "governments and organizations adopting the first intergovernmental AI policy standard",
+      "tags": ["oecd", "ai-principles", "intergovernmental", "best-practice"],
+      "status": "current"
+    },
+    {
+      "document": "OECD.AI Policy Observatory",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "policymakers and researchers tracking national AI policies, incidents, and metrics",
+      "tags": ["oecd", "policy-observatory", "monitoring", "metrics"],
+      "status": "current"
+    },
+    {
+      "document": "Recommendation on the Ethics of Artificial Intelligence",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "UNESCO member states adopting a shared global standard on AI ethics",
+      "tags": ["unesco", "ai-ethics", "global-standard", "best-practice"],
+      "status": "current"
+    },
+    {
+      "document": "Hiroshima Process International Code of Conduct for Advanced AI Systems",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "organizations developing advanced AI systems, voluntarily adopting an 11-point code of conduct",
+      "tags": ["g7", "hiroshima-process", "advanced-ai", "voluntary-code"],
+      "status": "current"
+    },
+    {
+      "document": "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+      "jurisdiction": "International",
+      "legal_force": "law",
+      "applies_to": "states party to the Council of Europe treaty binding them to AI human-rights and rule-of-law safeguards",
+      "tags": ["council-of-europe", "treaty", "human-rights", "binding-international-law"],
+      "status": "current"
+    },
+    {
+      "document": "Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "manufacturers of AI-enabled medical device software seeking FDA marketing submission",
+      "tags": ["fda", "medical-devices", "lifecycle-management", "draft-guidance", "healthcare"],
+      "status": "draft"
+    },
+    {
+      "document": "Good Machine Learning Practice for Medical Device Development: Guiding Principles",
+      "jurisdiction": "International",
+      "legal_force": "guidance",
+      "applies_to": "developers of AI/ML-based medical devices following joint FDA, Health Canada, and MHRA principles",
+      "tags": ["fda", "gmlp", "medical-devices", "guiding-principles", "healthcare"],
+      "status": "current"
+    },
+    {
+      "document": "Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "manufacturers and reviewers tracking AI/ML-enabled devices authorized for US marketing",
+      "tags": ["fda", "medical-devices", "device-list", "authorization", "healthcare"],
+      "status": "current"
+    },
+    {
+      "document": "SR 11-7 — Guidance on Model Risk Management",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "banking organizations validating and managing risk of AI/ML models under Federal Reserve and OCC supervision",
+      "tags": ["federal-reserve", "occ", "model-risk-management", "banking", "finance"],
+      "status": "superseded"
+    }
+  ]
+}

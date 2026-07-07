@@ -26,7 +26,13 @@ import markdown
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 ASSETS = ROOT / "assets"
+META = ROOT / "meta"          # per-topic <slug>.json routing metadata (agent layer)
 OUT = ROOT / "wiki"
+
+# legal_force values grouped for badge styling.
+FORCE_MANDATORY = {"law", "regulation", "directive", "binding-standard"}
+FORCE_GUIDANCE = {"guidance", "framework"}
+FORCE_VOLUNTARY = {"voluntary-standard", "best-practice"}
 
 SITE_NAME = "AI Centre of Excellence Regulatory List"
 SITE_TAGLINE = "Curated regulatory guidances, standards & best practices"
@@ -165,6 +171,13 @@ def parse_doc(path: Path) -> dict:
     link_count = len(re.findall(r'<a\s+[^>]*href="https?://', body_html))
     rows = _extract_rows(body_lines, sections)
 
+    # Attach routing metadata (agent layer) and inject human-facing badges.
+    meta_map = _load_meta(path.stem)
+    for r in rows:
+        r["meta"] = meta_map.get(r["document"])
+    if meta_map:
+        body_html = _inject_badges(body_html, rows)
+
     try:
         order = int(meta.get("order", "100"))
     except ValueError:
@@ -219,6 +232,63 @@ def _extract_rows(body_lines: list[str], sections: list[dict]) -> list[dict]:
             "anchor": current_id or "",
         })
     return rows
+
+
+def _load_meta(slug: str) -> dict:
+    """Load per-topic routing metadata keyed by exact document name."""
+    path = META / f"{slug}.json"
+    if not path.is_file():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return {}
+    return {e["document"]: e for e in data.get("entries", []) if e.get("document")}
+
+
+def _force_label(force: str) -> tuple[str, str]:
+    """Return (display label, css modifier) for a legal_force value."""
+    if force in FORCE_MANDATORY:
+        return force.replace("-", " "), "badge-mandatory"
+    if force in FORCE_VOLUNTARY:
+        return force.replace("-", " "), "badge-voluntary"
+    return force.replace("-", " "), "badge-guidance"
+
+
+def _badges(meta: dict | None) -> str:
+    if not meta:
+        return ""
+    out = []
+    jur = meta.get("jurisdiction")
+    if jur:
+        out.append(f'<span class="badge badge-jur">{html.escape(jur)}</span>')
+    force = meta.get("legal_force")
+    if force:
+        label, cls = _force_label(force)
+        out.append(f'<span class="badge {cls}">{html.escape(label)}</span>')
+    return f'<span class="badges">{"".join(out)}</span>' if out else ""
+
+
+def _inject_badges(body: str, rows: list[dict]) -> str:
+    """Append jurisdiction / legal-force badges to each table row's first cell.
+
+    Data <tr> elements are matched in document order, the same order as `rows`.
+    """
+    it = iter(rows)
+
+    def repl(m: re.Match) -> str:
+        try:
+            row = next(it)
+        except StopIteration:
+            return m.group(0)
+        badges = _badges(row.get("meta"))
+        if not badges:
+            return m.group(0)
+        return f"{m.group(1)}{m.group(2)}{badges}{m.group(3)}{m.group(4)}"
+
+    return re.sub(
+        r"(<tr>\s*<td>)(.*?)(</td>)(.*?</tr>)", repl, body, flags=re.DOTALL
+    )
 
 
 def _postprocess(body: str) -> str:
@@ -474,7 +544,7 @@ def render_index(pages: list[dict]) -> str:
     </div>
     <div class="usage-card">
       <div class="usage-head">{_icon('database','icon')}<h3>For AI agents</h3></div>
-      <p>Read <code>wiki/wiki-manifest.json</code> for a structured index of pages, sections, and link counts. The source of truth is Markdown in <code>docs/</code>; anchor IDs are stable across builds.</p>
+      <p>Start with <a href="llms.txt"><code>llms.txt</code></a>, then read <a href="wiki-manifest.json"><code>wiki-manifest.json</code></a>. Each entry carries routing metadata (jurisdiction, legal force, applies-to, tags, status) so you can filter to the standards that apply. It is factual metadata only, never the standard's text.</p>
     </div>
     <div class="usage-card">
       <div class="usage-head">{_icon('check-circle','icon')}<h3>Provenance</h3></div>
@@ -491,6 +561,54 @@ def render_index(pages: list[dict]) -> str:
         title="Home", body=body, pages=pages, active_slug=None,
         description=SITE_TAGLINE,
     )
+
+
+def _llms_txt(grouped: list[tuple[str, list[dict]]], manifest: dict) -> str:
+    """A query contract telling AI agents how to use the routing dataset."""
+    lines = [
+        f"# {SITE_NAME}",
+        "",
+        f"> {SITE_TAGLINE}. A curated index of regulatory guidances, standards,",
+        "> and best practices, organised so an agent can identify which standards",
+        "> apply to a given situation. Every link points to the issuing body's",
+        "> official source. This index contains factual metadata only; it does not",
+        "> reproduce the text of any standard. Standards remain © their issuers.",
+        "",
+        "## Machine-readable data",
+        "",
+        "- `wiki-manifest.json` — the authoritative dataset. `pages[].entries[]`",
+        "  is one record per document with routing metadata (see fields below).",
+        "- `search-index.json` — flat search index used by the site UI.",
+        "",
+        "## Entry fields (all factual, for routing — not the standard's text)",
+        "",
+        "- `document`, `issuer`, `section` — identity",
+        "- `link` — the issuing body's official URL; `url` — anchor in this list",
+        "- `jurisdiction` — where it has force (e.g. US, EU, UK, International, Global)",
+        "- `legal_force` — one of: law, regulation, directive, binding-standard,",
+        "  guidance, framework, voluntary-standard, best-practice",
+        "- `applies_to` — the factual trigger that brings it into scope",
+        "- `tags` — controlled keywords",
+        "- `status` — current | superseded | proposed | draft",
+        "- `notes` — short factual note (version, successor, access)",
+        "",
+        "## How to route",
+        "",
+        "Filter `entries` by `jurisdiction` + `applies_to`/`tags`, then rank by",
+        "`legal_force` (law/regulation/binding-standard are mandatory; guidance and",
+        "voluntary-standard are advisory) and prefer `status: current`. Consult the",
+        "`link` for the authoritative text — do not rely on this index for wording.",
+        "",
+        "## Domains & topics",
+        "",
+    ]
+    for domain, topics in grouped:
+        lines.append(f"### {domain}")
+        for p in topics:
+            lines.append(f"- {_short_title(p)} — /{p['slug']}.html ({p['link_count']} links)")
+        lines.append("")
+    lines.append(f"Contact: {CONTACT_EMAIL}")
+    return "\n".join(lines) + "\n"
 
 
 def build() -> None:
@@ -528,7 +646,14 @@ def build() -> None:
                 "url": f"{page_url}#{s['id']}", "hay": s["title"].lower(),
             })
         for r in d["rows"]:
-            hay = f"{r['document']} {r['issuer']} {r['notes']} {r['section']}".lower()
+            meta = r.get("meta") or {}
+            extra = " ".join([
+                meta.get("applies_to", ""),
+                " ".join(meta.get("tags", [])),
+                meta.get("jurisdiction", ""),
+                meta.get("legal_force", ""),
+            ])
+            hay = f"{r['document']} {r['issuer']} {r['notes']} {r['section']} {extra}".lower()
             search.append({
                 "kind": "doc", "title": r["document"],
                 "sub": f"{r['issuer']} · {r['section']}",
@@ -557,6 +682,20 @@ def build() -> None:
                 "intro": d["intro"],
                 "link_count": d["link_count"],
                 "sections": d["sections"],
+                "entries": [
+                    {
+                        "document": r["document"],
+                        "issuer": r["issuer"],
+                        "link": r["url"],
+                        "url": f"{d['slug']}.html#{r['anchor']}",
+                        "section": r["section"],
+                        "notes": r["notes"],
+                        **{k: v for k, v in (r.get("meta") or {}).items()
+                           if k in ("jurisdiction", "legal_force", "applies_to",
+                                    "tags", "status", "function", "id")},
+                    }
+                    for r in d["rows"]
+                ],
             }
             for d in docs
         ],
@@ -564,6 +703,7 @@ def build() -> None:
     (OUT / "wiki-manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
     )
+    (OUT / "llms.txt").write_text(_llms_txt(grouped, manifest), encoding="utf-8")
 
     print(f"Built {len(docs)} page(s) + index + manifest into {OUT}")
     for d in docs:
@@ -729,6 +869,14 @@ tbody td{padding:.75rem 1rem;border-bottom:1px solid var(--border);vertical-alig
 tbody tr:last-child td{border-bottom:none;}
 tbody tr:hover{background:var(--bg-alt);}
 tbody td:first-child{font-weight:600;color:var(--gray-900);min-width:180px;}
+.badges{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.45rem;}
+.badge{display:inline-block;font-size:.62rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.06em;padding:.1rem .4rem;border:1px solid var(--border-dark);
+  color:var(--gray-700);white-space:nowrap;}
+.badge-jur{background:var(--bg-alt);}
+.badge-mandatory{border-color:var(--black);background:var(--black);color:var(--white);}
+.badge-guidance{border-color:var(--gray-500);color:var(--gray-700);}
+.badge-voluntary{border-style:dashed;color:var(--gray-500);}
 
 /* Home / hero */
 .hero{padding:1rem 0 2.5rem;border-bottom:1px solid var(--border);margin-bottom:2.5rem;}

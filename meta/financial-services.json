@@ -1,0 +1,261 @@
+{
+  "slug": "financial-services",
+  "entries": [
+    {
+      "document": "Basel Framework (consolidated)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "internationally active banks subject to the consolidated global prudential standards",
+      "tags": ["basel", "banking", "prudential", "capital", "international-standards"],
+      "status": "current"
+    },
+    {
+      "document": "Basel III: international regulatory framework for banks",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "banks implementing post-2008 capital, leverage and liquidity reforms",
+      "tags": ["basel-iii", "banking", "capital", "liquidity", "leverage"],
+      "status": "current"
+    },
+    {
+      "document": "The Basel Committee — overview",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "describes BCBS as the primary global standard-setter for bank prudential regulation",
+      "tags": ["basel-committee", "bis", "standard-setter", "banking"],
+      "status": "current"
+    },
+    {
+      "document": "Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "banks and credit institutions calculating regulatory capital in the EU",
+      "tags": ["crr", "eu", "capital-requirements", "prudential", "banking"],
+      "status": "current"
+    },
+    {
+      "document": "Capital Requirements Directive (CRD IV), Directive 2013/36/EU",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "credit institutions and investment firms seeking authorisation and supervision in EU member states",
+      "tags": ["crd", "eu", "banking-supervision", "deposit-taking", "directive"],
+      "status": "current"
+    },
+    {
+      "document": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US financial institutions and markets under the post-2008 financial reform statute",
+      "tags": ["dodd-frank", "us", "financial-reform", "law"],
+      "status": "current"
+    },
+    {
+      "document": "Supervision & Regulation",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "banks and holding companies subject to Federal Reserve supervisory policy, SR letters and rulemakings",
+      "tags": ["federal-reserve", "us", "bank-supervision", "sr-letters"],
+      "status": "current"
+    },
+    {
+      "document": "Office of the Comptroller of the Currency",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "national banks and federal savings associations chartered and supervised by the OCC",
+      "tags": ["occ", "us", "bank-charter", "supervision"],
+      "status": "current"
+    },
+    {
+      "document": "Federal Deposit Insurance Corporation",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "FDIC-insured depository institutions and state non-member banks",
+      "tags": ["fdic", "us", "deposit-insurance", "supervision"],
+      "status": "current"
+    },
+    {
+      "document": "Rules and Regulations",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "entities subject to SEC rulemaking, indexing proposed and final rules",
+      "tags": ["sec", "us", "rulemaking", "securities"],
+      "status": "current"
+    },
+    {
+      "document": "Statutes and Regulations (major securities laws)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "issuers, broker-dealers and exchanges under the Securities Act 1933, Exchange Act 1934 and related statutes",
+      "tags": ["sec", "us", "securities-act", "exchange-act", "statutes"],
+      "status": "current"
+    },
+    {
+      "document": "FINRA Rules",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "broker-dealers conducting business in the US",
+      "tags": ["finra", "us", "broker-dealer", "rulebook"],
+      "status": "current"
+    },
+    {
+      "document": "Markets in Financial Instruments Directive (MiFID II), Directive 2014/65/EU",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "investment firms and trading venues providing investment services in the EU",
+      "tags": ["mifid-ii", "eu", "investment-services", "trading-venues"],
+      "status": "current"
+    },
+    {
+      "document": "Markets in Financial Instruments Regulation (MiFIR), Regulation (EU) No 600/2014",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "investment firms and trading venues subject to pre- and post-trade transparency and reporting rules",
+      "tags": ["mifir", "eu", "transparency", "reporting", "trading"],
+      "status": "current"
+    },
+    {
+      "document": "MiFID II (interactive single rulebook)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "firms and supervisors consulting MiFID II consolidated with implementing measures and Q&As",
+      "tags": ["esma", "mifid-ii", "single-rulebook", "guidance"],
+      "status": "current"
+    },
+    {
+      "document": "Market Abuse Regulation (MAR), Regulation (EU) No 596/2014",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "issuers and market participants prohibited from insider dealing and market manipulation in the EU",
+      "tags": ["mar", "eu", "market-abuse", "insider-dealing"],
+      "status": "current"
+    },
+    {
+      "document": "The FATF Recommendations",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "countries and financial institutions implementing global AML/CFT standards",
+      "tags": ["fatf", "aml", "cft", "international-standards"],
+      "status": "current"
+    },
+    {
+      "document": "The Bank Secrecy Act",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US financial institutions subject to recordkeeping and reporting requirements",
+      "tags": ["bsa", "us", "aml", "recordkeeping", "fincen"],
+      "status": "current"
+    },
+    {
+      "document": "Anti-Money Laundering Regulation (AMLR), Regulation (EU) 2024/1624",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "EU obliged entities subject to directly-applicable AML/CFT rules and beneficial-ownership requirements",
+      "tags": ["amlr", "eu", "aml", "beneficial-ownership"],
+      "status": "current"
+    },
+    {
+      "document": "Sixth Anti-Money Laundering Directive (AMLD6), Directive (EU) 2024/1640",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "EU member states establishing AML mechanisms, FIUs and supervisors, repealing the prior AML directive",
+      "tags": ["amld6", "eu", "aml", "fiu", "supervisors"],
+      "status": "current"
+    },
+    {
+      "document": "Sanctions Programs and Country Information",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "persons and entities subject to US economic and trade sanctions programs administered by OFAC",
+      "tags": ["ofac", "us", "sanctions", "treasury"],
+      "status": "current"
+    },
+    {
+      "document": "Sanctions List Search Tool",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "parties screening against the SDN List and consolidated non-SDN sanctions lists",
+      "tags": ["ofac", "sdn-list", "sanctions-screening", "us"],
+      "status": "current"
+    },
+    {
+      "document": "Wolfsberg Principles",
+      "jurisdiction": "International",
+      "legal_force": "best-practice",
+      "applies_to": "banks adopting voluntary financial-crime risk-management guidance",
+      "tags": ["wolfsberg", "aml", "best-practice", "financial-crime"],
+      "status": "current"
+    },
+    {
+      "document": "PCI DSS (Document Library)",
+      "jurisdiction": "Global",
+      "legal_force": "binding-standard",
+      "applies_to": "entities storing, processing or transmitting cardholder data under contractual PCI obligations",
+      "tags": ["pci-dss", "payment-cards", "data-security", "contractual-standard"],
+      "status": "current"
+    },
+    {
+      "document": "Payment Services Directive 2 (PSD2), Directive (EU) 2015/2366",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "EU payment service providers subject to open banking and strong customer authentication rules",
+      "tags": ["psd2", "eu", "open-banking", "payments"],
+      "status": "current"
+    },
+    {
+      "document": "PSD3 proposal, COM(2023) 366",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "proposed modernisation of EU payment services rules, not yet adopted",
+      "tags": ["psd3", "eu", "proposal", "payments"],
+      "status": "proposed"
+    },
+    {
+      "document": "ISO 20022-1:2013 — Universal financial industry message scheme",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "financial institutions using the ISO 20022 structured financial-messaging metamodel",
+      "tags": ["iso-20022", "messaging", "standard", "financial-industry"],
+      "status": "current"
+    },
+    {
+      "document": "Customer Security Programme (CSP)",
+      "jurisdiction": "Global",
+      "legal_force": "binding-standard",
+      "applies_to": "Swift network users required to implement mandatory security controls",
+      "tags": ["swift", "csp", "security-controls", "payments"],
+      "status": "current"
+    },
+    {
+      "document": "Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "EU financial entities and critical ICT third-party providers subject to ICT risk, testing and incident-reporting rules",
+      "tags": ["dora", "eu", "ict-risk", "operational-resilience"],
+      "status": "current"
+    },
+    {
+      "document": "IFRS Accounting Standards (list of standards)",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "entities in jurisdictions that adopt IFRS Accounting Standards for financial reporting",
+      "tags": ["ifrs", "accounting", "financial-reporting", "standards"],
+      "status": "current"
+    },
+    {
+      "document": "Standards (US GAAP Codification)",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "US entities preparing financial statements under the Accounting Standards Codification (US GAAP)",
+      "tags": ["gaap", "fasb", "accounting", "us"],
+      "status": "current"
+    },
+    {
+      "document": "Sarbanes-Oxley Act of 2002",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US public companies subject to audit reform requirements and PCAOB oversight",
+      "tags": ["sox", "us", "audit", "corporate-governance", "pcaob"],
+      "status": "current"
+    }
+  ]
+}

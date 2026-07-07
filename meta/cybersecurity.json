@@ -1,0 +1,245 @@
+{
+  "slug": "cybersecurity",
+  "entries": [
+    {
+      "document": "Cybersecurity Framework (CSF) 2.0",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Any organization managing cybersecurity risk; voluntary but referenced across US federal guidance",
+      "tags": ["nist", "risk-management", "voluntary", "us-federal-fisma-linked", "framework"],
+      "status": "current"
+    },
+    {
+      "document": "SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "US federal information systems; baseline control catalog underpinning FISMA and FedRAMP",
+      "tags": ["nist", "controls-catalog", "us-federal-mandatory", "fisma", "fedramp"],
+      "status": "current"
+    },
+    {
+      "document": "SP 800-171 Rev. 3 — Protecting Controlled Unclassified Information in Nonfederal Systems",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Nonfederal systems and contractors handling Controlled Unclassified Information (CUI)",
+      "tags": ["nist", "cui", "contractors", "supply-chain", "us-federal-linked"],
+      "status": "current"
+    },
+    {
+      "document": "SP 800-37 Rev. 2 — Risk Management Framework (RMF)",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Organizations selecting, implementing, and authorizing security controls across a system lifecycle",
+      "tags": ["nist", "rmf", "authorization", "lifecycle", "us-federal-linked"],
+      "status": "current"
+    },
+    {
+      "document": "SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Organizations conducting cybersecurity risk assessments at any organizational tier",
+      "tags": ["nist", "risk-assessment", "methodology", "guidance"],
+      "status": "current"
+    },
+    {
+      "document": "SP 800-207 — Zero Trust Architecture",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Organizations designing zero-trust security architectures",
+      "tags": ["nist", "zero-trust", "architecture", "reference-model"],
+      "status": "current"
+    },
+    {
+      "document": "Privacy Framework 1.0",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Organizations managing enterprise privacy risk, as a companion to the Cybersecurity Framework",
+      "tags": ["nist", "privacy", "risk-management", "voluntary"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Organizations seeking certifiable information security management system requirements",
+      "tags": ["iso", "isms", "certification", "paid-standard"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27002:2022 — Information security controls",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Organizations implementing information security controls referenced by ISO/IEC 27001",
+      "tags": ["iso", "controls", "implementation-guidance", "paid-standard"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27005:2022 — Guidance on managing information security risks",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Organizations managing information security risk within an ISMS",
+      "tags": ["iso", "risk-management", "isms", "paid-standard"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27000:2018 — ISMS overview and vocabulary",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Organizations needing shared terminology and overview for the ISO/IEC 27000 family",
+      "tags": ["iso", "vocabulary", "overview", "free-download"],
+      "status": "current"
+    },
+    {
+      "document": "CIS Critical Security Controls",
+      "jurisdiction": "Global",
+      "legal_force": "best-practice",
+      "applies_to": "Organizations of any size implementing prioritized cyber defense practices",
+      "tags": ["cis", "controls", "best-practice", "voluntary", "v8-1"],
+      "status": "current"
+    },
+    {
+      "document": "CIS Benchmarks",
+      "jurisdiction": "Global",
+      "legal_force": "best-practice",
+      "applies_to": "Organizations securely configuring specific technology products and platforms",
+      "tags": ["cis", "secure-configuration", "benchmarks", "best-practice"],
+      "status": "current"
+    },
+    {
+      "document": "Federal Information Security Modernization Act (FISMA) background",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US federal agencies and their information systems",
+      "tags": ["fisma", "us-federal", "law", "risk-management-framework"],
+      "status": "current"
+    },
+    {
+      "document": "FedRAMP",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "Cloud service providers seeking authorization to serve US federal government agencies",
+      "tags": ["fedramp", "cloud", "us-federal", "authorization", "gsa"],
+      "status": "current"
+    },
+    {
+      "document": "Cybersecurity Directives (BODs and EDs)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US federal civilian executive branch agencies, via binding operational and emergency directives",
+      "tags": ["cisa", "binding-directive", "us-federal", "incident-response"],
+      "status": "current"
+    },
+    {
+      "document": "Known Exploited Vulnerabilities (KEV) Catalog",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "Organizations prioritizing remediation of actively exploited vulnerabilities",
+      "tags": ["cisa", "vulnerabilities", "remediation", "catalog"],
+      "status": "current"
+    },
+    {
+      "document": "Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure (Release 33-11216)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US public companies disclosing cybersecurity incidents and governance practices",
+      "tags": ["sec", "disclosure", "public-companies", "incident-reporting", "adopted-2023"],
+      "status": "current"
+    },
+    {
+      "document": "Executive Order 14028 — Improving the Nation's Cybersecurity",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "US federal agencies and their software supply chains",
+      "tags": ["executive-order", "us-federal", "supply-chain", "zero-trust", "2021"],
+      "status": "current"
+    },
+    {
+      "document": "NIS2 Directive (EU) 2022/2555",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "Operators of essential and important services in critical sectors across EU member states",
+      "tags": ["eu", "nis2", "critical-infrastructure", "reporting", "supersedes-nis1"],
+      "status": "current"
+    },
+    {
+      "document": "Cyber Resilience Act — Regulation (EU) 2024/2847",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "Manufacturers and vendors of products with digital elements sold in the EU",
+      "tags": ["eu", "cra", "product-security", "digital-elements", "2024"],
+      "status": "current"
+    },
+    {
+      "document": "Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "Financial-sector entities and their ICT service providers operating in the EU",
+      "tags": ["eu", "dora", "financial-services", "ict-risk", "operational-resilience"],
+      "status": "current"
+    },
+    {
+      "document": "EU Cybersecurity Act — Regulation (EU) 2019/881",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "ENISA's mandate and the EU-wide cybersecurity certification scheme for products and services",
+      "tags": ["eu", "enisa", "certification", "mandate", "2019"],
+      "status": "current"
+    },
+    {
+      "document": "European Union Agency for Cybersecurity (ENISA)",
+      "jurisdiction": "EU",
+      "legal_force": "framework",
+      "applies_to": "EU-wide cybersecurity coordination, threat intelligence, and certification schemes",
+      "tags": ["eu", "enisa", "agency", "threat-landscape", "certification"],
+      "status": "current"
+    },
+    {
+      "document": "SOC 2 — System and Organization Controls",
+      "jurisdiction": "US",
+      "legal_force": "framework",
+      "applies_to": "Service organizations reporting on security, availability, processing integrity, confidentiality, and privacy controls",
+      "tags": ["aicpa", "assurance", "audit", "service-organizations"],
+      "status": "current"
+    },
+    {
+      "document": "PCI DSS — Payment Card Industry Data Security Standard",
+      "jurisdiction": "Global",
+      "legal_force": "binding-standard",
+      "applies_to": "Entities that store, process, or transmit payment cardholder data",
+      "tags": ["pci-dss", "payments", "cardholder-data", "binding-standard"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27017:2015 — Information security controls for cloud services",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Cloud service providers and customers implementing cloud-specific security controls",
+      "tags": ["iso", "cloud", "controls", "paid-standard", "under-revision"],
+      "status": "current"
+    },
+    {
+      "document": "ISO/IEC 27018:2019 — Protection of PII in public clouds",
+      "jurisdiction": "International",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Public cloud providers acting as processors of personally identifiable information",
+      "tags": ["iso", "cloud", "pii", "privacy", "paid-standard"],
+      "status": "current"
+    },
+    {
+      "document": "CSA STAR — Security, Trust, Assurance and Risk registry",
+      "jurisdiction": "Global",
+      "legal_force": "best-practice",
+      "applies_to": "Cloud providers publishing security and privacy assurance self-assessments or certifications",
+      "tags": ["csa", "cloud", "star-registry", "assurance", "best-practice"],
+      "status": "current"
+    },
+    {
+      "document": "CSA Cloud Controls Matrix (CCM)",
+      "jurisdiction": "Global",
+      "legal_force": "best-practice",
+      "applies_to": "Cloud providers and customers mapping security controls across cloud domains",
+      "tags": ["csa", "cloud", "controls-matrix", "best-practice"],
+      "status": "current"
+    }
+  ]
+}
