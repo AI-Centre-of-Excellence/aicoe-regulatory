@@ -28,7 +28,7 @@ DOCS = ROOT / "docs"
 ASSETS = ROOT / "assets"
 OUT = ROOT / "wiki"
 
-SITE_NAME = "AICOE Regulatory Wiki"
+SITE_NAME = "AI Centre of Excellence Regulatory Wiki"
 SITE_TAGLINE = "Curated regulatory guidances, standards & best practices"
 
 # --- Lucide icons (inline SVG, offline-safe; no CDN) ---------------------------
@@ -293,7 +293,7 @@ def shell(*, title: str, body: str, pages: list[dict], active_slug: str | None,
     <a class="brand" href="index.html">
       <img class="brand-logo" src="logo.png" alt="AICOE logo" width="34" height="34">
       <span class="brand-text">
-        <span class="brand-mark">AICOE</span>
+        <span class="brand-mark">AI Centre of Excellence</span>
         <span class="brand-sub">Regulatory Wiki</span>
       </span>
     </a>
@@ -525,9 +525,9 @@ code{font-family:var(--mono);font-size:.85em;background:var(--bg-alt);
   border-bottom:1px solid var(--border);}
 .brand-logo{width:34px;height:34px;flex:none;object-fit:contain;
   border:1px solid var(--border);background:#fafafa;}
-.brand-text{display:flex;flex-direction:column;gap:.1rem;min-width:0;}
-.brand-mark{font-weight:700;letter-spacing:.16em;font-size:1rem;}
-.brand-sub{font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;
+.brand-text{display:flex;flex-direction:column;gap:.15rem;min-width:0;}
+.brand-mark{font-weight:700;letter-spacing:.005em;font-size:.92rem;line-height:1.15;}
+.brand-sub{font-size:.68rem;text-transform:uppercase;letter-spacing:.13em;
   color:var(--text-muted);}
 /* Search */
 .search{display:flex;align-items:center;gap:.5rem;margin:1rem 1rem .35rem;
