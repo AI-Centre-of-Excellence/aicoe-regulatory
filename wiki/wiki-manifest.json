@@ -1,11 +1,125 @@
 {
-  "site": "AI Centre of Excellence Regulatory Wiki",
+  "site": "AI Centre of Excellence Regulatory List",
   "tagline": "Curated regulatory guidances, standards & best practices",
   "source_of_truth": "docs/*.md",
+  "domains": [
+    {
+      "name": "Life Sciences",
+      "topics": [
+        "clinical-research",
+        "healthcare"
+      ]
+    },
+    {
+      "name": "Financial Services",
+      "topics": [
+        "financial-services"
+      ]
+    },
+    {
+      "name": "Manufacturing",
+      "topics": [
+        "manufacturing"
+      ]
+    },
+    {
+      "name": "Aerospace & Defense",
+      "topics": [
+        "aerospace-defense"
+      ]
+    },
+    {
+      "name": "Hi-Tech / Technology",
+      "topics": [
+        "data-protection-privacy",
+        "cybersecurity",
+        "ai-governance"
+      ]
+    },
+    {
+      "name": "Logistics & Supply Chain",
+      "topics": [
+        "logistics-supply-chain"
+      ]
+    },
+    {
+      "name": "Sustainability & ESG",
+      "topics": [
+        "sustainability-esg"
+      ]
+    }
+  ],
   "pages": [
+    {
+      "slug": "aerospace-defense",
+      "title": "Aerospace & defense — airworthiness, space & export control",
+      "domain": "Aerospace & Defense",
+      "url": "aerospace-defense.html",
+      "source": "docs/aerospace-defense.md",
+      "intro": "A curated index of authoritative, primary-source regulations, certification specifications, and standards governing aircraft airworthiness, aviation safety, aerospace quality, space systems, and defense trade and export control. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 29,
+      "sections": [
+        {
+          "title": "Airworthiness & certification",
+          "id": "airworthiness-certification"
+        },
+        {
+          "title": "Aviation safety & operations",
+          "id": "aviation-safety-operations"
+        },
+        {
+          "title": "Quality & production (aerospace)",
+          "id": "quality-production-aerospace"
+        },
+        {
+          "title": "Space systems",
+          "id": "space-systems"
+        },
+        {
+          "title": "Export control & defense",
+          "id": "export-control-defense"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "ai-governance",
+      "title": "AI governance & responsible AI — regulation, frameworks & standards",
+      "domain": "Hi-Tech / Technology",
+      "url": "ai-governance.html",
+      "source": "docs/ai-governance.md",
+      "intro": "A curated index of authoritative, primary-source law, risk frameworks, management standards, and international principles governing the responsible development and use of artificial intelligence. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 24,
+      "sections": [
+        {
+          "title": "Regulation",
+          "id": "regulation"
+        },
+        {
+          "title": "Risk frameworks & management standards",
+          "id": "risk-frameworks-management-standards"
+        },
+        {
+          "title": "International principles",
+          "id": "international-principles"
+        },
+        {
+          "title": "Sector-specific (cross-reference)",
+          "id": "sector-specific-cross-reference"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
     {
       "slug": "clinical-research",
       "title": "Clinical research — regulatory guidances, standards & best practices",
+      "domain": "Life Sciences",
       "url": "clinical-research.html",
       "source": "docs/clinical-research.md",
       "intro": "A curated index of authoritative, primary-source regulatory guidances, standards, ethics foundations, and industry best practices governing clinical research. Every link points to the issuing body's own canonical page or document.",
@@ -54,6 +168,235 @@
         {
           "title": "Industry best practice",
           "id": "industry-best-practice"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "cybersecurity",
+      "title": "Cybersecurity & information security — frameworks, standards & regulation",
+      "domain": "Hi-Tech / Technology",
+      "url": "cybersecurity.html",
+      "source": "docs/cybersecurity.md",
+      "intro": "A curated index of authoritative, primary-source cybersecurity frameworks, standards, regulations, and assurance schemes. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 30,
+      "sections": [
+        {
+          "title": "Core frameworks & standards",
+          "id": "core-frameworks-standards"
+        },
+        {
+          "title": "US regulation & authorization",
+          "id": "us-regulation-authorization"
+        },
+        {
+          "title": "EU regulation",
+          "id": "eu-regulation"
+        },
+        {
+          "title": "Assurance & cloud",
+          "id": "assurance-cloud"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "data-protection-privacy",
+      "title": "Data protection & privacy — laws, frameworks & standards",
+      "domain": "Hi-Tech / Technology",
+      "url": "data-protection-privacy.html",
+      "source": "docs/data-protection-privacy.md",
+      "intro": "A curated index of authoritative, primary-source data protection and privacy laws, regulatory frameworks, and standards. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 26,
+      "sections": [
+        {
+          "title": "European Union / United Kingdom",
+          "id": "european-union-united-kingdom"
+        },
+        {
+          "title": "United States",
+          "id": "united-states"
+        },
+        {
+          "title": "International principles",
+          "id": "international-principles"
+        },
+        {
+          "title": "Standards",
+          "id": "standards"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "financial-services",
+      "title": "Financial services — regulation, standards & supervisory frameworks",
+      "domain": "Financial Services",
+      "url": "financial-services.html",
+      "source": "docs/financial-services.md",
+      "intro": "A curated index of authoritative, primary-source regulation, prudential standards, market-conduct rules, and supervisory frameworks governing financial services. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 32,
+      "sections": [
+        {
+          "title": "Banking & prudential",
+          "id": "banking-prudential"
+        },
+        {
+          "title": "Securities & markets",
+          "id": "securities-markets"
+        },
+        {
+          "title": "AML / CFT / sanctions",
+          "id": "aml-cft-sanctions"
+        },
+        {
+          "title": "Payments & operational",
+          "id": "payments-operational"
+        },
+        {
+          "title": "Accounting & disclosure",
+          "id": "accounting-disclosure"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "healthcare",
+      "title": "Healthcare — data, interoperability, coding & device regulation",
+      "domain": "Life Sciences",
+      "url": "healthcare.html",
+      "source": "docs/healthcare.md",
+      "intro": "A curated index of authoritative, primary-source regulations, standards, and specifications governing health data privacy, interoperability, clinical terminologies, and medical-device software. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 39,
+      "sections": [
+        {
+          "title": "Health data privacy & security",
+          "id": "health-data-privacy-security"
+        },
+        {
+          "title": "Interoperability & exchange",
+          "id": "interoperability-exchange"
+        },
+        {
+          "title": "Clinical terminologies & coding",
+          "id": "clinical-terminologies-coding"
+        },
+        {
+          "title": "Medical devices & Software as a Medical Device (SaMD)",
+          "id": "medical-devices-software-as-a-medical-device-samd"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "logistics-supply-chain",
+      "title": "Logistics & supply chain — trade, transport safety & due diligence",
+      "domain": "Logistics & Supply Chain",
+      "url": "logistics-supply-chain.html",
+      "source": "docs/logistics-supply-chain.md",
+      "intro": "A curated index of authoritative, primary-source instruments governing international trade, customs, dangerous-goods transport, supply-chain due diligence, and traceability standards. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 28,
+      "sections": [
+        {
+          "title": "Trade & customs",
+          "id": "trade-customs"
+        },
+        {
+          "title": "Dangerous goods & transport safety",
+          "id": "dangerous-goods-transport-safety"
+        },
+        {
+          "title": "Supply-chain due diligence & responsible sourcing",
+          "id": "supply-chain-due-diligence-responsible-sourcing"
+        },
+        {
+          "title": "Standards & traceability",
+          "id": "standards-traceability"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "manufacturing",
+      "title": "Manufacturing — quality, product safety & industrial standards",
+      "domain": "Manufacturing",
+      "url": "manufacturing.html",
+      "source": "docs/manufacturing.md",
+      "intro": "A curated index of authoritative, primary-source standards and regulations governing manufacturing quality management, product safety and conformity, industrial and functional safety, and environmental and energy management. Every link points to the issuing body's own canonical catalogue page or legal text.",
+      "link_count": 28,
+      "sections": [
+        {
+          "title": "Quality management systems",
+          "id": "quality-management-systems"
+        },
+        {
+          "title": "Product safety & conformity",
+          "id": "product-safety-conformity"
+        },
+        {
+          "title": "Industrial, functional & occupational safety",
+          "id": "industrial-functional-occupational-safety"
+        },
+        {
+          "title": "Environmental & energy management",
+          "id": "environmental-energy-management"
+        },
+        {
+          "title": "Good Manufacturing Practice (cross-reference)",
+          "id": "good-manufacturing-practice-cross-reference"
+        },
+        {
+          "title": "Scope & maintenance",
+          "id": "scope-maintenance"
+        }
+      ]
+    },
+    {
+      "slug": "sustainability-esg",
+      "title": "Sustainability & ESG — reporting frameworks, standards & regulation",
+      "domain": "Sustainability & ESG",
+      "url": "sustainability-esg.html",
+      "source": "docs/sustainability-esg.md",
+      "intro": "A curated index of authoritative, primary-source frameworks, standards, and regulations governing corporate sustainability and ESG reporting. Every link points to the issuing body's own canonical page or document.",
+      "link_count": 30,
+      "sections": [
+        {
+          "title": "Sustainability reporting frameworks",
+          "id": "sustainability-reporting-frameworks"
+        },
+        {
+          "title": "EU regulation",
+          "id": "eu-regulation"
+        },
+        {
+          "title": "United States & other jurisdictions",
+          "id": "united-states-other-jurisdictions"
+        },
+        {
+          "title": "GHG accounting & targets",
+          "id": "ghg-accounting-targets"
+        },
+        {
+          "title": "International principles & nature",
+          "id": "international-principles-nature"
         },
         {
           "title": "Scope & maintenance",

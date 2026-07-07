@@ -28,8 +28,22 @@ DOCS = ROOT / "docs"
 ASSETS = ROOT / "assets"
 OUT = ROOT / "wiki"
 
-SITE_NAME = "AI Centre of Excellence Regulatory Wiki"
+SITE_NAME = "AI Centre of Excellence Regulatory List"
 SITE_TAGLINE = "Curated regulatory guidances, standards & best practices"
+CONTACT_EMAIL = "hi@aicoe.io"
+DEFAULT_DOMAIN = "General"
+
+# Display order for domains in the sidebar and on the home page. Domains not
+# listed here appear after these, alphabetically.
+DOMAIN_ORDER = [
+    "Life Sciences",
+    "Financial Services",
+    "Manufacturing",
+    "Aerospace & Defense",
+    "Hi-Tech / Technology",
+    "Logistics & Supply Chain",
+    "Sustainability & ESG",
+]
 
 # --- Lucide icons (inline SVG, offline-safe; no CDN) ---------------------------
 # Only the inner markup; wrapped by _icon() with the standard lucide attributes.
@@ -101,9 +115,23 @@ def slug(text: str) -> str:
 
 # --- Markdown parsing ----------------------------------------------------------
 
+def parse_front_matter(raw: str) -> tuple[dict, str]:
+    """Split optional `--- key: value ---` front matter from the body."""
+    meta: dict[str, str] = {}
+    m = re.match(r"^---\s*\n(.*?)\n---\s*\n", raw, re.DOTALL)
+    if not m:
+        return meta, raw
+    for line in m.group(1).splitlines():
+        if ":" in line and not line.strip().startswith("#"):
+            k, v = line.split(":", 1)
+            meta[k.strip()] = v.strip()
+    return meta, raw[m.end():]
+
+
 def parse_doc(path: Path) -> dict:
     """Return {title, intro, html, sections:[{title,id}], link_count, ...}."""
     raw = path.read_text(encoding="utf-8")
+    meta, raw = parse_front_matter(raw)
 
     title = "Untitled"
     intro = ""
@@ -137,6 +165,11 @@ def parse_doc(path: Path) -> dict:
     link_count = len(re.findall(r'<a\s+[^>]*href="https?://', body_html))
     rows = _extract_rows(body_lines, sections)
 
+    try:
+        order = int(meta.get("order", "100"))
+    except ValueError:
+        order = 100
+
     return {
         "slug": path.stem,
         "title": title,
@@ -146,6 +179,9 @@ def parse_doc(path: Path) -> dict:
         "rows": rows,
         "link_count": link_count,
         "source": f"docs/{path.name}",
+        "domain": meta.get("domain", DEFAULT_DOMAIN),
+        "order": order,
+        "label": meta.get("label", ""),
     }
 
 
@@ -233,41 +269,65 @@ CHEVRON = (
 )
 
 
-def _short_title(title: str) -> str:
-    """The topic label for nav: text before an em-dash, trimmed."""
-    return title.split("—")[0].strip()
+def _short_title(page: dict) -> str:
+    """The topic label for nav/cards: explicit label, else text before em-dash."""
+    if page.get("label"):
+        return page["label"]
+    return page["title"].split("—")[0].strip()
+
+
+def group_by_domain(pages: list[dict]) -> list[tuple[str, list[dict]]]:
+    """Return [(domain, [pages…]), …] ordered by DOMAIN_ORDER then name."""
+    groups: dict[str, list[dict]] = {}
+    for p in pages:
+        groups.setdefault(p["domain"], []).append(p)
+
+    def domain_key(name: str) -> tuple[int, str]:
+        return (DOMAIN_ORDER.index(name) if name in DOMAIN_ORDER else len(DOMAIN_ORDER), name)
+
+    out = []
+    for domain in sorted(groups, key=domain_key):
+        topics = sorted(groups[domain], key=lambda p: (p["order"], p["title"]))
+        out.append((domain, topics))
+    return out
+
+
+def _topic_node(p: dict, active_slug: str | None) -> str:
+    is_active = p["slug"] == active_slug
+    icon = _icon(_section_icon(p["title"]), "icon nav-icon")
+    children = [f'<li><a class="tree-sub" href="{p["slug"]}.html">Overview</a></li>']
+    for s in p["sections"]:
+        if s["title"].lower() in ("scope & maintenance",):
+            continue
+        children.append(
+            f'<li><a class="tree-sub" href="{p["slug"]}.html#{s["id"]}">'
+            f'{html.escape(s["title"])}</a></li>'
+        )
+    summary = (
+        f'<summary class="tree-top{" active" if is_active else ""}">'
+        f'<span class="tree-top-label">{icon}'
+        f'<span>{html.escape(_short_title(p))}</span></span>{CHEVRON}</summary>'
+    )
+    return (
+        f'<details class="tree-node"{" open" if is_active else ""}>'
+        f'{summary}<ul class="tree-children">{"".join(children)}</ul></details>'
+    )
 
 
 def nav_html(pages: list[dict], active_slug: str | None) -> str:
-    """A collapsible tree: Home, then each topic expanding to its sections."""
+    """Home, then domain groups; each topic expands to its sections."""
     home_cls = "tree-link home" + (" active" if active_slug is None else "")
     items = [
         f'<a class="{home_cls}" href="index.html">'
         f'{_icon("home", "icon nav-icon")}<span>Home</span></a>'
     ]
-    for p in pages:
-        is_active = p["slug"] == active_slug
-        icon = _icon(_section_icon(p["title"]), "icon nav-icon")
-        children = [
-            f'<li><a class="tree-sub" href="{p["slug"]}.html">Overview</a></li>'
-        ]
-        for s in p["sections"]:
-            if s["title"].lower() in ("scope & maintenance",):
-                continue
-            children.append(
-                f'<li><a class="tree-sub" href="{p["slug"]}.html#{s["id"]}">'
-                f'{html.escape(s["title"])}</a></li>'
-            )
-        summary = (
-            f'<summary class="tree-top{" active" if is_active else ""}">'
-            f'<span class="tree-top-label">{icon}'
-            f'<span>{html.escape(_short_title(p["title"]))}</span></span>'
-            f'{CHEVRON}</summary>'
-        )
-        items.append(
-            f'<details class="tree-node"{" open" if is_active else ""}>'
-            f'{summary}<ul class="tree-children">{"".join(children)}</ul></details>'
-        )
+    groups = group_by_domain(pages)
+    single = len(groups) <= 1
+    for domain, topics in groups:
+        if not single:
+            items.append(f'<div class="nav-domain">{html.escape(domain)}</div>')
+        for p in topics:
+            items.append(_topic_node(p, active_slug))
     return "\n".join(items)
 
 
@@ -294,7 +354,7 @@ def shell(*, title: str, body: str, pages: list[dict], active_slug: str | None,
       <img class="brand-logo" src="logo.png" alt="AICOE logo" width="34" height="34">
       <span class="brand-text">
         <span class="brand-mark">AI Centre of Excellence</span>
-        <span class="brand-sub">Regulatory Wiki</span>
+        <span class="brand-sub">Regulatory List</span>
       </span>
     </a>
     <div class="search">
@@ -320,9 +380,11 @@ def shell(*, title: str, body: str, pages: list[dict], active_slug: str | None,
     <main id="content" class="content">
       {body}
       <footer class="page-foot">
+        <p>Suggest a resource or correction: <a href="mailto:{CONTACT_EMAIL}?subject=Regulatory%20Wiki%20%E2%80%94%20new%20resource">{CONTACT_EMAIL}</a></p>
+        <p class="foot-rights">This wiki is a curated index of third-party materials. All guidances and standards remain the property of their respective issuers; every link points to the issuing body's official source. The index and its descriptions are provided for reference only and are not legal advice.</p>
         <p>{SITE_NAME} · {SITE_TAGLINE}</p>
         <p>Generated from <code>docs/</code> by <code>wiki/build_wiki.py</code>. Do not hand-edit these HTML files.</p>
-        <p>© {year} AI Centre of Excellence · Content licensed MIT</p>
+        <p>© {year} AI Centre of Excellence · Wiki text licensed MIT; linked standards are © their issuers</p>
       </footer>
     </main>
   </div>
@@ -362,40 +424,49 @@ def render_page(doc: dict, pages: list[dict]) -> str:
     )
 
 
+def _topic_card(p: dict) -> str:
+    icon = _icon(_section_icon(p["title"]), "icon card-icon")
+    return (
+        f'<a class="topic-card" href="{p["slug"]}.html">'
+        f'<div class="card-top">{icon}</div>'
+        f'<h3>{html.escape(_short_title(p))}</h3>'
+        f'<p>{html.escape(p["intro"])}</p>'
+        f'<div class="card-meta"><span>{p["link_count"]} links</span>'
+        f'<span>{len(p["sections"])} sections</span></div>'
+        f'</a>'
+    )
+
+
 def render_index(pages: list[dict]) -> str:
-    cards = []
-    for p in pages:
-        icon = _icon(_section_icon(p["title"]), "icon card-icon")
-        cards.append(
-            f'<a class="topic-card" href="{p["slug"]}.html">'
-            f'<div class="card-top">{icon}</div>'
-            f'<h3>{html.escape(p["title"])}</h3>'
-            f'<p>{html.escape(p["intro"])}</p>'
-            f'<div class="card-meta"><span>{p["link_count"]} links</span>'
-            f'<span>{len(p["sections"])} sections</span></div>'
-            f'</a>'
-        )
-    cards_html = "\n".join(cards)
+    groups = group_by_domain(pages)
+    single = len(groups) <= 1
+    blocks = []
+    for domain, topics in groups:
+        grid = "\n".join(_topic_card(p) for p in topics)
+        heading = "" if single else f'<h2 class="section-title">{html.escape(domain)}</h2>'
+        blocks.append(f'{heading}<div class="topic-grid">{grid}</div>')
+    if single:  # keep a "Topics" heading when there's only one group
+        blocks.insert(0, '<h2 class="section-title">Topics</h2>')
+    cards_html = "\n".join(blocks)
     total_links = sum(p["link_count"] for p in pages)
+    n_domains = len(groups)
     body = f"""
 <div class="hero">
   <div class="eyebrow">{_icon('library','icon')}AI Centre of Excellence</div>
-  <h1>Regulatory Wiki</h1>
+  <h1>Regulatory List</h1>
   <p class="lede">{SITE_TAGLINE}. A curated, primary-source index of the regulations, standards, ethics foundations, and industry best practices that govern regulated research and product development.</p>
   <div class="hero-stats">
+    <div class="stat"><span class="stat-num">{n_domains}</span><span class="stat-label">Domain{'s' if n_domains!=1 else ''}</span></div>
     <div class="stat"><span class="stat-num">{len(pages)}</span><span class="stat-label">Topic{'s' if len(pages)!=1 else ''}</span></div>
     <div class="stat"><span class="stat-num">{total_links}</span><span class="stat-label">Verified links</span></div>
     <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Primary sources</span></div>
   </div>
 </div>
 
-<h2 class="section-title">Topics</h2>
-<div class="topic-grid">
 {cards_html}
-</div>
 
 <div class="usage">
-  <h2 class="section-title">Using this wiki</h2>
+  <h2 class="section-title">Using this list</h2>
   <div class="usage-grid">
     <div class="usage-card">
       <div class="usage-head">{_icon('home','icon')}<h3>For people</h3></div>
@@ -408,6 +479,10 @@ def render_index(pages: list[dict]) -> str:
     <div class="usage-card">
       <div class="usage-head">{_icon('check-circle','icon')}<h3>Provenance</h3></div>
       <p>Primary sources only, one row per document. Links are verified before a row is added, and the "verified as of" date is refreshed on each change.</p>
+    </div>
+    <div class="usage-card">
+      <div class="usage-head">{_icon('link','icon')}<h3>Suggest a resource</h3></div>
+      <p>Know a guidance or standard that belongs here? Email <a href="mailto:{CONTACT_EMAIL}?subject=Regulatory%20Wiki%20%E2%80%94%20new%20resource">{CONTACT_EMAIL}</a> with the document, issuer, and a link to the authoritative source.</p>
     </div>
   </div>
 </div>
@@ -449,7 +524,7 @@ def build() -> None:
         for s in d["sections"]:
             search.append({
                 "kind": "section", "title": s["title"],
-                "sub": _short_title(d["title"]),
+                "sub": _short_title(d),
                 "url": f"{page_url}#{s['id']}", "hay": s["title"].lower(),
             })
         for r in d["rows"]:
@@ -463,14 +538,20 @@ def build() -> None:
         json.dumps(search, ensure_ascii=False), encoding="utf-8"
     )
 
+    grouped = group_by_domain(docs)
     manifest = {
         "site": SITE_NAME,
         "tagline": SITE_TAGLINE,
         "source_of_truth": "docs/*.md",
+        "domains": [
+            {"name": domain, "topics": [p["slug"] for p in topics]}
+            for domain, topics in grouped
+        ],
         "pages": [
             {
                 "slug": d["slug"],
                 "title": d["title"],
+                "domain": d["domain"],
                 "url": f"{d['slug']}.html",
                 "source": d["source"],
                 "intro": d["intro"],
@@ -555,6 +636,9 @@ code{font-family:var(--mono);font-size:.85em;background:var(--bg-alt);
 /* Tree nav */
 .nav{display:flex;flex-direction:column;padding:.35rem .75rem 1rem;gap:1px;flex:1;overflow-y:auto;}
 .nav[hidden]{display:none;}
+.nav-domain{font-size:.68rem;text-transform:uppercase;letter-spacing:.13em;
+  color:var(--gray-500);font-weight:600;padding:1rem .75rem .35rem;margin-top:.15rem;}
+.nav-domain:first-of-type{margin-top:0;}
 .nav-icon{width:1.05rem;height:1.05rem;color:var(--gray-500);flex:none;}
 .tree-link{display:flex;align-items:center;gap:.7rem;padding:.55rem .75rem;
   font-size:.9rem;color:var(--gray-700);border-left:2px solid transparent;
@@ -676,6 +760,9 @@ tbody td:first-child{font-weight:600;color:var(--gray-900);min-width:180px;}
 .page-foot{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--border);
   font-size:.8rem;color:var(--text-muted);}
 .page-foot p{margin:.25rem 0;}
+.page-foot a,.usage-card a{color:var(--text);border-bottom:1px solid var(--gray-300);
+  transition:color .12s,border-color .12s;}
+.page-foot a:hover,.usage-card a:hover{color:var(--accent);border-bottom-color:var(--accent);}
 
 /* Responsive */
 @media(max-width:880px){

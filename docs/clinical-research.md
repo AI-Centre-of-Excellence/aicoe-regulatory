@@ -1,3 +1,8 @@
+---
+domain: Life Sciences
+label: Clinical research
+order: 1
+---
 # Clinical research — regulatory guidances, standards & best practices
 
 A curated index of authoritative, primary-source regulatory guidances, standards, ethics foundations, and industry best practices governing clinical research. Every link points to the issuing body's own canonical page or document.
