@@ -1,0 +1,17 @@
+# Internal-only material — never publish
+private/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python (in case tooling is added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (in case tooling is added later)
+node_modules/
