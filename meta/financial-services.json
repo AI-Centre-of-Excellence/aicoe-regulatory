@@ -7,7 +7,11 @@
       "legal_force": "framework",
       "applies_to": "internationally active banks subject to the consolidated global prudential standards",
       "tags": ["basel", "banking", "prudential", "capital", "international-standards"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013", "Dodd-Frank Wall Street Reform and Consumer Protection Act"],
+      "triggers": ["bank", "prudential", "international-standards"]
     },
     {
       "document": "Basel III: international regulatory framework for banks",
@@ -15,7 +19,11 @@
       "legal_force": "framework",
       "applies_to": "banks implementing post-2008 capital, leverage and liquidity reforms",
       "tags": ["basel-iii", "banking", "capital", "liquidity", "leverage"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Basel II — International Convergence of Capital Measurement and Capital Standards"],
+      "superseded_by": null,
+      "equivalents": ["Dodd-Frank Wall Street Reform and Consumer Protection Act", "Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013"],
+      "triggers": ["bank", "prudential", "capital", "liquidity", "leverage"]
     },
     {
       "document": "The Basel Committee — overview",
@@ -23,7 +31,11 @@
       "legal_force": "framework",
       "applies_to": "describes BCBS as the primary global standard-setter for bank prudential regulation",
       "tags": ["basel-committee", "bis", "standard-setter", "banking"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["bank", "prudential", "standard-setter"]
     },
     {
       "document": "Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013",
@@ -31,7 +43,11 @@
       "legal_force": "regulation",
       "applies_to": "banks and credit institutions calculating regulatory capital in the EU",
       "tags": ["crr", "eu", "capital-requirements", "prudential", "banking"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Basel III: international regulatory framework for banks", "Dodd-Frank Wall Street Reform and Consumer Protection Act"],
+      "triggers": ["bank", "eu-financial", "prudential", "capital", "investment-firm"]
     },
     {
       "document": "Capital Requirements Directive (CRD IV), Directive 2013/36/EU",
@@ -39,7 +55,11 @@
       "legal_force": "directive",
       "applies_to": "credit institutions and investment firms seeking authorisation and supervision in EU member states",
       "tags": ["crd", "eu", "banking-supervision", "deposit-taking", "directive"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013"],
+      "triggers": ["bank", "eu-financial", "investment-firm", "deposit-taking"]
     },
     {
       "document": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
@@ -47,7 +67,11 @@
       "legal_force": "law",
       "applies_to": "US financial institutions and markets under the post-2008 financial reform statute",
       "tags": ["dodd-frank", "us", "financial-reform", "law"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Basel III: international regulatory framework for banks", "Capital Requirements Regulation (CRR), Regulation (EU) No 575/2013"],
+      "triggers": ["bank", "investment-firm", "securities-firm", "public-company"]
     },
     {
       "document": "Supervision & Regulation",
@@ -55,7 +79,11 @@
       "legal_force": "guidance",
       "applies_to": "banks and holding companies subject to Federal Reserve supervisory policy, SR letters and rulemakings",
       "tags": ["federal-reserve", "us", "bank-supervision", "sr-letters"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["bank", "prudential"]
     },
     {
       "document": "Office of the Comptroller of the Currency",
@@ -63,7 +91,11 @@
       "legal_force": "guidance",
       "applies_to": "national banks and federal savings associations chartered and supervised by the OCC",
       "tags": ["occ", "us", "bank-charter", "supervision"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["bank", "prudential"]
     },
     {
       "document": "Federal Deposit Insurance Corporation",
@@ -71,7 +103,11 @@
       "legal_force": "guidance",
       "applies_to": "FDIC-insured depository institutions and state non-member banks",
       "tags": ["fdic", "us", "deposit-insurance", "supervision"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["bank", "deposit-insurance"]
     },
     {
       "document": "Rules and Regulations",
@@ -79,7 +115,11 @@
       "legal_force": "regulation",
       "applies_to": "entities subject to SEC rulemaking, indexing proposed and final rules",
       "tags": ["sec", "us", "rulemaking", "securities"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["securities-firm", "public-company", "investment-firm"]
     },
     {
       "document": "Statutes and Regulations (major securities laws)",
@@ -87,7 +127,11 @@
       "legal_force": "law",
       "applies_to": "issuers, broker-dealers and exchanges under the Securities Act 1933, Exchange Act 1934 and related statutes",
       "tags": ["sec", "us", "securities-act", "exchange-act", "statutes"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["securities-firm", "public-company", "investment-firm"]
     },
     {
       "document": "FINRA Rules",
@@ -95,7 +139,11 @@
       "legal_force": "regulation",
       "applies_to": "broker-dealers conducting business in the US",
       "tags": ["finra", "us", "broker-dealer", "rulebook"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Rules and Regulations", "Statutes and Regulations (major securities laws)"],
+      "triggers": ["securities-firm", "broker-dealer"]
     },
     {
       "document": "Markets in Financial Instruments Directive (MiFID II), Directive 2014/65/EU",
@@ -103,7 +151,11 @@
       "legal_force": "directive",
       "applies_to": "investment firms and trading venues providing investment services in the EU",
       "tags": ["mifid-ii", "eu", "investment-services", "trading-venues"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Statutes and Regulations (major securities laws)", "FINRA Rules"],
+      "triggers": ["investment-firm", "eu-financial", "securities-firm", "trading-venue"]
     },
     {
       "document": "Markets in Financial Instruments Regulation (MiFIR), Regulation (EU) No 600/2014",
@@ -111,7 +163,11 @@
       "legal_force": "regulation",
       "applies_to": "investment firms and trading venues subject to pre- and post-trade transparency and reporting rules",
       "tags": ["mifir", "eu", "transparency", "reporting", "trading"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Markets in Financial Instruments Directive (MiFID II), Directive 2014/65/EU"],
+      "triggers": ["investment-firm", "eu-financial", "securities-firm", "trading-venue"]
     },
     {
       "document": "MiFID II (interactive single rulebook)",
@@ -119,7 +175,11 @@
       "legal_force": "guidance",
       "applies_to": "firms and supervisors consulting MiFID II consolidated with implementing measures and Q&As",
       "tags": ["esma", "mifid-ii", "single-rulebook", "guidance"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Markets in Financial Instruments Directive (MiFID II), Directive 2014/65/EU"],
+      "triggers": ["investment-firm", "eu-financial", "securities-firm"]
     },
     {
       "document": "Market Abuse Regulation (MAR), Regulation (EU) No 596/2014",
@@ -127,7 +187,11 @@
       "legal_force": "regulation",
       "applies_to": "issuers and market participants prohibited from insider dealing and market manipulation in the EU",
       "tags": ["mar", "eu", "market-abuse", "insider-dealing"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Statutes and Regulations (major securities laws)"],
+      "triggers": ["securities-firm", "eu-financial", "public-company", "market-abuse"]
     },
     {
       "document": "The FATF Recommendations",
@@ -135,7 +199,11 @@
       "legal_force": "framework",
       "applies_to": "countries and financial institutions implementing global AML/CFT standards",
       "tags": ["fatf", "aml", "cft", "international-standards"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["The Bank Secrecy Act", "Anti-Money Laundering Regulation (AMLR), Regulation (EU) 2024/1624"],
+      "triggers": ["aml-obligated", "bank", "securities-firm", "cft"]
     },
     {
       "document": "The Bank Secrecy Act",
@@ -143,7 +211,11 @@
       "legal_force": "law",
       "applies_to": "US financial institutions subject to recordkeeping and reporting requirements",
       "tags": ["bsa", "us", "aml", "recordkeeping", "fincen"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["The FATF Recommendations", "Anti-Money Laundering Regulation (AMLR), Regulation (EU) 2024/1624"],
+      "triggers": ["aml-obligated", "bank", "securities-firm"]
     },
     {
       "document": "Anti-Money Laundering Regulation (AMLR), Regulation (EU) 2024/1624",
@@ -151,7 +223,11 @@
       "legal_force": "regulation",
       "applies_to": "EU obliged entities subject to directly-applicable AML/CFT rules and beneficial-ownership requirements",
       "tags": ["amlr", "eu", "aml", "beneficial-ownership"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Sixth Anti-Money Laundering Directive (AMLD6), Directive (EU) 2024/1640"],
+      "superseded_by": null,
+      "equivalents": ["The FATF Recommendations", "The Bank Secrecy Act"],
+      "triggers": ["aml-obligated", "eu-financial", "bank", "securities-firm", "beneficial-ownership"]
     },
     {
       "document": "Sixth Anti-Money Laundering Directive (AMLD6), Directive (EU) 2024/1640",
@@ -159,7 +235,11 @@
       "legal_force": "directive",
       "applies_to": "EU member states establishing AML mechanisms, FIUs and supervisors, repealing the prior AML directive",
       "tags": ["amld6", "eu", "aml", "fiu", "supervisors"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": ["Anti-Money Laundering Regulation (AMLR), Regulation (EU) 2024/1624"],
+      "equivalents": ["The FATF Recommendations", "The Bank Secrecy Act"],
+      "triggers": ["aml-obligated", "eu-financial", "fiu"]
     },
     {
       "document": "Sanctions Programs and Country Information",
@@ -167,7 +247,11 @@
       "legal_force": "guidance",
       "applies_to": "persons and entities subject to US economic and trade sanctions programs administered by OFAC",
       "tags": ["ofac", "us", "sanctions", "treasury"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["aml-obligated", "sanctions", "bank", "securities-firm"]
     },
     {
       "document": "Sanctions List Search Tool",
@@ -175,7 +259,11 @@
       "legal_force": "guidance",
       "applies_to": "parties screening against the SDN List and consolidated non-SDN sanctions lists",
       "tags": ["ofac", "sdn-list", "sanctions-screening", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["aml-obligated", "sanctions", "bank", "securities-firm"]
     },
     {
       "document": "Wolfsberg Principles",
@@ -183,7 +271,11 @@
       "legal_force": "best-practice",
       "applies_to": "banks adopting voluntary financial-crime risk-management guidance",
       "tags": ["wolfsberg", "aml", "best-practice", "financial-crime"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["The FATF Recommendations"],
+      "triggers": ["aml-obligated", "bank", "financial-crime"]
     },
     {
       "document": "PCI DSS (Document Library)",
@@ -191,7 +283,11 @@
       "legal_force": "binding-standard",
       "applies_to": "entities storing, processing or transmitting cardholder data under contractual PCI obligations",
       "tags": ["pci-dss", "payment-cards", "data-security", "contractual-standard"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO/IEC 27001:2022 — Information security management systems (ISMS)"],
+      "triggers": ["payment-service", "cardholder-data", "bank", "securities-firm"]
     },
     {
       "document": "Payment Services Directive 2 (PSD2), Directive (EU) 2015/2366",
@@ -199,7 +295,11 @@
       "legal_force": "directive",
       "applies_to": "EU payment service providers subject to open banking and strong customer authentication rules",
       "tags": ["psd2", "eu", "open-banking", "payments"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": ["PSD3 proposal, COM(2023) 366"],
+      "equivalents": null,
+      "triggers": ["payment-service", "eu-financial", "open-banking"]
     },
     {
       "document": "PSD3 proposal, COM(2023) 366",
@@ -207,7 +307,11 @@
       "legal_force": "directive",
       "applies_to": "proposed modernisation of EU payment services rules, not yet adopted",
       "tags": ["psd3", "eu", "proposal", "payments"],
-      "status": "proposed"
+      "status": "proposed",
+      "supersedes": ["Payment Services Directive 2 (PSD2), Directive (EU) 2015/2366"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["payment-service", "eu-financial", "open-banking"]
     },
     {
       "document": "ISO 20022-1:2013 — Universal financial industry message scheme",
@@ -215,7 +319,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "financial institutions using the ISO 20022 structured financial-messaging metamodel",
       "tags": ["iso-20022", "messaging", "standard", "financial-industry"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["bank", "payment-service", "securities-firm"]
     },
     {
       "document": "Customer Security Programme (CSP)",
@@ -223,7 +331,11 @@
       "legal_force": "binding-standard",
       "applies_to": "Swift network users required to implement mandatory security controls",
       "tags": ["swift", "csp", "security-controls", "payments"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["PCI DSS (Document Library)", "ISO/IEC 27001:2022 — Information security management systems (ISMS)"],
+      "triggers": ["payment-service", "bank", "securities-firm"]
     },
     {
       "document": "Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554",
@@ -231,7 +343,11 @@
       "legal_force": "regulation",
       "applies_to": "EU financial entities and critical ICT third-party providers subject to ICT risk, testing and incident-reporting rules",
       "tags": ["dora", "eu", "ict-risk", "operational-resilience"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["NIS2 Directive (EU) 2022/2555", "Cyber Security Framework for Banks (2016)"],
+      "triggers": ["eu-financial", "bank", "insurer", "investment-firm", "operational-resilience", "ict-risk"]
     },
     {
       "document": "IFRS Accounting Standards (list of standards)",
@@ -239,7 +355,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "entities in jurisdictions that adopt IFRS Accounting Standards for financial reporting",
       "tags": ["ifrs", "accounting", "financial-reporting", "standards"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Standards (US GAAP Codification)"],
+      "triggers": ["public-company", "accounting-standard", "investment-firm"]
     },
     {
       "document": "Standards (US GAAP Codification)",
@@ -247,7 +367,11 @@
       "legal_force": "framework",
       "applies_to": "US entities preparing financial statements under the Accounting Standards Codification (US GAAP)",
       "tags": ["gaap", "fasb", "accounting", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["IFRS Accounting Standards (list of standards)"],
+      "triggers": ["public-company", "accounting-standard", "us"]
     },
     {
       "document": "Sarbanes-Oxley Act of 2002",
@@ -255,7 +379,11 @@
       "legal_force": "law",
       "applies_to": "US public companies subject to audit reform requirements and PCAOB oversight",
       "tags": ["sox", "us", "audit", "corporate-governance", "pcaob"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["public-company", "accounting-standard", "audit"]
     }
   ]
 }

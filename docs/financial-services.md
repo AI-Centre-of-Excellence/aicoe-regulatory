@@ -7,7 +7,6 @@ order: 1
 
 A curated index of authoritative, primary-source regulation, prudential standards, market-conduct rules, and supervisory frameworks governing financial services. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Banking & prudential
 
@@ -70,5 +69,5 @@ A curated index of authoritative, primary-source regulation, prudential standard
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors.
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where a standard has a live revision or a proposal is in the legislative pipeline (for example the PSD3 proposal, or the EU AML package applying from 2027), the Notes column flags the status; update rows as revisions reach final adoption.

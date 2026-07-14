@@ -7,7 +7,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Certification standard for quality management systems in any organization",
       "tags": ["iso9001", "qms", "certification", "quality-management"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["IATF 16949:2016 — Automotive quality management system", "AS9100D — Quality management systems — Requirements for aviation, space and defense organizations"],
+      "triggers": ["manufacturer", "quality-management", "certification"]
     },
     {
       "document": "ISO 9000:2015 — Quality management systems — Fundamentals and vocabulary",
@@ -15,7 +19,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Defines concepts and vocabulary underpinning the ISO 9000 family",
       "tags": ["iso9000", "vocabulary", "qms", "foundational"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 9001:2015 — Quality management systems — Requirements"],
+      "triggers": ["manufacturer", "quality-management"]
     },
     {
       "document": "ISO 9004:2018 — Quality of an organization — Guidance to achieve sustained success",
@@ -23,7 +31,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Guidance extending ISO 9001 toward sustained organizational performance",
       "tags": ["iso9004", "qms", "guidance", "sustained-success"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 9001:2015 — Quality management systems — Requirements"],
+      "triggers": ["manufacturer", "quality-management"]
     },
     {
       "document": "ISO 19011:2018 — Guidelines for auditing management systems",
@@ -31,7 +43,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Guides audit programmes across QMS, EMS and OH&S management systems",
       "tags": ["iso19011", "auditing", "management-systems"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 9001:2015 — Quality management systems — Requirements", "ISO 14001:2015 — Environmental management systems — Requirements", "ISO 45001:2018 — Occupational health and safety management systems"],
+      "triggers": ["manufacturer", "quality-management", "environmental-management", "industrial-safety"]
     },
     {
       "document": "ISO 9000 family — Quality management",
@@ -39,7 +55,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "ISO's index page for the full quality management standards family",
       "tags": ["iso9000-family", "index", "quality-management"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["manufacturer", "quality-management"]
     },
     {
       "document": "IATF 16949:2016 — Automotive quality management system",
@@ -47,7 +67,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Automotive-sector quality management system built on ISO 9001",
       "tags": ["iatf16949", "automotive", "qms"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 9001:2015 — Quality management systems — Requirements"],
+      "triggers": ["manufacturer", "automotive-supplier", "quality-management"]
     },
     {
       "document": "AS9100D — Quality management systems — Requirements for aviation, space and defense organizations",
@@ -55,7 +79,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Aerospace and defense quality management system extending ISO 9001",
       "tags": ["as9100", "aerospace", "defense", "qms"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 9001:2015 — Quality management systems — Requirements", "AS9100D — Quality Management Systems: Requirements for Aviation, Space, and Defense Organizations"],
+      "triggers": ["manufacturer", "aerospace-manufacturer", "quality-management"]
     },
     {
       "document": "General Product Safety Regulation (EU) 2023/988 (GPSR)",
@@ -63,7 +91,11 @@
       "legal_force": "regulation",
       "applies_to": "General safety framework for consumer non-food products, applies from 13 Dec 2024",
       "tags": ["gpsr", "product-safety", "eu", "consumer-products"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Regulations, Laws & Standards", "US Consumer Product Safety Commission"],
+      "triggers": ["eu-market-product", "consumer-product", "manufacturer"]
     },
     {
       "document": "CE marking",
@@ -71,7 +103,11 @@
       "legal_force": "framework",
       "applies_to": "Explains manufacturer conformity-marking obligations for the EEA market",
       "tags": ["ce-marking", "conformity", "eea"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["General Product Safety Regulation (EU) 2023/988 (GPSR)", "RoHS Directive 2011/65/EU", "REACH Regulation (EC) No 1907/2006", "Machinery Regulation (EU) 2023/1230"],
+      "triggers": ["eu-market-product", "consumer-product", "manufacturer"]
     },
     {
       "document": "The 'Blue Guide' on the implementation of EU product rules 2022",
@@ -79,7 +115,11 @@
       "legal_force": "guidance",
       "applies_to": "Guides uniform application of the New Legislative Framework, conformity assessment and CE marking",
       "tags": ["blue-guide", "guidance", "nlf", "conformity-assessment"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["CE marking"],
+      "triggers": ["eu-market-product", "consumer-product", "manufacturer"]
     },
     {
       "document": "RoHS Directive 2011/65/EU",
@@ -87,7 +127,11 @@
       "legal_force": "directive",
       "applies_to": "Restricts hazardous substances in electrical and electronic equipment",
       "tags": ["rohs", "directive", "hazardous-substances", "eee"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["REACH Regulation (EC) No 1907/2006"],
+      "triggers": ["eu-market-product", "consumer-product", "manufacturer", "hazardous-substances"]
     },
     {
       "document": "REACH Regulation (EC) No 1907/2006",
@@ -95,7 +139,11 @@
       "legal_force": "regulation",
       "applies_to": "Governs registration, evaluation, authorisation and restriction of chemicals",
       "tags": ["reach", "chemicals", "regulation", "echa"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["TSCA — Toxic Substances Control Act", "RoHS Directive 2011/65/EU", "CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging"],
+      "triggers": ["chemical-substance", "eu-market-product", "manufacturer"]
     },
     {
       "document": "CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging",
@@ -103,7 +151,11 @@
       "legal_force": "regulation",
       "applies_to": "Applies the UN GHS to classification, labelling and packaging of substances and mixtures",
       "tags": ["clp", "ghs", "classification", "labelling"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["GHS — Globally Harmonized System of Classification and Labelling of Chemicals", "29 CFR 1910.1200 — Hazard Communication", "REACH Regulation (EC) No 1907/2006"],
+      "triggers": ["chemical-substance", "eu-market-product", "manufacturer"]
     },
     {
       "document": "US Consumer Product Safety Commission",
@@ -111,7 +163,11 @@
       "legal_force": "framework",
       "applies_to": "US federal agency protecting the public from unreasonable consumer-product injury risk",
       "tags": ["cpsc", "agency", "consumer-safety", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["General Product Safety Regulation (EU) 2023/988 (GPSR)"],
+      "triggers": ["consumer-product", "manufacturer"]
     },
     {
       "document": "Regulations, Laws & Standards",
@@ -119,7 +175,11 @@
       "legal_force": "guidance",
       "applies_to": "Indexes CPSC mandatory standards, bans, rulemaking and recognized voluntary standards",
       "tags": ["cpsc", "index", "standards", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["General Product Safety Regulation (EU) 2023/988 (GPSR)"],
+      "triggers": ["consumer-product", "manufacturer"]
     },
     {
       "document": "OSHA Law and Regulations",
@@ -127,7 +187,11 @@
       "legal_force": "framework",
       "applies_to": "Gateway to OSHA standards, rulemaking and the General Duty Clause",
       "tags": ["osha", "gateway", "index", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 45001:2018 — Occupational health and safety management systems"],
+      "triggers": ["manufacturer", "industrial-safety"]
     },
     {
       "document": "29 CFR 1910 — Occupational Safety and Health Standards (General Industry)",
@@ -135,7 +199,11 @@
       "legal_force": "regulation",
       "applies_to": "General-industry occupational safety and health standards index",
       "tags": ["osha", "29-cfr-1910", "general-industry", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["29 CFR 1926 — Safety and Health Regulations for Construction", "ISO 45001:2018 — Occupational health and safety management systems"],
+      "triggers": ["manufacturer", "industrial-safety", "general-industry"]
     },
     {
       "document": "29 CFR 1926 — Safety and Health Regulations for Construction",
@@ -143,7 +211,11 @@
       "legal_force": "regulation",
       "applies_to": "Construction-industry safety and health standards index",
       "tags": ["osha", "29-cfr-1926", "construction", "us"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["29 CFR 1910 — Occupational Safety and Health Standards (General Industry)"],
+      "triggers": ["manufacturer", "industrial-safety", "construction"]
     },
     {
       "document": "29 CFR 1910.1200 — Hazard Communication",
@@ -151,7 +223,11 @@
       "legal_force": "regulation",
       "applies_to": "Requires hazard classification, labelling, safety data sheets and worker training aligned to GHS",
       "tags": ["osha", "hazcom", "ghs", "sds"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging", "GHS — Globally Harmonized System of Classification and Labelling of Chemicals"],
+      "triggers": ["manufacturer", "chemical-substance", "industrial-safety"]
     },
     {
       "document": "ISO 45001:2018 — Occupational health and safety management systems",
@@ -159,7 +235,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "OH&S management-system standard superseding OHSAS 18001",
       "tags": ["iso45001", "ohs", "management-system"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["OHSAS 18001"],
+      "superseded_by": null,
+      "equivalents": ["OSHA Law and Regulations", "29 CFR 1910 — Occupational Safety and Health Standards (General Industry)"],
+      "triggers": ["manufacturer", "industrial-safety", "occupational-health"]
     },
     {
       "document": "ISO 45000 family — Occupational health and safety",
@@ -167,7 +247,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "ISO's index page for the OH&S management family",
       "tags": ["iso45000-family", "index", "ohs"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["manufacturer", "industrial-safety", "occupational-health"]
     },
     {
       "document": "IEC 61508-1:2010 — Functional safety of E/E/PE safety-related systems",
@@ -175,7 +259,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Base standard of the seven-part functional-safety series for electrical/electronic/programmable-electronic systems",
       "tags": ["iec61508", "functional-safety", "eepe"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 45001:2018 — Occupational health and safety management systems"],
+      "triggers": ["manufacturer", "industrial-safety", "functional-safety"]
     },
     {
       "document": "Machinery Regulation (EU) 2023/1230",
@@ -183,7 +271,11 @@
       "legal_force": "regulation",
       "applies_to": "Sets machinery health and safety requirements, repeals Directive 2006/42/EC from 20 Jan 2027",
       "tags": ["machinery-regulation", "eu", "safety"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Directive 2006/42/EC"],
+      "superseded_by": null,
+      "equivalents": ["IEC 61508-1:2010 — Functional safety of E/E/PE safety-related systems"],
+      "triggers": ["manufacturer", "eu-market-product", "industrial-safety"]
     },
     {
       "document": "Seveso III Directive 2012/18/EU",
@@ -191,7 +283,11 @@
       "legal_force": "directive",
       "applies_to": "Controls major-accident hazards involving dangerous substances at industrial establishments",
       "tags": ["seveso", "directive", "major-accident-hazards"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Seveso II Directive 96/82/EC"],
+      "superseded_by": null,
+      "equivalents": ["REACH Regulation (EC) No 1907/2006"],
+      "triggers": ["manufacturer", "eu-market-product", "chemical-substance", "industrial-safety"]
     },
     {
       "document": "ISO 14001:2015 — Environmental management systems — Requirements",
@@ -199,7 +295,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Core environmental management system standard",
       "tags": ["iso14001", "ems", "environmental-management"],
-      "status": "superseded"
+      "status": "superseded",
+      "supersedes": ["ISO 14001:2004"],
+      "superseded_by": ["ISO 14001:2026"],
+      "equivalents": ["EMAS — Eco-Management and Audit Scheme"],
+      "triggers": ["manufacturer", "environmental-management"]
     },
     {
       "document": "ISO 14000 family — Environmental management",
@@ -207,7 +307,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "ISO's index page for the environmental management family",
       "tags": ["iso14000-family", "index", "environmental"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["manufacturer", "environmental-management"]
     },
     {
       "document": "ISO 50001:2018 — Energy management systems — Requirements",
@@ -215,7 +319,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Energy management system standard for continual energy-performance improvement",
       "tags": ["iso50001", "energy-management"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 14001:2015 — Environmental management systems — Requirements"],
+      "triggers": ["manufacturer", "environmental-management", "energy-management"]
     },
     {
       "document": "ISO 14064-1:2018 — Greenhouse gases — Organization-level quantification and reporting",
@@ -223,7 +331,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "Specifies GHG emissions and removals accounting, supports ESG reporting",
       "tags": ["iso14064", "ghg", "esg", "emissions"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["GHG Protocol Corporate Accounting and Reporting Standard"],
+      "triggers": ["manufacturer", "environmental-management", "ghg-emissions"]
     },
     {
       "document": "Pharmaceutical GMP / EU GMP / GAMP",
@@ -231,7 +343,11 @@
       "legal_force": "guidance",
       "applies_to": "Cross-reference pointer directing to the Life Sciences 'Clinical research' page's GxP section for GMP/GAMP content",
       "tags": ["gmp", "gamp", "pointer", "cross-reference"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["manufacturer", "pharmaceutical", "quality-management"]
     }
   ]
 }

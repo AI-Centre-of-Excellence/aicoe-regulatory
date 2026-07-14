@@ -10,49 +10,88 @@
 
 - `wiki-manifest.json` — the authoritative dataset. `pages[].entries[]`
   is one record per document with routing metadata (see fields below).
-- `search-index.json` — flat search index used by the site UI.
+- `cross-refs.json` — cross-reference map of equivalent, related, and
+  referenced standards across jurisdictions. Each mapping has `from`,
+  `to`, `type`, `scope`, and `bidirectional` fields.
+- `search-index.json` — flat search index for keyword lookups.
 
 ## Entry fields (all factual, for routing — not the standard's text)
 
 - `document`, `issuer`, `section` — identity
 - `link` — the issuing body's official URL; `url` — anchor in this list
-- `jurisdiction` — where it has force (e.g. US, EU, UK, International, Global)
-- `legal_force` — one of: law, regulation, directive, binding-standard,
+- `jurisdiction` — where it has force (US, EU, UK, India, Global, International)
+- `legal_force` — law, regulation, directive, binding-standard,
   guidance, framework, voluntary-standard, best-practice
-- `applies_to` — the factual trigger that brings it into scope
-- `tags` — controlled keywords
-- `status` — current | superseded | proposed | draft
+- `applies_to` — descriptive scope text
+- `triggers` — machine-readable tags for what brings it into scope
+  (e.g. processes-pii, federal-agency, cardholder-data, eu-market)
+- `tags` — controlled keywords for topical filtering
+- `status` — current, superseded, draft, proposed
+- `supersedes` — document names this standard replaces (array or null)
+- `superseded_by` — document names that replace this (array or null)
+- `equivalents` — document names functionally equivalent in other
+  frameworks/jurisdictions (array or null)
 - `notes` — short factual note (version, successor, access)
 
+## Cross-reference types (in cross-refs.json)
+
+Types: adoption, builds-on, companion, complementary, equivalent, extended-by, extends, implemented-by, implements, part-of, references, sector-specific, supersedes.
+sector-specific, part-of.
 ## How to route
 
-Filter `entries` by `jurisdiction` + `applies_to`/`tags`, then rank by
-`legal_force` (law/regulation/binding-standard are mandatory; guidance and
-voluntary-standard are advisory) and prefer `status: current`. Consult the
-`link` for the authoritative text — do not rely on this index for wording.
+1. Identify jurisdiction + domain. 2. Filter entries by `jurisdiction`
+and `tags`/`section`. 3. Filter by `triggers` for machine-readable scope.
+4. Rank by `legal_force` (law/regulation/binding-standard = mandatory;
+guidance/framework/voluntary-standard = advisory). 5. Prefer `status:
+current`; check `superseded_by` for successors. 6. Use `equivalents` and
+`cross-refs.json` to find the same standard in other jurisdictions. 7.
+Always consult the `link` for authoritative text.
 
 ## Domains & topics
+
+### AI Agents
+- For AI agents — /for-ai-agents.html (0 links)
 
 ### Life Sciences
 - Clinical research — /clinical-research.html (82 links)
 - Healthcare — /healthcare.html (39 links)
+- Medical devices — /medical-devices.html (28 links)
 
 ### Financial Services
 - Financial services — /financial-services.html (32 links)
+- Digital assets & crypto — /digital-assets-crypto.html (8 links)
+- Insurance — /insurance.html (9 links)
 
 ### Manufacturing
 - Manufacturing — /manufacturing.html (28 links)
 
+### Automotive & Mobility
+- Automotive & mobility — /automotive-mobility.html (8 links)
+
 ### Aerospace & Defense
 - Aerospace & defense — /aerospace-defense.html (29 links)
 
+### Energy & Utilities
+- Energy & utilities — /energy-utilities.html (7 links)
+
 ### Hi-Tech / Technology
-- Data protection & privacy — /data-protection-privacy.html (26 links)
-- Cybersecurity — /cybersecurity.html (30 links)
-- AI governance — /ai-governance.html (24 links)
+- Data protection & privacy — /data-protection-privacy.html (40 links)
+- Cybersecurity — /cybersecurity.html (44 links)
+- AI governance — /ai-governance.html (30 links)
+- Accessibility — /accessibility.html (42 links)
+- Software engineering — /software-engineering.html (19 links)
+- Digital markets & platforms — /digital-markets-platforms.html (9 links)
+- Online safety & child protection — /online-safety.html (9 links)
+- Telecommunications — /telecommunications.html (8 links)
 
 ### Logistics & Supply Chain
 - Logistics & supply chain — /logistics-supply-chain.html (28 links)
+
+### Food & Agriculture
+- Food safety & agriculture — /food-agriculture.html (8 links)
+
+### Consumer Protection
+- Consumer protection & advertising — /consumer-protection.html (12 links)
 
 ### Sustainability & ESG
 - Sustainability & ESG — /sustainability-esg.html (30 links)

@@ -6,208 +6,851 @@
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "processing of personal data of people in the EU/EEA, by controllers/processors inside or outside the EU targeting EU data subjects",
-      "tags": ["gdpr", "eu", "personal-data", "cross-border-transfer", "consent"],
-      "status": "current"
+      "tags": [
+        "gdpr",
+        "eu",
+        "personal-data",
+        "cross-border-transfer",
+        "consent"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "UK GDPR — retained Regulation (EU) 2016/679"
+      ],
+      "triggers": [
+        "processes-pii",
+        "eu-establishment",
+        "international-transfer"
+      ]
     },
     {
       "document": "UK GDPR — retained Regulation (EU) 2016/679",
       "jurisdiction": "UK",
       "legal_force": "law",
       "applies_to": "processing of personal data in the UK, the domesticated version of the EU GDPR after Brexit",
-      "tags": ["uk-gdpr", "uk", "personal-data", "retained-eu-law"],
-      "status": "current"
+      "tags": [
+        "uk-gdpr",
+        "uk",
+        "personal-data",
+        "retained-eu-law"
+      ],
+      "status": "current",
+      "supersedes": [
+        "Data Protection Act 1998"
+      ],
+      "superseded_by": null,
+      "equivalents": [
+        "General Data Protection Regulation — Regulation (EU) 2016/679"
+      ],
+      "triggers": [
+        "processes-pii",
+        "uk-establishment",
+        "international-transfer"
+      ]
     },
     {
       "document": "Data Protection Act 2018",
       "jurisdiction": "UK",
       "legal_force": "law",
       "applies_to": "UK data protection generally, implements and supplements the UK GDPR including law-enforcement and intelligence-services processing",
-      "tags": ["uk", "dpa-2018", "personal-data", "statute"],
-      "status": "current"
+      "tags": [
+        "uk",
+        "dpa-2018",
+        "personal-data",
+        "statute"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "uk-establishment"
+      ]
     },
     {
       "document": "UK GDPR guidance and resources",
       "jurisdiction": "UK",
       "legal_force": "guidance",
       "applies_to": "organisations seeking practical interpretation of UK GDPR obligations from the UK's data protection regulator",
-      "tags": ["uk", "ico", "guidance", "uk-gdpr"],
-      "status": "current"
+      "tags": [
+        "uk",
+        "ico",
+        "guidance",
+        "uk-gdpr"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "EDPB guidelines, recommendations & documents"
+      ],
+      "triggers": [
+        "processes-pii",
+        "uk-establishment"
+      ]
     },
     {
       "document": "ePrivacy Directive — Directive 2002/58/EC",
       "jurisdiction": "EU",
       "legal_force": "directive",
       "applies_to": "electronic communications privacy, including cookies, unsolicited marketing messages, and traffic/location data",
-      "tags": ["eprivacy", "eu", "cookies", "electronic-communications"],
-      "status": "current"
+      "tags": [
+        "eprivacy",
+        "eu",
+        "cookies",
+        "electronic-communications"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "eu-establishment"
+      ]
     },
     {
       "document": "EDPB guidelines, recommendations & documents",
       "jurisdiction": "EU",
       "legal_force": "guidance",
       "applies_to": "entities needing interpretive guidance, recommendations, opinions, and binding decisions on GDPR application across EU supervisory authorities",
-      "tags": ["edpb", "eu", "guidance", "gdpr-interpretation"],
-      "status": "current"
+      "tags": [
+        "edpb",
+        "eu",
+        "guidance",
+        "gdpr-interpretation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "UK GDPR guidance and resources"
+      ],
+      "triggers": [
+        "processes-pii",
+        "eu-establishment"
+      ]
     },
     {
       "document": "Standard Contractual Clauses (SCC)",
       "jurisdiction": "EU",
       "legal_force": "binding-standard",
       "applies_to": "international transfers of personal data from the EU to third countries lacking an adequacy decision",
-      "tags": ["scc", "eu", "cross-border-transfer", "contract-clauses"],
-      "status": "current"
+      "tags": [
+        "scc",
+        "eu",
+        "cross-border-transfer",
+        "contract-clauses"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Cross-Border Privacy Rules (CBPR) System — Program Requirements"
+      ],
+      "triggers": [
+        "processes-pii",
+        "eu-establishment",
+        "international-transfer"
+      ]
     },
     {
       "document": "Adequacy decisions for non-EU countries",
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "transfers of personal data to specific third countries that the European Commission has determined provide adequate protection",
-      "tags": ["adequacy-decision", "eu", "cross-border-transfer", "article-45"],
-      "status": "current"
+      "tags": [
+        "adequacy-decision",
+        "eu",
+        "cross-border-transfer",
+        "article-45"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "EU-U.S. Data Privacy Framework"
+      ],
+      "triggers": [
+        "processes-pii",
+        "eu-establishment",
+        "international-transfer"
+      ]
     },
     {
       "document": "EU-U.S. Data Privacy Framework",
       "jurisdiction": "International",
       "legal_force": "framework",
       "applies_to": "transfers of EU/UK/Swiss personal data to US organisations that self-certify participation",
-      "tags": ["dpf", "eu-us", "cross-border-transfer", "self-certification", "ftc"],
-      "status": "current"
+      "tags": [
+        "dpf",
+        "eu-us",
+        "cross-border-transfer",
+        "self-certification",
+        "ftc"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Adequacy decisions for non-EU countries",
+        "Standard Contractual Clauses (SCC)"
+      ],
+      "triggers": [
+        "processes-pii",
+        "eu-establishment",
+        "international-transfer"
+      ]
     },
     {
       "document": "California Consumer Privacy Act (CCPA) — statute",
       "jurisdiction": "US (California)",
       "legal_force": "law",
       "applies_to": "businesses collecting personal information of California residents meeting statutory thresholds",
-      "tags": ["ccpa", "california", "us-state-law", "consumer-privacy"],
-      "status": "current"
+      "tags": [
+        "ccpa",
+        "california",
+        "us-state-law",
+        "consumer-privacy"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Virginia Consumer Data Protection Act (VCDPA)"
+      ],
+      "triggers": [
+        "processes-pii",
+        "california-residents"
+      ]
     },
     {
       "document": "California Consumer Privacy Act (CCPA) — overview",
       "jurisdiction": "US (California)",
       "legal_force": "guidance",
       "applies_to": "consumers and businesses seeking a plain-language summary of CCPA rights and obligations",
-      "tags": ["ccpa", "california", "guidance", "consumer-rights"],
-      "status": "current"
+      "tags": [
+        "ccpa",
+        "california",
+        "guidance",
+        "consumer-rights"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "california-residents"
+      ]
     },
     {
       "document": "California Privacy Protection Agency (CPPA)",
       "jurisdiction": "US (California)",
       "legal_force": "guidance",
       "applies_to": "entities interacting with California's dedicated state privacy regulator established by the CPRA",
-      "tags": ["cppa", "california", "regulator", "cpra"],
-      "status": "current"
+      "tags": [
+        "cppa",
+        "california",
+        "regulator",
+        "cpra"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "california-residents"
+      ]
     },
     {
       "document": "CCPA regulations",
       "jurisdiction": "US (California)",
       "legal_force": "regulation",
       "applies_to": "businesses subject to the CCPA needing the implementing rules issued under CPPA rulemaking authority",
-      "tags": ["ccpa", "california", "regulations", "cppa", "rulemaking"],
-      "status": "current"
+      "tags": [
+        "ccpa",
+        "california",
+        "regulations",
+        "cppa",
+        "rulemaking"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "california-residents"
+      ]
     },
     {
       "document": "Virginia Consumer Data Protection Act (VCDPA)",
       "jurisdiction": "US (Virginia)",
       "legal_force": "law",
       "applies_to": "businesses processing personal data of Virginia residents meeting statutory thresholds",
-      "tags": ["vcdpa", "virginia", "us-state-law", "consumer-privacy"],
-      "status": "current"
+      "tags": [
+        "vcdpa",
+        "virginia",
+        "us-state-law",
+        "consumer-privacy"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "California Consumer Privacy Act (CCPA) — statute"
+      ],
+      "triggers": [
+        "processes-pii",
+        "virginia-residents"
+      ]
     },
     {
       "document": "State laws related to digital privacy",
       "jurisdiction": "US",
       "legal_force": "guidance",
       "applies_to": "organisations tracking the broader landscape of US state privacy statutes beyond California and Virginia",
-      "tags": ["us-state-law", "ncsl", "tracker", "digital-privacy"],
-      "status": "current"
+      "tags": [
+        "us-state-law",
+        "ncsl",
+        "tracker",
+        "digital-privacy"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii"
+      ]
     },
     {
       "document": "Children's Online Privacy Protection Rule (COPPA)",
       "jurisdiction": "US",
       "legal_force": "law",
       "applies_to": "online collection of personal data from children under 13 in the US",
-      "tags": ["coppa", "us", "children", "ftc", "online-services"],
-      "status": "current"
+      "tags": [
+        "coppa",
+        "us",
+        "children",
+        "ftc",
+        "online-services"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "childrens-data"
+      ]
     },
     {
       "document": "Federal Trade Commission Act",
       "jurisdiction": "US",
       "legal_force": "law",
       "applies_to": "US entities engaging in unfair or deceptive commercial practices, the primary federal privacy-enforcement basis absent a sector-specific law",
-      "tags": ["ftc-act", "us", "section-5", "enforcement"],
-      "status": "current"
+      "tags": [
+        "ftc-act",
+        "us",
+        "section-5",
+        "enforcement"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii"
+      ]
     },
     {
       "document": "Privacy and Security Enforcement",
       "jurisdiction": "US",
       "legal_force": "guidance",
       "applies_to": "parties reviewing the FTC's record of privacy and data-security enforcement actions under Section 5",
-      "tags": ["ftc", "us", "enforcement", "guidance"],
-      "status": "current"
+      "tags": [
+        "ftc",
+        "us",
+        "enforcement",
+        "guidance"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii"
+      ]
     },
     {
       "document": "Gramm-Leach-Bliley Act",
       "jurisdiction": "US",
       "legal_force": "law",
       "applies_to": "financial institutions handling consumer financial information, including the Safeguards Rule",
-      "tags": ["glba", "us", "financial-services", "safeguards-rule"],
-      "status": "current"
+      "tags": [
+        "glba",
+        "us",
+        "financial-services",
+        "safeguards-rule"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "financial-services"
+      ]
     },
     {
       "document": "HIPAA — Health Information Privacy",
       "jurisdiction": "US",
       "legal_force": "law",
       "applies_to": "covered entities and business associates handling protected health information in the US",
-      "tags": ["hipaa", "us", "healthcare", "phi"],
-      "status": "current"
+      "tags": [
+        "hipaa",
+        "us",
+        "healthcare",
+        "phi"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "HIPAA Privacy Rule"
+      ],
+      "triggers": [
+        "processes-pii",
+        "phi",
+        "healthcare"
+      ]
     },
     {
       "document": "HIPAA Privacy Rule",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "covered entities handling individually identifiable health information, sets national protection standards",
-      "tags": ["hipaa", "us", "healthcare", "privacy-rule", "phi"],
-      "status": "current"
+      "tags": [
+        "hipaa",
+        "us",
+        "healthcare",
+        "privacy-rule",
+        "phi"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "HIPAA — Health Information Privacy"
+      ],
+      "triggers": [
+        "processes-pii",
+        "phi",
+        "healthcare"
+      ]
     },
     {
       "document": "Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data",
       "jurisdiction": "International",
       "legal_force": "framework",
       "applies_to": "member-country policymakers and organisations seeking foundational cross-border privacy principles",
-      "tags": ["oecd", "international", "framework", "cross-border-transfer", "founding-principles"],
-      "status": "current"
+      "tags": [
+        "oecd",
+        "international",
+        "framework",
+        "cross-border-transfer",
+        "founding-principles"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Convention 108 and Protocol (Convention 108+)"
+      ],
+      "triggers": [
+        "processes-pii",
+        "international-transfer"
+      ]
     },
     {
       "document": "Convention 108 and Protocol (Convention 108+)",
       "jurisdiction": "International",
       "legal_force": "law",
       "applies_to": "signatory states bound by the first international treaty on data protection, as modernised by the 2018 protocol",
-      "tags": ["convention-108", "treaty", "council-of-europe", "international", "data-protection"],
-      "status": "current"
+      "tags": [
+        "convention-108",
+        "treaty",
+        "council-of-europe",
+        "international",
+        "data-protection"
+      ],
+      "status": "current",
+      "supersedes": [
+        "Convention 108"
+      ],
+      "superseded_by": null,
+      "equivalents": [
+        "Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data"
+      ],
+      "triggers": [
+        "processes-pii",
+        "international-transfer"
+      ]
     },
     {
       "document": "Cross-Border Privacy Rules (CBPR) System — Program Requirements",
       "jurisdiction": "International",
       "legal_force": "framework",
       "applies_to": "organisations seeking accountability-based certification for cross-border personal data transfers among participating economies",
-      "tags": ["cbpr", "apec", "cross-border-transfer", "certification", "international"],
-      "status": "current"
+      "tags": [
+        "cbpr",
+        "apec",
+        "cross-border-transfer",
+        "certification",
+        "international"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Standard Contractual Clauses (SCC)"
+      ],
+      "triggers": [
+        "processes-pii",
+        "international-transfer"
+      ]
     },
     {
       "document": "ISO/IEC 27701:2025 — Privacy information management systems",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "organisations implementing a privacy information management system extension to ISO/IEC 27001",
-      "tags": ["iso-27701", "pims", "standard", "international", "paid-standard"],
-      "status": "current"
+      "tags": [
+        "iso-27701",
+        "pims",
+        "standard",
+        "international",
+        "paid-standard"
+      ],
+      "status": "current",
+      "supersedes": [
+        "ISO/IEC 27701:2019 — Privacy information management systems"
+      ],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii"
+      ]
     },
     {
       "document": "NIST Privacy Framework",
       "jurisdiction": "US",
       "legal_force": "framework",
       "applies_to": "organisations voluntarily identifying and managing privacy risk in products and services",
-      "tags": ["nist", "us", "framework", "privacy-risk", "voluntary"],
-      "status": "current"
+      "tags": [
+        "nist",
+        "us",
+        "framework",
+        "privacy-risk",
+        "voluntary"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "ISO/IEC 27701:2025 — Privacy information management systems"
+      ],
+      "triggers": [
+        "processes-pii"
+      ]
+    },
+    {
+      "document": "Lei Geral de Proteção de Dados (LGPD) — Brazilian General Data Protection Law",
+      "jurisdiction": "Brazil",
+      "legal_force": "law",
+      "applies_to": "Processing of personal data in Brazil; ANPD is the supervisory authority",
+      "tags": [
+        "lgpd",
+        "brazil",
+        "privacy",
+        "data-protection"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "General Data Protection Regulation — Regulation (EU) 2016/679"
+      ],
+      "triggers": [
+        "processes-pii",
+        "brazil-market",
+        "brazil-establishment"
+      ]
+    },
+    {
+      "document": "Personal Information Protection Law (PIPL) — 中华人民共和国个人信息保护法",
+      "jurisdiction": "China",
+      "legal_force": "law",
+      "applies_to": "Processing of personal information by organisations; in force since 1 Nov 2021",
+      "tags": [
+        "pipl",
+        "china",
+        "privacy",
+        "data-protection"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "General Data Protection Regulation — Regulation (EU) 2016/679"
+      ],
+      "triggers": [
+        "processes-pii",
+        "china-market",
+        "china-establishment"
+      ]
+    },
+    {
+      "document": "Digital Personal Data Protection Act, 2023 (DPDP Act)",
+      "jurisdiction": "India",
+      "legal_force": "law",
+      "applies_to": "All processing of digital personal data within India; data fiduciaries and data principals",
+      "tags": [
+        "india",
+        "dpdp",
+        "data-protection",
+        "privacy",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": [
+        "IT (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011 (SPDI Rules)"
+      ],
+      "superseded_by": null,
+      "equivalents": [
+        "General Data Protection Regulation — Regulation (EU) 2016/679",
+        "Lei Geral de Proteção de Dados (LGPD) — Brazilian General Data Protection Law",
+        "Personal Information Protection Law (PIPL) — 中华人民共和国个人信息保护法"
+      ],
+      "triggers": [
+        "processes-pii",
+        "india-market",
+        "india-data-processing"
+      ]
+    },
+    {
+      "document": "Digital Personal Data Protection Rules, 2025",
+      "jurisdiction": "India",
+      "legal_force": "regulation",
+      "applies_to": "Implementing rules for the DPDP Act; gazette notification Nov 2025",
+      "tags": [
+        "india",
+        "dpdp",
+        "rules",
+        "meity",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "india-market"
+      ]
+    },
+    {
+      "document": "Information Technology Act, 2000 (IT Act)",
+      "jurisdiction": "India",
+      "legal_force": "law",
+      "applies_to": "Electronic governance, cybercrime, data protection; parent legislation for SPDI Rules and CERT-In",
+      "tags": [
+        "india",
+        "it-act",
+        "cybercrime",
+        "electronic-governance"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": [
+        "Digital India Act, 2023 (draft)"
+      ],
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "electronic-governance"
+      ]
+    },
+    {
+      "document": "IT (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011 (SPDI Rules)",
+      "jurisdiction": "India",
+      "legal_force": "regulation",
+      "applies_to": "Bodies corporate handling sensitive personal data under IT Act Section 43A",
+      "tags": [
+        "india",
+        "spdi",
+        "privacy",
+        "security-practices",
+        "mandatory"
+      ],
+      "status": "superseded",
+      "supersedes": null,
+      "superseded_by": [
+        "Digital Personal Data Protection Act, 2023 (DPDP Act)"
+      ],
+      "equivalents": null,
+      "triggers": [
+        "processes-pii",
+        "india-market",
+        "sensitive-data"
+      ]
+    },
+    {
+      "document": "Digital India Act, 2023 (draft)",
+      "jurisdiction": "India",
+      "legal_force": "guidance",
+      "applies_to": "Draft framework to replace IT Act 2000; online safety, accountability, AI regulation",
+      "tags": [
+        "india",
+        "digital-india-act",
+        "draft",
+        "meity",
+        "future"
+      ],
+      "status": "draft",
+      "supersedes": [
+        "Information Technology Act, 2000 (IT Act)"
+      ],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "online-safety"
+      ]
+    },
+    {
+      "document": "MeitY acts and policies hub",
+      "jurisdiction": "India",
+      "legal_force": "guidance",
+      "applies_to": "Repository of all MeitY-issued acts, rules, notifications and policy documents",
+      "tags": [
+        "india",
+        "meity",
+        "repository",
+        "reference"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "reference"
+      ]
+    },
+    {
+      "document": "Aadhaar Act, 2016",
+      "jurisdiction": "India",
+      "legal_force": "law",
+      "applies_to": "Establishes UIDAI; statutory framework for Aadhaar enrolment, authentication and data protection",
+      "tags": [
+        "india",
+        "aadhaar",
+        "uidai",
+        "identity",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "aadhaar-authentication",
+        "biometric-data"
+      ]
+    },
+    {
+      "document": "Aadhaar Act — UIDAI legal framework",
+      "jurisdiction": "India",
+      "legal_force": "guidance",
+      "applies_to": "Official UIDAI page with the full text of the Act and amendments",
+      "tags": [
+        "india",
+        "uidai",
+        "aadhaar",
+        "reference"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "aadhaar-authentication"
+      ]
+    },
+    {
+      "document": "Aadhaar Act 2016 as amended (PDF)",
+      "jurisdiction": "India",
+      "legal_force": "law",
+      "applies_to": "Full text including 2019 amendments; authentication records, biometric definitions, penalties",
+      "tags": [
+        "india",
+        "aadhaar",
+        "amendments",
+        "pdf"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "india-market",
+        "aadhaar-authentication"
+      ]
+    },
+    {
+      "document": "ePrivacy Regulation (proposal) — COM(2017) 10",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "electronic communications privacy; proposed successor to the ePrivacy Directive, not yet adopted",
+      "tags": ["eprivacy", "eu", "electronic-communications", "cookies"],
+      "status": "proposed",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["eu-market", "electronic-communications"]
+    },
+    {
+      "document": "Data Act — Regulation (EU) 2023/2854",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "access to and use of data generated by connected products and related services in the EU",
+      "tags": ["data-act", "eu", "iot", "data-sharing"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["eu-market", "connected-product", "data-sharing"]
+    },
+    {
+      "document": "Data Governance Act — Regulation (EU) 2022/868",
+      "jurisdiction": "EU",
+      "legal_force": "regulation",
+      "applies_to": "data intermediation services, data altruism, and re-use of protected public-sector data in the EU",
+      "tags": ["dga", "eu", "data-intermediation", "data-altruism"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["eu-market", "data-sharing"]
     }
   ]
 }

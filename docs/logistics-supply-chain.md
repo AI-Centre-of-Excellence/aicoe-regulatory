@@ -7,7 +7,6 @@ order: 1
 
 A curated index of authoritative, primary-source instruments governing international trade, customs, dangerous-goods transport, supply-chain due diligence, and traceability standards. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Trade & customs
 
@@ -61,5 +60,5 @@ A curated index of authoritative, primary-source instruments governing internati
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors.
 - **One row per document.** Keep the tables normalized; do not duplicate an instrument across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where an instrument revises on a fixed cycle (for example the UN Model Regulations, ADR/RID/ADN, GHS, and the HS Nomenclature), the Notes column names the edition or basis; update rows as new editions enter force.

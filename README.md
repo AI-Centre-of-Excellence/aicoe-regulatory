@@ -13,10 +13,10 @@ governance, AI compliance).
 | Path | What it holds |
 |------|---------------|
 | `docs/` | Source of truth: published regulatory notes and references (Markdown). |
-| `wiki/` | Generated HTML wiki (AICOE design system) built from `docs/`. |
+| `wiki/` | Generated HTML site (AICOE design system) built from `docs/`. |
 | `private/` | Internal-only material. Gitignored — never pushed. |
 
-## The wiki is generated
+## The site is generated
 
 `wiki/*.html`, `wiki/styles.css`, and `wiki/wiki-manifest.json` are **build
 artifacts** produced by `wiki/build_wiki.py`. Do not hand-edit them. Change the
@@ -26,7 +26,7 @@ Markdown in `docs/` (or the generator), then rebuild:
 python3 wiki/build_wiki.py
 ```
 
-The wiki renders the same content two ways: a sidebar-navigated HTML site for
+The site renders the same content two ways: a sidebar-navigated HTML site for
 people, and `wiki/wiki-manifest.json` (a structured index of pages, sections,
 and link counts with stable anchor IDs) for AI agents.
 

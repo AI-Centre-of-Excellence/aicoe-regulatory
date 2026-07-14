@@ -1,0 +1,113 @@
+{
+  "slug": "insurance",
+  "entries": [
+    {
+      "document": "Solvency II — Directive 2009/138/EC",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "Insurance and reinsurance undertakings operating in the EU/EEA",
+      "tags": ["solvency-ii", "eu", "prudential", "capital", "eiopa"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Solvency II review / Solvency UK"],
+      "triggers": ["insurer", "eu-market", "prudential-capital"]
+    },
+    {
+      "document": "Solvency II review / Solvency UK",
+      "jurisdiction": "UK",
+      "legal_force": "regulation",
+      "applies_to": "UK-authorised insurers and reinsurers under the reformed prudential regime",
+      "tags": ["solvency-uk", "pra", "prudential", "uk", "capital"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Solvency II — Directive 2009/138/EC"],
+      "triggers": ["insurer", "uk-market", "prudential-capital"]
+    },
+    {
+      "document": "PRA Rulebook",
+      "jurisdiction": "UK",
+      "legal_force": "regulation",
+      "applies_to": "UK banks, insurers and other PRA-authorised firms",
+      "tags": ["pra", "rulebook", "uk", "prudential", "supervision"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurer", "uk-market", "prudential-supervision"]
+    },
+    {
+      "document": "Insurance Core Principles (ICPs)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "Insurance supervisors and insurers worldwide",
+      "tags": ["iais", "icp", "supervision", "international", "standard-setting"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurer", "insurance-supervisor", "global-standard"]
+    },
+    {
+      "document": "Common Framework (ComFrame)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "Internationally Active Insurance Groups (IAIGs) and their group-wide supervisors",
+      "tags": ["iais", "comframe", "iaig", "group-supervision", "international"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurance-group", "iaig", "global-standard"]
+    },
+    {
+      "document": "Insurance Capital Standard (ICS)",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "Internationally Active Insurance Groups (IAIGs)",
+      "tags": ["iais", "ics", "capital", "iaig", "international"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurance-group", "iaig", "prudential-capital"]
+    },
+    {
+      "document": "Holistic Framework for systemic risk",
+      "jurisdiction": "International",
+      "legal_force": "framework",
+      "applies_to": "Insurance sector systemic-risk assessment and mitigation",
+      "tags": ["iais", "systemic-risk", "financial-stability", "international", "macroprudential"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurer", "systemic-risk", "global-standard"]
+    },
+    {
+      "document": "NAIC model laws and regulations",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "US state insurance regulators and insurers; models for state-level enactment",
+      "tags": ["naic", "model-law", "us", "state-regulation", "insurance"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurer", "us-market", "state-regulation"]
+    },
+    {
+      "document": "IRDAI consolidated notified regulations",
+      "jurisdiction": "India",
+      "legal_force": "regulation",
+      "applies_to": "Insurers and insurance intermediaries operating in India",
+      "tags": ["irdai", "india", "regulation", "insurance", "supervision"],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["insurer", "india-market", "prudential-supervision"]
+    }
+  ]
+}

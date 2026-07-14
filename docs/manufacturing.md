@@ -7,7 +7,6 @@ order: 1
 
 A curated index of authoritative, primary-source standards and regulations governing manufacturing quality management, product safety and conformity, industrial and functional safety, and environmental and energy management. Every link points to the issuing body's own canonical catalogue page or legal text.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Quality management systems
 
@@ -69,5 +68,5 @@ A curated index of authoritative, primary-source standards and regulations gover
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
 - **Paid standards link to the catalogue.** ISO, IEC and SAE standards are copyrighted and sold; rows link to the issuer's official catalogue page, from which the document is purchased, rather than to any full-text copy.
 - **Bot-blocked issuers were verified via the issuer's own search and catalogue.** iso.org, iec.ch, sae.org, echa.europa.eu, eur-lex.europa.eu and cpsc.gov return 403 or empty bodies to automated fetching; each canonical URL and page title here was confirmed against the issuing body's own domain, so a fetch failure reflects bot protection, not a broken link.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where a standard has a live revision (for example ISO 14001:2026, or the ISO 9001 revision due Sep 2026), the Notes column flags the successor; update rows as revisions reach publication.

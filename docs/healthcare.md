@@ -7,7 +7,6 @@ order: 2
 
 A curated index of authoritative, primary-source regulations, standards, and specifications governing health data privacy, interoperability, clinical terminologies, and medical-device software. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Health data privacy & security
 
@@ -56,7 +55,7 @@ A curated index of authoritative, primary-source regulations, standards, and spe
 
 | Document | Issuer | Link | Notes |
 |---|---|---|---|
-| 510(k) Premarket Notification | FDA (CDRH) | https://www.fda.gov/medical-devices/premarket-notification-510k | Substantial-equivalence pathway to a predicate device |
+| 510(k) Premarket Notification | FDA (CDRH) | https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k | Substantial-equivalence pathway to a predicate device |
 | De Novo Classification Request | FDA (CDRH) | https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request | Pathway for novel low-to-moderate-risk devices without a predicate |
 | Premarket Approval (PMA) | FDA (CDRH) | https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma | Most stringent pathway for Class III devices |
 | Software as a Medical Device (SaMD) | FDA (Digital Health Center of Excellence) | https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd | FDA framework and guidance for SaMD |
@@ -72,6 +71,6 @@ A curated index of authoritative, primary-source regulations, standards, and spe
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors. Paid standards (ISO 13485, IEC 62304) link to the official catalogue or webstore landing page, not to free full text.
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Known bot-blocking.** Several regulator domains (hhs.gov, ecfr.gov, eur-lex.europa.eu, fda.gov, iso.org, iec.ch) return 403 or empty bodies to automated fetchers. Those rows were corroborated by title and canonical URL via search against the issuing body's own domain; a bot-block is not a broken link.
 - **Current versions.** Where a standard has a live revision (for example FHIR releases, USCDI versions, or the successive HTI rules), the Notes column flags the current release; update rows as new versions publish.

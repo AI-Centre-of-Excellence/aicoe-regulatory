@@ -1,0 +1,692 @@
+{
+  "$schema": "https://aicoe.io/schema/cross-refs.json",
+  "description": "Cross-reference map of equivalent, related, and referenced standards across jurisdictions and frameworks. Each mapping has a relationship type and a bidirectional flag indicating whether the relationship applies in both directions.",
+  "mappings": [
+    {
+      "from": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "to": "SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+      "type": "equivalent",
+      "scope": "ISMS requirements vs control catalog; partial overlap — ISO 27001 is certifiable, SP 800-53 is mandatory for US federal",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "to": "SOC 2 — System and Organization Controls",
+      "type": "equivalent",
+      "scope": "ISMS certification vs attestation; overlapping but not identical scopes",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "to": "Bureau of Indian Standards (BIS) — official site",
+      "type": "adoption",
+      "scope": "Indian national adoption of ISO/IEC 27001",
+      "bidirectional": false
+    },
+    {
+      "from": "Cybersecurity Framework (CSF) 2.0",
+      "to": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "type": "complementary",
+      "scope": "NIST CSF is a risk framework; ISO 27001 is an ISMS standard. Often implemented together",
+      "bidirectional": true
+    },
+    {
+      "from": "PCI DSS — Payment Card Industry Data Security Standard",
+      "to": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "type": "equivalent",
+      "scope": "PCI DSS is cardholder-data-specific; ISO 27001 is broader. Organizations often certify both",
+      "bidirectional": true
+    },
+    {
+      "from": "FedRAMP",
+      "to": "SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+      "type": "references",
+      "scope": "FedRAMP authorizes cloud services using SP 800-53 control baselines",
+      "bidirectional": false
+    },
+    {
+      "from": "Federal Information Security Modernization Act (FISMA) background",
+      "to": "SP 800-37 Rev. 2 — Risk Management Framework (RMF)",
+      "type": "implements",
+      "scope": "RMF is the process that implements FISMA requirements",
+      "bidirectional": false
+    },
+    {
+      "from": "NIS2 Directive (EU) 2022/2555",
+      "to": "Cyber Resilience Act — Regulation (EU) 2024/2847",
+      "type": "complementary",
+      "scope": "NIS2 covers organisational cyber resilience; CRA covers product-level security for digital products",
+      "bidirectional": true
+    },
+    {
+      "from": "Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554",
+      "to": "NIS2 Directive (EU) 2022/2555",
+      "type": "sector-specific",
+      "scope": "DORA is financial-sector-specific; NIS2 is horizontal. DORA takes precedence for financial entities",
+      "bidirectional": true
+    },
+    {
+      "from": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "to": "WCAG 2.1",
+      "type": "supersedes",
+      "scope": "WCAG 2.2 adds 1 new success criterion over 2.1",
+      "bidirectional": false
+    },
+    {
+      "from": "WCAG 2.1",
+      "to": "ISO/IEC 40500:2012 — WCAG 2.0 as ISO standard",
+      "type": "supersedes",
+      "scope": "WCAG 2.1 extends 2.0; ISO 40500 is the ISO adoption of 2.0",
+      "bidirectional": false
+    },
+    {
+      "from": "EN 301 549 v3.2.1 — Accessibility requirements for ICT products and services",
+      "to": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "type": "references",
+      "scope": "EN 301 549 incorporates WCAG 2.1 AA as its web content conformance baseline",
+      "bidirectional": false
+    },
+    {
+      "from": "ADA Title II Web & Mobile App Accessibility Rule (2024)",
+      "to": "WCAG 2.1",
+      "type": "references",
+      "scope": "DOJ rule mandates WCAG 2.1 AA conformance for state and local government web/mobile",
+      "bidirectional": false
+    },
+    {
+      "from": "CAN/ASC-EN 301 549:2024",
+      "to": "EN 301 549 v3.2.1 — Accessibility requirements for ICT products and services",
+      "type": "adoption",
+      "scope": "Canadian adoption of EN 301 549:2021",
+      "bidirectional": false
+    },
+    {
+      "from": "Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
+      "to": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "type": "references",
+      "scope": "UK regulations require WCAG 2.2 AA conformance (amended 2022 from 2.1)",
+      "bidirectional": false
+    },
+    {
+      "from": "European Accessibility Act — Directive (EU) 2019/882",
+      "to": "EN 301 549 v3.2.1 — Accessibility requirements for ICT products and services",
+      "type": "references",
+      "scope": "EN 301 549 is the harmonised standard supporting EAA conformity",
+      "bidirectional": false
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "UK GDPR — retained Regulation (EU) 2016/679",
+      "type": "equivalent",
+      "scope": "UK GDPR mirrors EU GDPR post-Brexit with UK-specific modifications",
+      "bidirectional": true
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "Digital Personal Data Protection Act, 2023 (DPDP Act)",
+      "type": "equivalent",
+      "scope": "DPDP is India's GDPR-equivalent; different scope (digital only) but similar data-principal rights",
+      "bidirectional": true
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "ISO/IEC 27701:2025 — Privacy information management systems",
+      "type": "complementary",
+      "scope": "ISO 27701 extends ISO 27001 for privacy management; supports GDPR compliance",
+      "bidirectional": true
+    },
+    {
+      "from": "California Consumer Privacy Act (CCPA) — statute",
+      "to": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "type": "equivalent",
+      "scope": "California privacy law; narrower than GDPR but similar data-subject rights",
+      "bidirectional": true
+    },
+    {
+      "from": "Virginia Consumer Data Protection Act (VCDPA)",
+      "to": "California Consumer Privacy Act (CCPA) — statute",
+      "type": "equivalent",
+      "scope": "Virginia state privacy law; similar to CCPA/CPRA",
+      "bidirectional": true
+    },
+    {
+      "from": "Digital Personal Data Protection Act, 2023 (DPDP Act)",
+      "to": "IT (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011 (SPDI Rules)",
+      "type": "supersedes",
+      "scope": "DPDP Act is India's comprehensive data protection law; SPDI Rules under IT Act remain for non-digital data",
+      "bidirectional": false
+    },
+    {
+      "from": "Regulatory framework for AI (AI Act)",
+      "to": "AI Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "type": "complementary",
+      "scope": "EU AI Act is binding law; NIST AI RMF is voluntary framework. Both address AI risk management",
+      "bidirectional": true
+    },
+    {
+      "from": "Regulatory framework for AI (AI Act)",
+      "to": "ISO/IEC 42001:2023 — AI management system",
+      "type": "complementary",
+      "scope": "ISO 42001 provides certifiable AI management system; supports EU AI Act compliance",
+      "bidirectional": true
+    },
+    {
+      "from": "Colorado AI Act — SB 24-205, Consumer Protections for Artificial Intelligence",
+      "to": "Regulatory framework for AI (AI Act)",
+      "type": "equivalent",
+      "scope": "First US state comprehensive AI law; narrower than EU AI Act but similar risk-based approach",
+      "bidirectional": true
+    },
+    {
+      "from": "E6(R3) Good Clinical Practice (GCP)",
+      "to": "Good Clinical Practice (GCP)",
+      "type": "supersedes",
+      "scope": "R3 is the current ICH revision; the generic GCP entry and R2 are superseded by R3",
+      "bidirectional": false
+    },
+    {
+      "from": "ICD-11 — International Classification of Diseases, 11th revision",
+      "to": "ICD-10 — International Classification of Diseases, 10th revision",
+      "type": "supersedes",
+      "scope": "ICD-11 is the current global standard; ICD-10 still in use in many countries",
+      "bidirectional": false
+    },
+    {
+      "from": "HL7 FHIR",
+      "to": "HL7 Version 2 (v2)",
+      "type": "complementary",
+      "scope": "FHIR is the modern API-based standard; v2 remains widely deployed. Both coexist",
+      "bidirectional": true
+    },
+    {
+      "from": "EU MDR — Regulation (EU) 2017/745",
+      "to": "510(k) Premarket Notification",
+      "type": "equivalent",
+      "scope": "EU and US premarket pathways for medical devices; different mechanisms, same purpose",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 13485 — Medical devices, quality management systems",
+      "to": "21 CFR Part 820 — Quality System Regulation (QSR)",
+      "type": "equivalent",
+      "scope": "ISO 13485 is international QMS for medical devices; 21 CFR 820 is US FDA QSR. FDA now aligns with ISO 13485",
+      "bidirectional": true
+    },
+    {
+      "from": "Basel III: international regulatory framework for banks",
+      "to": "Basel Framework (consolidated)",
+      "type": "complementary",
+      "scope": "Basel Framework is the BIS consolidated online version of Basel III; Basel IV finalisation in progress",
+      "bidirectional": true
+    },
+    {
+      "from": "Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554",
+      "to": "Cyber Security Framework for Banks (2016)",
+      "type": "equivalent",
+      "scope": "Both address financial-sector operational resilience and cyber; DORA is EU, RBI is India",
+      "bidirectional": true
+    },
+    {
+      "from": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
+      "to": "CERT-In Directions under Section 70B, IT Act (28 Apr 2022)",
+      "type": "complementary",
+      "scope": "SEBI CSCRF requires alignment with CERT-In incident reporting timelines",
+      "bidirectional": true
+    },
+    {
+      "from": "CERT-In Directions under Section 70B, IT Act (28 Apr 2022)",
+      "to": "NIS2 Directive (EU) 2022/2555",
+      "type": "equivalent",
+      "scope": "Both mandate cyber incident reporting; CERT-In is India (6-hour), NIS2 is EU (24-hour initial, 72-hour detailed)",
+      "bidirectional": true
+    },
+    {
+      "from": "Cyber Security Framework for Banks (2016)",
+      "to": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
+      "type": "equivalent",
+      "scope": "Both are Indian sectoral cyber frameworks; RBI for banks, SEBI for capital markets",
+      "bidirectional": true
+    },
+    {
+      "from": "Digital India Act, 2023 (draft)",
+      "to": "Information Technology Act, 2000 (IT Act)",
+      "type": "supersedes",
+      "scope": "Digital India Act will replace the IT Act 2000 when enacted",
+      "bidirectional": false
+    },
+    {
+      "from": "ISO 9001:2015 — Quality management systems — Requirements",
+      "to": "IATF 16949:2016 — Automotive quality management system",
+      "type": "extended-by",
+      "scope": "IATF 16949 extends ISO 9001 for automotive industry",
+      "bidirectional": true
+    },
+    {
+      "from": "European Sustainability Reporting Standards (ESRS) — Delegated Regulation (EU) 2023/2772",
+      "to": "TCFD Recommendations",
+      "type": "builds-on",
+      "scope": "ESRS incorporates TCFD recommendations into mandatory EU reporting",
+      "bidirectional": false
+    },
+    {
+      "from": "GHS — Globally Harmonized System of Classification and Labelling of Chemicals",
+      "to": "REACH Regulation (EC) No 1907/2006",
+      "type": "complementary",
+      "scope": "GHS covers classification/labelling; REACH covers registration/authorisation. Both apply to chemicals in the EU",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "to": "ISO/IEC 27002:2022 — Information security controls",
+      "type": "companion",
+      "scope": "27001 defines ISMS requirements; 27002 provides control implementation guidance",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO/IEC 27017:2015 — Information security controls for cloud services",
+      "to": "ISO/IEC 27001:2022 — Information security management systems (ISMS)",
+      "type": "extends",
+      "scope": "27017 extends 27001/27002 for cloud-specific controls",
+      "bidirectional": false
+    },
+    {
+      "from": "ISO/IEC 27018:2019 — Protection of PII in public clouds",
+      "to": "ISO/IEC 27701:2025 — Privacy information management systems",
+      "type": "complementary",
+      "scope": "27018 is cloud-PII-specific; 27701 is broader PIMS. Both address privacy",
+      "bidirectional": true
+    },
+    {
+      "from": "Section 508 Standards (36 CFR § 1194)",
+      "to": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "type": "references",
+      "scope": "Section 508 refreshed 2018 to align with WCAG 2.0 AA",
+      "bidirectional": false
+    },
+    {
+      "from": "WAI-ARIA 1.2",
+      "to": "Accessible Name and Description Computation (accname) 1.2",
+      "type": "companion",
+      "scope": "accname defines how accessible names are computed from ARIA semantics",
+      "bidirectional": true
+    },
+    {
+      "from": "HIPAA Privacy Rule",
+      "to": "GDPR Article 9 — special category (health) data",
+      "type": "equivalent",
+      "scope": "Both govern health data; HIPAA is US sectoral, GDPR Art.9 is EU comprehensive",
+      "bidirectional": true
+    },
+    {
+      "from": "European Health Data Space (EHDS) — Regulation (EU) 2025/327",
+      "to": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "type": "complementary",
+      "scope": "EHDS builds on GDPR for primary and secondary use of health data in the EU",
+      "bidirectional": true
+    },
+    {
+      "from": "Aadhaar Act, 2016",
+      "to": "Digital Personal Data Protection Act, 2023 (DPDP Act)",
+      "type": "complementary",
+      "scope": "Aadhaar Act governs biometric identity; DPDP governs personal data processing. Both apply to Aadhaar data",
+      "bidirectional": true
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "Gramm-Leach-Bliley Act",
+      "type": "complementary",
+      "scope": "Both govern personal financial data; GDPR for EU, GLBA for US financial institutions",
+      "bidirectional": true
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "type": "complementary",
+      "scope": "AI Act references GDPR for processing of personal data in AI systems; high-risk AI processing must comply with GDPR",
+      "bidirectional": true
+    },
+    {
+      "from": "General Data Protection Regulation — Regulation (EU) 2016/679",
+      "to": "Clinical Trials Regulation (EU) No 536/2014",
+      "type": "complementary",
+      "scope": "Both govern processing of personal data in clinical trials; CTR references GDPR for health data processing",
+      "bidirectional": true
+    },
+    {
+      "from": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "to": "EU MDR — Regulation (EU) 2017/745",
+      "type": "complementary",
+      "scope": "AI-enabled medical devices must comply with both AI Act high-risk requirements and MDR conformity assessment",
+      "bidirectional": true
+    },
+    {
+      "from": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "to": "Software as a Medical Device (SaMD)",
+      "type": "complementary",
+      "scope": "AI/ML SaMD falls under AI Act high-risk classification alongside medical device regulation",
+      "bidirectional": true
+    },
+    {
+      "from": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "to": "Sarbanes-Oxley Act of 2002",
+      "type": "complementary",
+      "scope": "AI Act high-risk AI systems used in financial services require risk management overlapping SOX controls",
+      "bidirectional": true
+    },
+    {
+      "from": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "to": "Cyber Resilience Act — Regulation (EU) 2024/2847",
+      "type": "complementary",
+      "scope": "CRA covers cybersecurity of digital products including AI systems; AI Act requires cybersecurity measures for high-risk AI",
+      "bidirectional": true
+    },
+    {
+      "from": "NIS2 Directive (EU) 2022/2555",
+      "to": "Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554",
+      "type": "sector-specific",
+      "scope": "DORA is financial-sector-specific and takes precedence over NIS2 for financial entities; NIS2 covers other critical sectors",
+      "bidirectional": true
+    },
+    {
+      "from": "NIS2 Directive (EU) 2022/2555",
+      "to": "IEC 61508-1:2010 — Functional safety of E/E/PE safety-related systems",
+      "type": "complementary",
+      "scope": "NIS2 cyber risk management applies to manufacturing essential entities; IEC 61508 addresses functional safety including cyber threats",
+      "bidirectional": true
+    },
+    {
+      "from": "NIS2 Directive (EU) 2022/2555",
+      "to": "HIPAA Security Rule",
+      "type": "complementary",
+      "scope": "Both require cyber risk management in healthcare; NIS2 covers EU health providers, HIPAA covers US covered entities",
+      "bidirectional": true
+    },
+    {
+      "from": "Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554",
+      "to": "Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554",
+      "type": "equivalent",
+      "scope": "Same regulation listed under two domains with different name formatting; cybersecurity and financial-services perspectives",
+      "bidirectional": true
+    },
+    {
+      "from": "Cyber Resilience Act — Regulation (EU) 2024/2847",
+      "to": "Machinery Regulation (EU) 2023/1230",
+      "type": "complementary",
+      "scope": "CRA sets cybersecurity requirements for products with digital elements; Machinery Regulation covers safety of machinery including software",
+      "bidirectional": true
+    },
+    {
+      "from": "Corporate Sustainability Reporting Directive (CSRD) — Directive (EU) 2022/2464",
+      "to": "Sarbanes-Oxley Act of 2002",
+      "type": "complementary",
+      "scope": "Both mandate corporate disclosure; CSRD for sustainability, SOX for financial controls. Overlapping reporting obligations for EU-listed US companies",
+      "bidirectional": true
+    },
+    {
+      "from": "Corporate Sustainability Reporting Directive (CSRD) — Directive (EU) 2022/2464",
+      "to": "ISO 14001:2015 — Environmental management systems — Requirements",
+      "type": "complementary",
+      "scope": "EMS under ISO 14001 provides operational data feeding CSRD/ESRS environmental disclosures",
+      "bidirectional": true
+    },
+    {
+      "from": "PCI DSS — Payment Card Industry Data Security Standard",
+      "to": "PCI DSS (Document Library)",
+      "type": "equivalent",
+      "scope": "Same standard referenced from two domains; cybersecurity perspective and financial-services payments perspective",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 9001:2015 — Quality management systems — Requirements",
+      "to": "AS9100D — Quality Management Systems: Requirements for Aviation, Space, and Defense Organizations",
+      "type": "extended-by",
+      "scope": "AS9100 extends ISO 9001 for aviation, space and defense organizations",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 9001:2015 — Quality management systems — Requirements",
+      "to": "ISO 13485:2016 — Medical devices — Quality management systems",
+      "type": "extended-by",
+      "scope": "ISO 13485 adapts ISO 9001 principles for medical device QMS with regulatory requirements",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 9001:2015 — Quality management systems — Requirements",
+      "to": "ISO/IEC 90003:2018 — Guidelines for applying ISO 9001 to software",
+      "type": "extended-by",
+      "scope": "ISO/IEC 90003 provides guidelines for applying ISO 9001 to software development",
+      "bidirectional": true
+    },
+    {
+      "from": "REACH Regulation (EC) No 1907/2006",
+      "to": "Corporate Sustainability Due Diligence Directive (CSDDD) — Directive (EU) 2024/1760",
+      "type": "complementary",
+      "scope": "CSDDD due diligence covers chemical safety; REACH compliance is part of environmental due diligence under CSDDD",
+      "bidirectional": true
+    },
+    {
+      "from": "GHS — Globally Harmonized System of Classification and Labelling of Chemicals",
+      "to": "CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging",
+      "type": "implemented-by",
+      "scope": "CLP implements GHS in EU law; GHS is the global framework, CLP is the EU regulation applying it",
+      "bidirectional": false
+    },
+    {
+      "from": "CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging",
+      "to": "ADR — Agreement concerning the International Carriage of Dangerous Goods by Road",
+      "type": "complementary",
+      "scope": "CLP classification determines dangerous goods categories for transport under ADR",
+      "bidirectional": true
+    },
+    {
+      "from": "21 CFR Part 11 — Electronic Records; Electronic Signatures",
+      "to": "21 CFR Part 820 — Quality System Regulation (QSR)",
+      "type": "complementary",
+      "scope": "Part 11 electronic records requirements apply to QSR quality system records for medical devices",
+      "bidirectional": true
+    },
+    {
+      "from": "21 CFR Part 11 — Electronic Records; Electronic Signatures",
+      "to": "Pharmaceutical GMP / EU GMP / GAMP",
+      "type": "complementary",
+      "scope": "Part 11 applies to electronic GxP records; GAMP provides risk-based approach for compliant computerized systems",
+      "bidirectional": true
+    },
+    {
+      "from": "GAMP 5 (Second Edition) — A Risk-Based Approach to Compliant GxP Computerized Systems",
+      "to": "Pharmaceutical GMP / EU GMP / GAMP",
+      "type": "complementary",
+      "scope": "GAMP 5 provides the risk-based approach for GxP computerized systems referenced in pharmaceutical GMP",
+      "bidirectional": true
+    },
+    {
+      "from": "GAMP 5 (Second Edition) — A Risk-Based Approach to Compliant GxP Computerized Systems",
+      "to": "IEC 62304:2006+AMD1:2015 — Medical device software life cycle processes",
+      "type": "complementary",
+      "scope": "Both address software lifecycle validation; GAMP for GxP systems, IEC 62304 for medical device software",
+      "bidirectional": true
+    },
+    {
+      "from": "HL7 FHIR",
+      "to": "Software as a Medical Device (SaMD)",
+      "type": "complementary",
+      "scope": "FHIR resources support SaMD data exchange and interoperability for connected medical devices",
+      "bidirectional": true
+    },
+    {
+      "from": "HL7 FHIR",
+      "to": "ISO/IEC/IEEE 12207:2026 — Software life cycle processes",
+      "type": "complementary",
+      "scope": "FHIR implementation follows software lifecycle processes; 12207 provides the process framework",
+      "bidirectional": true
+    },
+    {
+      "from": "IEC 62304 — Medical device software life cycle processes",
+      "to": "ISO/IEC/IEEE 12207:2026 — Software life cycle processes",
+      "type": "complementary",
+      "scope": "IEC 62304 provides medical-device-specific software lifecycle; ISO/IEC/IEEE 12207 is the general software lifecycle standard",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO/IEC 25010:2023 — Systems and software quality models (SQuaRE)",
+      "to": "IEC 62304:2006+AMD1:2015 — Medical device software life cycle processes",
+      "type": "complementary",
+      "scope": "SQuaRE quality model provides quality characteristics framework applied to medical device software under IEC 62304",
+      "bidirectional": true
+    },
+    {
+      "from": "SR 11-7 — Guidance on Model Risk Management",
+      "to": "Sarbanes-Oxley Act of 2002",
+      "type": "complementary",
+      "scope": "SR 11-7 model risk management supports SOX internal controls for financial models used in reporting",
+      "bidirectional": true
+    },
+    {
+      "from": "Sarbanes-Oxley Act of 2002",
+      "to": "Cybersecurity Framework (CSF) 2.0",
+      "type": "complementary",
+      "scope": "SOX IT general controls for financial reporting align with NIST CSF security controls",
+      "bidirectional": true
+    },
+    {
+      "from": "Federal Trade Commission Act",
+      "to": "Gramm-Leach-Bliley Act",
+      "type": "complementary",
+      "scope": "FTC enforces Section 5 for unfair/deceptive practices including financial privacy under GLBA Safeguards Rule",
+      "bidirectional": true
+    },
+    {
+      "from": "Federal Trade Commission Act",
+      "to": "Cybersecurity Framework (CSF) 2.0",
+      "type": "complementary",
+      "scope": "FTC uses Section 5 to enforce reasonable data security; NIST CSF provides the framework for reasonable security",
+      "bidirectional": true
+    },
+    {
+      "from": "General Product Safety Regulation (EU) 2023/988 (GPSR)",
+      "to": "Cyber Resilience Act — Regulation (EU) 2024/2847",
+      "type": "complementary",
+      "scope": "GPSR covers general product safety including cybersecurity risks; CRA provides specific cybersecurity requirements for digital products",
+      "bidirectional": true
+    },
+    {
+      "from": "International Traffic in Arms Regulations (ITAR, 22 CFR 120–130)",
+      "to": "Customs Trade Partnership Against Terrorism (CTPAT)",
+      "type": "complementary",
+      "scope": "ITAR export controls require secure supply chain processes; CTPAT provides supply chain security framework for imports",
+      "bidirectional": true
+    },
+    {
+      "from": "Export Administration Regulations (EAR, 15 CFR 730–774)",
+      "to": "Union Customs Code — Regulation (EU) No 952/2013",
+      "type": "complementary",
+      "scope": "EAR controls US dual-use exports; UCC governs EU customs procedures. Both apply to cross-border trade compliance",
+      "bidirectional": true
+    },
+    {
+      "from": "Wassenaar Arrangement",
+      "to": "Harmonized System (HS) Nomenclature 2022 Edition",
+      "type": "complementary",
+      "scope": "Wassenaar controls dual-use export licensing; HS codes classify goods for customs including controlled items",
+      "bidirectional": true
+    },
+    {
+      "from": "Sanctions Programs and Country Information",
+      "to": "Union Customs Code — Regulation (EU) No 952/2013",
+      "type": "complementary",
+      "scope": "OFAC sanctions require screening in trade transactions; UCC customs procedures intersect with sanctions compliance at borders",
+      "bidirectional": true
+    },
+    {
+      "from": "Corporate Sustainability Due Diligence Directive (CSDDD) — Directive (EU) 2024/1760",
+      "to": "UN Guiding Principles on Business and Human Rights",
+      "type": "implements",
+      "scope": "CSDDD codifies the UNGPs into EU law; requires due diligence aligned with the UN framework",
+      "bidirectional": false
+    },
+    {
+      "from": "Modern Slavery Act 2015",
+      "to": "UN Guiding Principles on Business and Human Rights",
+      "type": "complementary",
+      "scope": "UK Modern Slavery Act reporting aligns with UNGP human rights due diligence expectations",
+      "bidirectional": true
+    },
+    {
+      "from": "Uyghur Forced Labor Prevention Act (UFLPA)",
+      "to": "UN Guiding Principles on Business and Human Rights",
+      "type": "complementary",
+      "scope": "UFLPA forced labor prevention aligns with UNGP human rights due diligence for supply chains",
+      "bidirectional": true
+    },
+    {
+      "from": "Conflict Minerals — Final Rule (Dodd-Frank Section 1502)",
+      "to": "UN Guiding Principles on Business and Human Rights",
+      "type": "complementary",
+      "scope": "Conflict minerals reporting supports UNGP human rights due diligence for mineral supply chains",
+      "bidirectional": true
+    },
+    {
+      "from": "Conflict Minerals — Final Rule (Dodd-Frank Section 1502)",
+      "to": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+      "type": "part-of",
+      "scope": "Conflict minerals rule is Section 1502 of the Dodd-Frank Act",
+      "bidirectional": false
+    },
+    {
+      "from": "ISO 14001:2015 — Environmental management systems — Requirements",
+      "to": "GRI Standards",
+      "type": "complementary",
+      "scope": "ISO 14001 EMS data supports GRI environmental reporting; EMS provides the management system, GRI provides the disclosure framework",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 14064-1:2018 — Greenhouse gases — Organization-level quantification and reporting",
+      "to": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "type": "equivalent",
+      "scope": "Both provide GHG accounting at organization level; ISO 14064-1 is the standard, GHG Protocol is the methodology",
+      "bidirectional": true
+    },
+    {
+      "from": "Sustainable Finance Disclosure Regulation (SFDR) — Regulation (EU) 2019/2088",
+      "to": "Markets in Financial Instruments Directive (MiFID II), Directive 2014/65/EU",
+      "type": "complementary",
+      "scope": "SFDR sustainability disclosures apply to financial products distributed under MiFID II; both govern EU financial services transparency",
+      "bidirectional": true
+    },
+    {
+      "from": "Climate Disclosure Final Rule (Release 33-11275)",
+      "to": "Sarbanes-Oxley Act of 2002",
+      "type": "complementary",
+      "scope": "SEC climate disclosure rule requires climate-related disclosures in SEC filings; SOX governs internal controls over financial reporting including these disclosures",
+      "bidirectional": true
+    },
+    {
+      "from": "IEC 62304 — Medical device software life cycle processes",
+      "to": "IEC 62304:2006+AMD1:2015 — Medical device software life cycle processes",
+      "type": "equivalent",
+      "scope": "Same standard listed under two domains with different name formatting; healthcare and medical-devices perspectives",
+      "bidirectional": true
+    },
+    {
+      "from": "ISO 13485 — Medical devices, quality management systems",
+      "to": "ISO 13485:2016 — Medical devices — Quality management systems",
+      "type": "equivalent",
+      "scope": "Same standard listed under two domains with different name formatting; healthcare and medical-devices perspectives",
+      "bidirectional": true
+    },
+    {
+      "from": "Artificial Intelligence Act — Regulation (EU) 2024/1689",
+      "to": "Regulatory framework for AI (AI Act)",
+      "type": "equivalent",
+      "scope": "Same regulation listed under two names in the ai-governance domain; one uses the formal title, the other the common short name",
+      "bidirectional": true
+    },
+    {
+      "from": "AS9100D — Quality Management Systems: Requirements for Aviation, Space, and Defense Organizations",
+      "to": "AS9100D — Quality management systems — Requirements for aviation, space and defense organizations",
+      "type": "equivalent",
+      "scope": "Same standard listed under two domains with different name formatting; aerospace-defense and manufacturing perspectives",
+      "bidirectional": true
+    }
+  ]
+}

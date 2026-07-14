@@ -1,317 +1,433 @@
 {
   "slug": "healthcare",
-  "entries": [
-    {
+  "entries": [{
       "document": "HIPAA Privacy Rule",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "covered entities and business associates handling protected health information",
       "tags": ["hipaa", "privacy", "phi", "us-healthcare", "data-protection"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["GDPR Article 9 — special category (health) data", "General Data Protection Regulation — Regulation (EU) 2016/679"],
+      "triggers": ["handles-phi", "health-data-exchange", "ehr-system"]
+    }, {
       "document": "HIPAA Security Rule",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "covered entities and business associates handling electronic protected health information",
       "tags": ["hipaa", "security", "ephi", "us-healthcare", "safeguards"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["General Data Protection Regulation — Regulation (EU) 2016/679"],
+      "triggers": ["handles-phi", "ehr-system", "health-data-exchange"]
+    }, {
       "document": "HIPAA Breach Notification Rule",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "entities that experience a breach of unsecured protected health information",
       "tags": ["hipaa", "breach-notification", "phi", "us-healthcare", "incident-response"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["General Data Protection Regulation — Regulation (EU) 2016/679"],
+      "triggers": ["handles-phi", "ehr-system", "breach-notification"]
+    }, {
       "document": "45 CFR Part 160 — General Administrative Requirements",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "administrative, enforcement and preemption provisions underlying HIPAA rules",
       "tags": ["cfr", "hipaa", "enforcement", "us-healthcare", "administrative"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["handles-phi", "ehr-system"]
+    }, {
       "document": "45 CFR Part 164 — Security and Privacy",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "codification of the HIPAA Security, Privacy and Breach Notification Rules",
       "tags": ["cfr", "hipaa", "privacy", "security", "us-healthcare"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["handles-phi", "ehr-system"]
+    }, {
       "document": "HITECH Act Enforcement Interim Final Rule",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "entities subject to strengthened HIPAA enforcement and breach provisions",
       "tags": ["hitech", "hipaa", "enforcement", "us-healthcare", "breach"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["handles-phi", "ehr-system", "breach-notification"]
+    }, {
       "document": "21st Century Cures Act — Information Blocking",
       "jurisdiction": "US",
       "legal_force": "law",
       "applies_to": "actors that could interfere with lawful exchange of electronic health information",
       "tags": ["information-blocking", "interoperability", "us-healthcare", "onc", "ehi"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "ehr-system", "handles-phi"]
+    }, {
       "document": "European Health Data Space (EHDS) — Regulation (EU) 2025/327",
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "primary and secondary use and cross-border exchange of electronic health data in the EU",
       "tags": ["ehds", "eu", "health-data", "interoperability", "secondary-use"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["GDPR Article 9 — special category (health) data"],
+      "triggers": ["health-data-exchange", "eu-market", "handles-phi"]
+    }, {
       "document": "GDPR Article 9 — special category (health) data",
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "processing of health data as a special category of personal data",
       "tags": ["gdpr", "eu", "health-data", "privacy", "special-category-data"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["HIPAA Privacy Rule", "European Health Data Space (EHDS) — Regulation (EU) 2025/327"],
+      "triggers": ["handles-phi", "eu-market", "health-data-exchange"]
+    }, {
       "document": "Data Security and Protection (DSP) Toolkit",
       "jurisdiction": "UK",
       "legal_force": "best-practice",
       "applies_to": "organisations handling NHS patient data, via annual self-assessment",
       "tags": ["nhs", "uk", "data-security", "self-assessment", "toolkit"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["handles-phi", "ehr-system"]
+    }, {
       "document": "HL7 FHIR",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems exchanging healthcare data via APIs and resources",
       "tags": ["hl7", "fhir", "interoperability", "api", "health-data-exchange"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["HL7 Version 2 (v2)", "HL7 CDA — Clinical Document Architecture"],
+      "triggers": ["health-data-exchange", "ehr-system", "health-app"]
+    }, {
       "document": "HL7 Version 2 (v2)",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "clinical systems exchanging messages over legacy interface engines",
       "tags": ["hl7", "v2", "messaging", "interoperability", "clinical-interfaces"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["HL7 FHIR"],
+      "triggers": ["health-data-exchange", "ehr-system"]
+    }, {
       "document": "HL7 CDA — Clinical Document Architecture",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems producing or consuming structured clinical documents in XML",
       "tags": ["hl7", "cda", "clinical-documents", "xml", "interoperability"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["HL7 FHIR"],
+      "triggers": ["health-data-exchange", "ehr-system"]
+    }, {
       "document": "USCDI — United States Core Data for Interoperability",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "health IT systems required to support a standardized set of exchangeable data classes",
       "tags": ["uscdi", "onc", "interoperability", "us-healthcare", "data-classes"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "ehr-system"]
+    }, {
       "document": "ONC Health IT Certification Program",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "health IT products seeking certification against ONC criteria",
       "tags": ["onc", "certification", "health-it", "us-healthcare", "ehr"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["ehr-system", "health-data-exchange"]
+    }, {
       "document": "HTI rules (HTI-1 / HTI-2 final rules)",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "health IT developers and certified products subject to updated ONC interoperability requirements",
       "tags": ["hti", "onc", "interoperability", "us-healthcare", "final-rule"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["ehr-system", "health-data-exchange"]
+    }, {
       "document": "TEFCA — Trusted Exchange Framework and Common Agreement",
       "jurisdiction": "US",
       "legal_force": "framework",
       "applies_to": "networks and participants seeking nationwide health information exchange",
       "tags": ["tefca", "onc", "interoperability", "us-healthcare", "exchange-framework"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "ehr-system"]
+    }, {
       "document": "SMART App Launch (SMART on FHIR)",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "apps requiring authorization and launch integration with FHIR servers",
       "tags": ["smart-on-fhir", "hl7", "fhir", "app-authorization", "interoperability"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "health-app", "ehr-system"]
+    }, {
       "document": "IHE profiles",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems implementing integration profiles across imaging, exchange and infrastructure domains",
       "tags": ["ihe", "integration-profiles", "imaging", "interoperability", "infrastructure"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "imaging-system", "ehr-system"]
+    }, {
       "document": "DICOM — Digital Imaging and Communications in Medicine",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems that store, transmit, or display medical imaging data",
       "tags": ["dicom", "medical-imaging", "interoperability", "nema", "standard"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["imaging-system", "health-data-exchange"]
+    }, {
       "document": "HL7 Da Vinci Project",
       "jurisdiction": "US",
       "legal_force": "voluntary-standard",
       "applies_to": "payers and providers implementing value-based-care data exchange over FHIR",
       "tags": ["hl7", "da-vinci", "fhir", "value-based-care", "payer-provider-exchange"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["health-data-exchange", "ehr-system"]
+    }, {
       "document": "ICD-10 — International Classification of Diseases, 10th revision",
       "jurisdiction": "Global",
       "legal_force": "voluntary-standard",
       "applies_to": "systems recording and classifying diagnoses using ICD-10 codes",
       "tags": ["icd-10", "who", "diagnostic-coding", "classification", "global-standard"],
-      "status": "superseded"
-    },
-    {
+      "status": "superseded",
+      "supersedes": null,
+      "superseded_by": ["ICD-11 — International Classification of Diseases, 11th revision"],
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "ICD-11 — International Classification of Diseases, 11th revision",
       "jurisdiction": "Global",
       "legal_force": "voluntary-standard",
       "applies_to": "systems recording and classifying diagnoses using the current global coding standard",
       "tags": ["icd-11", "who", "diagnostic-coding", "classification", "global-standard"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": ["ICD-10 — International Classification of Diseases, 10th revision"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "SNOMED CT",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "EHR systems encoding clinical findings, procedures and concepts",
       "tags": ["snomed-ct", "clinical-terminology", "ehr", "coding", "interoperability"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "LOINC — Logical Observation Identifiers Names and Codes",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems coding laboratory and clinical observations for exchange",
       "tags": ["loinc", "laboratory", "clinical-observations", "coding", "regenstrief"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "RxNorm",
       "jurisdiction": "US",
       "legal_force": "voluntary-standard",
       "applies_to": "systems normalizing names for clinical drugs and drug packs",
       "tags": ["rxnorm", "nlm", "drug-terminology", "medication", "coding"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "CPT — Current Procedural Terminology",
       "jurisdiction": "US",
       "legal_force": "voluntary-standard",
       "applies_to": "billing and coding of medical, surgical and diagnostic services",
       "tags": ["cpt", "ama", "medical-billing", "procedure-coding", "us-healthcare"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "UCUM — Unified Code for Units of Measure",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "systems encoding measurement units in scientific and clinical data",
       "tags": ["ucum", "units-of-measure", "coding", "regenstrief", "interoperability"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["clinical-terminology", "ehr-system"]
+    }, {
       "document": "510(k) Premarket Notification",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "device makers seeking substantial-equivalence clearance against a predicate device",
       "tags": ["fda", "510k", "medical-device", "premarket", "clearance-pathway"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["EU MDR — Regulation (EU) 2017/745"],
+      "triggers": ["fda-device", "medical-device"]
+    }, {
       "document": "De Novo Classification Request",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "novel low-to-moderate-risk devices without an existing predicate",
       "tags": ["fda", "de-novo", "medical-device", "premarket", "classification"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["EU MDR — Regulation (EU) 2017/745"],
+      "triggers": ["fda-device", "medical-device"]
+    }, {
       "document": "Premarket Approval (PMA)",
       "jurisdiction": "US",
       "legal_force": "regulation",
       "applies_to": "Class III medical devices requiring the most stringent FDA approval pathway",
       "tags": ["fda", "pma", "class-iii-device", "premarket", "approval-pathway"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["EU MDR — Regulation (EU) 2017/745"],
+      "triggers": ["fda-device", "medical-device"]
+    }, {
       "document": "Software as a Medical Device (SaMD)",
       "jurisdiction": "US",
       "legal_force": "guidance",
       "applies_to": "software intended for medical purposes without being part of a hardware device",
       "tags": ["fda", "samd", "software", "medical-device", "guidance"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["IMDRF SaMD framework"],
+      "triggers": ["samd", "fda-device", "medical-device"]
+    }, {
       "document": "Digital Health Center of Excellence",
       "jurisdiction": "US",
       "legal_force": "framework",
       "applies_to": "digital health products and policies overseen by FDA's dedicated program hub",
       "tags": ["fda", "digital-health", "program-hub", "policy", "medical-device"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["samd", "fda-device", "medical-device"]
+    }, {
       "document": "Predetermined Change Control Plan for AI-Enabled Device Software Functions",
       "jurisdiction": "US",
       "legal_force": "guidance",
       "applies_to": "AI/ML-enabled medical device software planning post-market modifications",
       "tags": ["fda", "ai-device", "change-control", "guidance", "software-lifecycle"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["samd", "fda-device", "medical-device", "ai-system"]
+    }, {
       "document": "EU MDR — Regulation (EU) 2017/745",
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "manufacturers placing medical devices on the EU market",
       "tags": ["eu-mdr", "medical-device", "eu", "ce-marking", "regulation"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": ["Medical Devices Directive (MDD)"],
+      "superseded_by": null,
+      "equivalents": ["510(k) Premarket Notification", "Premarket Approval (PMA)", "ISO 13485 — Medical devices, quality management systems"],
+      "triggers": ["eu-device", "medical-device"]
+    }, {
       "document": "EU IVDR — Regulation (EU) 2017/746",
       "jurisdiction": "EU",
       "legal_force": "regulation",
       "applies_to": "manufacturers placing in vitro diagnostic medical devices on the EU market",
       "tags": ["eu-ivdr", "ivd", "medical-device", "eu", "regulation"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": ["In Vitro Diagnostic Directive (IVDD)"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["eu-device", "medical-device"]
+    }, {
       "document": "IMDRF SaMD framework",
       "jurisdiction": "International",
       "legal_force": "framework",
       "applies_to": "regulators and manufacturers applying harmonized SaMD definitions and risk categories",
       "tags": ["imdrf", "samd", "risk-framework", "international", "medical-device"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Software as a Medical Device (SaMD)"],
+      "triggers": ["samd", "medical-device"]
+    }, {
       "document": "IEC 62304 — Medical device software life cycle processes",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "developers of medical device software following defined lifecycle processes",
       "tags": ["iec-62304", "software-lifecycle", "medical-device", "paid-standard", "iec"],
-      "status": "current"
-    },
-    {
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 13485 — Medical devices, quality management systems", "General Principles of Software Validation"],
+      "triggers": ["samd", "medical-device"]
+    }, {
       "document": "ISO 13485 — Medical devices, quality management systems",
       "jurisdiction": "International",
       "legal_force": "voluntary-standard",
       "applies_to": "organizations operating a quality management system for medical device manufacturing",
       "tags": ["iso-13485", "qms", "medical-device", "paid-standard", "iso"],
-      "status": "current"
-    }
-  ]
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["21 CFR Part 820 — Quality System Regulation", "IEC 62304 — Medical device software life cycle processes"],
+      "triggers": ["medical-device", "fda-device", "eu-device"]
+    }]
 }

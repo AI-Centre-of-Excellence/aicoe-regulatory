@@ -12,16 +12,16 @@ governance, AI compliance).
 ## Layout
 
 - `docs/` — **source of truth**: published Markdown notes and references. One topic per file, kebab-case.
-- `wiki/` — generated HTML wiki (AICOE design system). Build artifacts.
+- `wiki/` — generated HTML site (AICOE design system). Build artifacts.
 - `private/` — internal-only material. **Gitignored**; never committed or pushed.
 
-## The wiki is generated
+## The site is generated
 
 `wiki/*.html`, `wiki/styles.css`, and `wiki/wiki-manifest.json` are produced by
 `wiki/build_wiki.py` from the Markdown in `docs/`. **Do not hand-edit them** —
-edits are overwritten on the next build. To change the wiki, edit the Markdown
+edits are overwritten on the next build. To change the site, edit the Markdown
 in `docs/` (or the generator), then run `python3 wiki/build_wiki.py` and commit
-the regenerated `wiki/`. Adding a `docs/<topic>.md` auto-creates a wiki page for
+the regenerated `wiki/`. Adding a `docs/<topic>.md` auto-creates a page for
 it. The generator only depends on the `markdown` package (tables/toc extensions).
 
 ## Rules

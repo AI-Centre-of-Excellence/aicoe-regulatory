@@ -7,7 +7,11 @@
       "legal_force": "framework",
       "applies_to": "international classification of traded goods for customs and tariff purposes",
       "tags": ["customs", "classification", "harmonized-system", "wco", "trade"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Harmonized System (HS) Nomenclature 2017 Edition"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade", "customs-declaration"]
     },
     {
       "document": "SAFE Framework of Standards to Secure and Facilitate Global Trade",
@@ -15,7 +19,11 @@
       "legal_force": "framework",
       "applies_to": "supply-chain security and trade facilitation standards underpinning national AEO programmes",
       "tags": ["customs", "supply-chain-security", "aeo", "wco", "trade"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Customs Trade Partnership Against Terrorism (CTPAT)", "Authorised Economic Operator (AEO) programme"],
+      "triggers": ["international-trade", "supply-chain-due-diligence", "traceability"]
     },
     {
       "document": "Revised Kyoto Convention (simplification and harmonization of Customs procedures)",
@@ -23,7 +31,11 @@
       "legal_force": "framework",
       "applies_to": "simplification and harmonization of customs procedures across contracting parties",
       "tags": ["customs", "procedures", "harmonization", "wco", "trade"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Kyoto Convention (1973)"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade", "customs-declaration"]
     },
     {
       "document": "Trade Facilitation Agreement (TFA)",
@@ -31,7 +43,11 @@
       "legal_force": "law",
       "applies_to": "expediting the movement, release, and clearance of goods in international trade under a binding WTO treaty",
       "tags": ["customs", "trade-facilitation", "wto", "treaty", "trade"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade", "customs-declaration"]
     },
     {
       "document": "Incoterms 2020",
@@ -39,7 +55,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "allocation of delivery responsibilities, costs, and risk transfer between buyer and seller in international sale contracts",
       "tags": ["incoterms", "contracts", "trade", "delivery-terms", "icc"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Incoterms 2010"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade"]
     },
     {
       "document": "Union Customs Code — Regulation (EU) No 952/2013",
@@ -47,7 +67,11 @@
       "legal_force": "regulation",
       "applies_to": "customs procedures, declarations, and administration for goods entering or leaving the EU",
       "tags": ["customs", "eu", "regulation", "trade"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Community Customs Code (Regulation (EEC) No 2913/92)"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade", "customs-declaration", "eu-market"]
     },
     {
       "document": "Trade (Office of Trade)",
@@ -55,7 +79,11 @@
       "legal_force": "guidance",
       "applies_to": "US customs trade programs, enforcement priorities, and administrative guidance for importers",
       "tags": ["customs", "us", "cbp", "trade-enforcement"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["international-trade", "customs-declaration"]
     },
     {
       "document": "Authorised Economic Operator (AEO) programme",
@@ -63,7 +91,11 @@
       "legal_force": "regulation",
       "applies_to": "trusted-trader certification (AEOC/AEOS) for economic operators under the EU customs code",
       "tags": ["aeo", "customs", "eu", "trusted-trader"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Customs Trade Partnership Against Terrorism (CTPAT)", "SAFE Framework of Standards to Secure and Facilitate Global Trade"],
+      "triggers": ["international-trade", "customs-declaration", "eu-market", "supply-chain-due-diligence"]
     },
     {
       "document": "Customs Trade Partnership Against Terrorism (CTPAT)",
@@ -71,7 +103,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "voluntary public-private supply-chain security partnership between CBP and importers/carriers",
       "tags": ["ctpat", "supply-chain-security", "us", "customs", "voluntary"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Authorised Economic Operator (AEO) programme", "SAFE Framework of Standards to Secure and Facilitate Global Trade"],
+      "triggers": ["international-trade", "supply-chain-due-diligence", "traceability"]
     },
     {
       "document": "Recommendations on the Transport of Dangerous Goods — Model Regulations (\"Orange Book\")",
@@ -79,7 +115,11 @@
       "legal_force": "binding-standard",
       "applies_to": "global baseline for classification, packaging, and marking of dangerous goods across all transport modes",
       "tags": ["dangerous-goods", "un-model-regulations", "transport", "classification"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["dangerous-goods", "transport-safety", "international-trade"]
     },
     {
       "document": "Technical Instructions for the Safe Transport of Dangerous Goods by Air (Doc 9284)",
@@ -87,7 +127,11 @@
       "legal_force": "binding-standard",
       "applies_to": "legally binding dangerous-goods rules for air transport, amplifying ICAO Annex 18",
       "tags": ["dangerous-goods", "air-transport", "icao", "aviation"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Dangerous Goods Regulations (DGR)"],
+      "triggers": ["dangerous-goods", "transport-safety", "air-transport"]
     },
     {
       "document": "Dangerous Goods Regulations (DGR)",
@@ -95,7 +139,11 @@
       "legal_force": "binding-standard",
       "applies_to": "airline-industry manual implementing ICAO dangerous-goods rules for air carriers",
       "tags": ["dangerous-goods", "air-transport", "iata", "airlines"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Technical Instructions for the Safe Transport of Dangerous Goods by Air (Doc 9284)"],
+      "triggers": ["dangerous-goods", "transport-safety", "air-transport"]
     },
     {
       "document": "International Maritime Dangerous Goods (IMDG) Code",
@@ -103,7 +151,11 @@
       "legal_force": "binding-standard",
       "applies_to": "mandatory dangerous-goods rules for sea transport under SOLAS",
       "tags": ["dangerous-goods", "maritime", "imo", "solas"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["dangerous-goods", "transport-safety", "maritime-transport"]
     },
     {
       "document": "ADR — Agreement concerning the International Carriage of Dangerous Goods by Road",
@@ -111,7 +163,11 @@
       "legal_force": "binding-standard",
       "applies_to": "international carriage of dangerous goods by road",
       "tags": ["dangerous-goods", "road-transport", "adr", "unece"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["dangerous-goods", "transport-safety", "road-transport"]
     },
     {
       "document": "RID — Regulations concerning the International Carriage of Dangerous Goods by Rail",
@@ -119,7 +175,11 @@
       "legal_force": "binding-standard",
       "applies_to": "international carriage of dangerous goods by rail",
       "tags": ["dangerous-goods", "rail-transport", "rid", "otif"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["dangerous-goods", "transport-safety", "rail-transport"]
     },
     {
       "document": "ADN — Agreement concerning the International Carriage of Dangerous Goods by Inland Waterways",
@@ -127,7 +187,11 @@
       "legal_force": "binding-standard",
       "applies_to": "international carriage of dangerous goods on inland waterways",
       "tags": ["dangerous-goods", "inland-waterways", "adn", "unece"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["dangerous-goods", "transport-safety", "inland-waterways"]
     },
     {
       "document": "GHS — Globally Harmonized System of Classification and Labelling of Chemicals",
@@ -135,7 +199,11 @@
       "legal_force": "framework",
       "applies_to": "harmonized classification of chemical hazards and standardized labels and safety data sheets",
       "tags": ["ghs", "chemical-safety", "classification", "labelling"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["CLP Regulation (EC) No 1272/2008 — Classification, Labelling and Packaging"],
+      "triggers": ["dangerous-goods", "transport-safety", "chemical-safety"]
     },
     {
       "document": "Corporate Sustainability Due Diligence Directive (CSDDD) — Directive (EU) 2024/1760",
@@ -143,7 +211,11 @@
       "legal_force": "directive",
       "applies_to": "human-rights and environmental due diligence obligations across a company's chain of activities",
       "tags": ["due-diligence", "human-rights", "environment", "eu", "csddd"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["OECD Due Diligence Guidance for Responsible Business Conduct", "UN Guiding Principles on Business and Human Rights"],
+      "triggers": ["supply-chain-due-diligence", "eu-market", "supply-chain-transparency"]
     },
     {
       "document": "OECD Due Diligence Guidance for Responsible Business Conduct",
@@ -151,7 +223,11 @@
       "legal_force": "framework",
       "applies_to": "risk-based, six-step due-diligence process for identifying and addressing supply-chain risks",
       "tags": ["due-diligence", "oecd", "responsible-business", "framework"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Corporate Sustainability Due Diligence Directive (CSDDD) — Directive (EU) 2024/1760"],
+      "triggers": ["supply-chain-due-diligence", "supply-chain-transparency"]
     },
     {
       "document": "UN Guiding Principles on Business and Human Rights",
@@ -159,7 +235,11 @@
       "legal_force": "framework",
       "applies_to": "corporate responsibility to respect human rights across business operations and supply chains",
       "tags": ["human-rights", "business", "un", "framework"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Corporate Sustainability Due Diligence Directive (CSDDD) — Directive (EU) 2024/1760"],
+      "triggers": ["supply-chain-due-diligence", "supply-chain-transparency"]
     },
     {
       "document": "Uyghur Forced Labor Prevention Act (UFLPA)",
@@ -167,7 +247,11 @@
       "legal_force": "law",
       "applies_to": "rebuttable presumption barring importation of goods linked to forced labor in the Xinjiang Uyghur Autonomous Region",
       "tags": ["forced-labor", "uflpa", "us", "customs", "import-ban"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Modern Slavery Act 2015"],
+      "triggers": ["supply-chain-due-diligence", "customs-declaration", "international-trade"]
     },
     {
       "document": "Modern Slavery Act 2015",
@@ -175,7 +259,11 @@
       "legal_force": "law",
       "applies_to": "requires large organizations operating in the UK to publish annual supply-chain transparency statements",
       "tags": ["modern-slavery", "uk", "transparency", "supply-chain"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Uyghur Forced Labor Prevention Act (UFLPA)"],
+      "triggers": ["supply-chain-due-diligence", "supply-chain-transparency"]
     },
     {
       "document": "Conflict Minerals — Final Rule (Dodd-Frank Section 1502)",
@@ -183,7 +271,11 @@
       "legal_force": "regulation",
       "applies_to": "requires SEC-reporting issuers to disclose sourcing of tin, tantalum, tungsten, and gold (3TG minerals)",
       "tags": ["conflict-minerals", "sec", "disclosure", "us", "dodd-frank"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["supply-chain-due-diligence", "traceability", "international-trade"]
     },
     {
       "document": "GS1 Standards",
@@ -191,7 +283,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "global identification, data capture, and information-sharing standards used across supply chains",
       "tags": ["gs1", "standards", "traceability", "identification"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["traceability", "international-trade"]
     },
     {
       "document": "Global Trade Item Number (GTIN)",
@@ -199,7 +295,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "unique identification of trade items, encoded in GS1 barcodes",
       "tags": ["gtin", "gs1", "barcodes", "identification"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["traceability", "international-trade"]
     },
     {
       "document": "GS1 Barcodes",
@@ -207,7 +307,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "barcode symbologies that carry GTINs and other GS1 identification keys",
       "tags": ["barcodes", "gs1", "symbology", "traceability"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["traceability", "international-trade"]
     },
     {
       "document": "ISO 28000:2022 — Security and resilience: Security management systems, Requirements",
@@ -215,7 +319,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "security management system requirements for organizations operating within a supply chain",
       "tags": ["iso-28000", "security-management", "supply-chain", "standard"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["ISO 28000:2007"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["supply-chain-due-diligence", "traceability", "transport-safety"]
     },
     {
       "document": "FSMA Final Rule — Requirements for Additional Traceability Records for Certain Foods (Section 204)",
@@ -223,7 +331,11 @@
       "legal_force": "regulation",
       "applies_to": "additional traceability recordkeeping (Critical Tracking Events and Key Data Elements) for high-risk foods on the Food Traceability List",
       "tags": ["fsma", "food-traceability", "fda", "us", "recordkeeping"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["traceability", "food-safety", "international-trade"]
     }
   ]
 }

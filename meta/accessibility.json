@@ -1,0 +1,847 @@
+{
+  "slug": "accessibility",
+  "entries": [
+    {
+      "document": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Web content; referenced by EU, US, UK and Canadian accessibility laws",
+      "tags": [
+        "w3c",
+        "wcag",
+        "web",
+        "recommendation",
+        "international"
+      ],
+      "status": "current",
+      "supersedes": [
+        "WCAG 2.1"
+      ],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "public-sector-website"
+      ]
+    },
+    {
+      "document": "WCAG 2.1",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Web content; referenced by EU Web Accessibility Directive and US ADA Title II rule",
+      "tags": [
+        "w3c",
+        "wcag",
+        "web",
+        "recommendation"
+      ],
+      "status": "current",
+      "supersedes": [
+        "WCAG 2.0"
+      ],
+      "superseded_by": [
+        "Web Content Accessibility Guidelines (WCAG) 2.2"
+      ],
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "public-sector-website"
+      ]
+    },
+    {
+      "document": "WCAG 2 Overview",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Navigating WCAG 2.x versions and conformance",
+      "tags": [
+        "w3c",
+        "wai",
+        "overview",
+        "navigator"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WCAG 3.0 Working Draft",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Next-generation accessibility guidelines under development; not yet normative",
+      "tags": [
+        "w3c",
+        "wcag3",
+        "draft",
+        "future"
+      ],
+      "status": "draft",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "next-generation"
+      ]
+    },
+    {
+      "document": "WAI-ARIA 1.2",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Rich internet applications; roles, states and properties for assistive technology interoperability",
+      "tags": [
+        "w3c",
+        "aria",
+        "widgets",
+        "recommendation"
+      ],
+      "status": "current",
+      "supersedes": [
+        "WAI-ARIA 1.1"
+      ],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "rich-internet-application"
+      ]
+    },
+    {
+      "document": "ARIA Authoring Practices Guide (APG)",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Developers building accessible widgets and interaction patterns",
+      "tags": [
+        "w3c",
+        "wai",
+        "aria",
+        "patterns",
+        "guidance"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "authoring-tool",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Web content authoring tools; tool UI accessibility and accessible content production",
+      "tags": [
+        "w3c",
+        "atag",
+        "authoring-tools",
+        "recommendation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "authoring-tool"
+      ]
+    },
+    {
+      "document": "Accessible Name and Description Computation (accname) 1.2",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Browsers and assistive technologies computing accessible names for UI elements",
+      "tags": [
+        "w3c",
+        "accname",
+        "algorithm",
+        "recommendation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "rich-internet-application"
+      ]
+    },
+    {
+      "document": "WAI standards & guidelines overview",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Navigating all WAI accessibility standards",
+      "tags": [
+        "w3c",
+        "wai",
+        "overview",
+        "navigator"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "European Accessibility Act — Directive (EU) 2019/882",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "Products and services placed on the EU market; transposition deadline 28 June 2025",
+      "tags": [
+        "eu",
+        "eaa",
+        "products",
+        "services",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "eu-market-product"
+      ]
+    },
+    {
+      "document": "Web Accessibility Directive — Directive (EU) 2016/2102",
+      "jurisdiction": "EU",
+      "legal_force": "directive",
+      "applies_to": "Public-sector websites and mobile apps; WCAG 2.1 AA conformance and accessibility statement",
+      "tags": [
+        "eu",
+        "public-sector",
+        "websites",
+        "mandatory",
+        "accessibility-statement"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "eu-market-product"
+      ]
+    },
+    {
+      "document": "EN 301 549 v3.2.1 — Accessibility requirements for ICT products and services",
+      "jurisdiction": "EU",
+      "legal_force": "binding-standard",
+      "applies_to": "ICT products and services procured in Europe; harmonised standard supporting EU accessibility directives",
+      "tags": [
+        "etsi",
+        "en-301-549",
+        "ict",
+        "harmonised-standard"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "CAN/ASC-EN 301 549:2024"
+      ],
+      "triggers": [
+        "eu-market-product",
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "EN 301 549 (AccessibleEU digital library)",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "Reference page hosting EN 301 549:2021 and AccessibleEU guidance",
+      "tags": [
+        "eu",
+        "accessible-eu",
+        "reference"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "eu-market-product",
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "Mandate M/376 — Accessibility requirements for ICT",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "Commission standardisation request that led to EN 301 549",
+      "tags": [
+        "eu",
+        "mandate",
+        "standardisation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "eu-market-product",
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "European Accessibility Act guidance hub",
+      "jurisdiction": "EU",
+      "legal_force": "guidance",
+      "applies_to": "EAA implementation resources for economic operators",
+      "tags": [
+        "eu",
+        "eaa",
+        "guidance",
+        "implementation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "eu-market-product"
+      ]
+    },
+    {
+      "document": "Section 508 Standards (36 CFR § 1194)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "US federal agencies and contractors providing ICT; refreshed 2018 to align with WCAG 2.0 AA",
+      "tags": [
+        "us-federal",
+        "section-508",
+        "ict",
+        "wcag-linked"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Section 508 / 36 CFR Part 1194 (eCFR)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "Codified Section 508 standards in the Code of Federal Regulations",
+      "tags": [
+        "us-federal",
+        "ecfr",
+        "section-508",
+        "codified"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Section 508 refresh final rule (2017)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "Final rule refreshing Section 508 and Section 255; effective 23 Jan 2018",
+      "tags": [
+        "us-federal",
+        "access-board",
+        "section-508",
+        "section-255"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict",
+        "web-content"
+      ]
+    },
+    {
+      "document": "ADA Title II Web & Mobile App Accessibility Rule (2024)",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "State and local government web content and mobile apps; WCAG 2.1 AA conformance",
+      "tags": [
+        "us",
+        "ada",
+        "title-ii",
+        "wcag-linked",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "web-content"
+      ]
+    },
+    {
+      "document": "ADA Title II web rule fact sheet",
+      "jurisdiction": "US",
+      "legal_force": "guidance",
+      "applies_to": "DOJ fact sheet explaining the ADA Title II web and mobile app accessibility rule",
+      "tags": [
+        "us",
+        "ada",
+        "doj",
+        "guidance"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "web-content"
+      ]
+    },
+    {
+      "document": "ADA Title II web rule — Federal Register",
+      "jurisdiction": "US",
+      "legal_force": "regulation",
+      "applies_to": "Final rule published 24 Apr 2024; 28 CFR Part 35",
+      "tags": [
+        "us",
+        "ada",
+        "federal-register",
+        "title-ii"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Section 255 — Telecommunications Access",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "Telecom equipment and services; enforced by FCC",
+      "tags": [
+        "us",
+        "fcc",
+        "telecom",
+        "section-255"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "telecom-service"
+      ]
+    },
+    {
+      "document": "Air Carrier Access Act (ACAA)",
+      "jurisdiction": "US",
+      "legal_force": "law",
+      "applies_to": "Airlines and air transportation services; digital kiosks and web check-in",
+      "tags": [
+        "us",
+        "dot",
+        "airlines",
+        "acaa"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "airline"
+      ]
+    },
+    {
+      "document": "Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
+      "jurisdiction": "UK",
+      "legal_force": "law",
+      "applies_to": "UK public-sector bodies; WCAG 2.2 AA conformance and accessibility statement required",
+      "tags": [
+        "uk",
+        "public-sector",
+        "wcag-linked",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Equality Act 2010 — reasonable adjustments",
+      "jurisdiction": "UK",
+      "legal_force": "law",
+      "applies_to": "UK anti-discrimination law; reasonable-adjustment duty underpins digital accessibility",
+      "tags": [
+        "uk",
+        "equality-act",
+        "reasonable-adjustments"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "public-sector-website",
+        "web-content"
+      ]
+    },
+    {
+      "document": "Accessible Canada Act (S.C. 2019, c. A-0.6)",
+      "jurisdiction": "Canada",
+      "legal_force": "law",
+      "applies_to": "Federally regulated entities; barrier-free Canada by 2040",
+      "tags": [
+        "canada",
+        "federal",
+        "barrier-free",
+        "mandatory"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "Accessible Canada Act — summary",
+      "jurisdiction": "Canada",
+      "legal_force": "guidance",
+      "applies_to": "Government summary of the Act's key provisions",
+      "tags": [
+        "canada",
+        "guidance",
+        "summary"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "CAN/ASC-EN 301 549:2024",
+      "jurisdiction": "Canada",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Canadian adoption of EN 301 549:2021 for ICT accessibility",
+      "tags": [
+        "canada",
+        "asc",
+        "en-301-549",
+        "adoption"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "EN 301 549 v3.2.1 — Accessibility requirements for ICT products and services"
+      ],
+      "triggers": [
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "Accessibility Standards Canada — standards database",
+      "jurisdiction": "Canada",
+      "legal_force": "guidance",
+      "applies_to": "Searchable database of Canadian accessibility standards",
+      "tags": [
+        "canada",
+        "asc",
+        "database",
+        "reference"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "federal-ict"
+      ]
+    },
+    {
+      "document": "ISO/IEC 30071-1:2019 — Development of user interface accessibility — Code of practice",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Organisational code of practice for creating accessible ICT products and services",
+      "tags": [
+        "iso",
+        "iec",
+        "30071",
+        "code-of-practice",
+        "paid"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "authoring-tool"
+      ]
+    },
+    {
+      "document": "ISO/IEC 40500:2012 — WCAG 2.0 as ISO standard",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "WCAG 2.0 adopted as ISO/IEC international standard",
+      "tags": [
+        "iso",
+        "iec",
+        "40500",
+        "wcag",
+        "paid"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "WCAG 2.0"
+      ],
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "ISO 24586:2022 — Ageing population accessibility",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Accessible design considering the needs of older persons",
+      "tags": [
+        "iso",
+        "ageing",
+        "older-persons",
+        "paid"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "ageing-population"
+      ]
+    },
+    {
+      "document": "WCAG 2.2 as ISO/IEC PAS",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "WCAG 2.2 approved as ISO/IEC PAS in October 2025",
+      "tags": [
+        "iso",
+        "iec",
+        "pas",
+        "wcag22",
+        "press-release"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": [
+        "Web Content Accessibility Guidelines (WCAG) 2.2"
+      ],
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WCAG Conformance Requirements",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Normative conformance levels (A, AA, AAA) and applicability notes",
+      "tags": [
+        "w3c",
+        "wcag",
+        "conformance",
+        "levels"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WCAG-EM 1.0 — Website Accessibility Conformance Evaluation Methodology",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Structured methodology for evaluating website conformance to WCAG",
+      "tags": [
+        "w3c",
+        "wai",
+        "evaluation",
+        "methodology"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WCAG-EM 2.0 First Public Draft Note",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Updated evaluation methodology aligned with WCAG 3 development; February 2026",
+      "tags": [
+        "w3c",
+        "wai",
+        "evaluation",
+        "draft"
+      ],
+      "status": "draft",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WAI evaluation resources hub",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Links to evaluation tools, methods and checklists",
+      "tags": [
+        "w3c",
+        "wai",
+        "evaluation",
+        "tools"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "W3C WAI tutorials",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Practical tutorials for accessible menus, forms, tables, carousels and images",
+      "tags": [
+        "w3c",
+        "wai",
+        "tutorials",
+        "practical"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content"
+      ]
+    },
+    {
+      "document": "WAI-ARIA Authoring Practices — patterns",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Reference implementations of accessible widget patterns",
+      "tags": [
+        "w3c",
+        "wai",
+        "aria",
+        "patterns",
+        "reference"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "rich-internet-application"
+      ]
+    },
+    {
+      "document": "User Agent Accessibility Guidelines (UAAG) 2.0",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Browsers and media players; W3C Note (not a formal Recommendation)",
+      "tags": [
+        "w3c",
+        "uaag",
+        "user-agents",
+        "note"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "user-agent"
+      ]
+    },
+    {
+      "document": "EPUB Accessibility 1.1",
+      "jurisdiction": "Global",
+      "legal_force": "voluntary-standard",
+      "applies_to": "Accessibility requirements for EPUB publications; W3C Recommendation",
+      "tags": [
+        "w3c",
+        "epub",
+        "publications",
+        "recommendation"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "epub-publication"
+      ]
+    },
+    {
+      "document": "WAI assistive technologies overview",
+      "jurisdiction": "Global",
+      "legal_force": "guidance",
+      "applies_to": "Explains how people with disabilities use the web and assistive technologies",
+      "tags": [
+        "w3c",
+        "wai",
+        "assistive-tech",
+        "overview"
+      ],
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": [
+        "web-content",
+        "assistive-technology"
+      ]
+    }
+  ]
+}

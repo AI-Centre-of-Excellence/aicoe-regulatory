@@ -7,7 +7,6 @@ order: 3
 
 A curated index of authoritative, primary-source law, risk frameworks, management standards, and international principles governing the responsible development and use of artificial intelligence. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Regulation
 
@@ -35,6 +34,8 @@ The US state landscape is evolving quickly: Colorado enacted the first comprehen
 | ISO/IEC 22989:2022 — AI concepts and terminology | ISO / IEC | https://www.iso.org/standard/74296.html | Foundational vocabulary underpinning the ISO/IEC AI standards suite; catalogue page, paid |
 | ISO/IEC 42005:2025 — AI system impact assessment | ISO / IEC | https://www.iso.org/standard/44545.html | Repeatable process for documenting AI impacts across the lifecycle; catalogue page, paid |
 | ISO/IEC 38507:2022 — Governance implications of the use of AI by organizations | ISO / IEC | https://www.iso.org/standard/56641.html | Board-level governance guidance for organizational AI use; catalogue page, paid |
+| ISO/IEC TR 24028:2020 — Overview of trustworthiness in artificial intelligence | ISO / IEC | https://www.iso.org/standard/77608.html | Technical report cataloguing AI trustworthiness properties (reliability, robustness, transparency); catalogue page, paid |
+| ISO/IEC TR 24027:2021 — Bias in AI systems and AI aided decision making | ISO / IEC | https://www.iso.org/standard/77607.html | Technical report on sources of bias and measurement/mitigation approaches; catalogue page, paid |
 
 ## International principles
 
@@ -46,6 +47,15 @@ The US state landscape is evolving quickly: Colorado enacted the first comprehen
 | Hiroshima Process International Code of Conduct for Advanced AI Systems | G7 (hosted by European Commission) | https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems | Voluntary 11-point code for organizations developing advanced AI; published 30 Oct 2023 |
 | Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225) | Council of Europe | https://rm.coe.int/1680afae3c | First legally binding international AI treaty; opened for signature 5 Sep 2024 |
 
+## National & regional frameworks (other jurisdictions)
+
+| Document | Issuer | Link | Notes |
+|---|---|---|---|
+| Interim Measures for the Management of Generative AI Services | Cyberspace Administration of China (CAC) | https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm | China's binding rules for public-facing generative AI services; effective 15 Aug 2023 (site in Chinese) |
+| Artificial Intelligence and Data Act (AIDA) — Bill C-27 | Innovation, Science and Economic Development Canada | https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act | Proposed Canadian federal AI law within Bill C-27; lapsed at prorogation Jan 2025, awaiting reintroduction |
+| A pro-innovation approach to AI regulation | UK Government (DSIT) | https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach | UK's principles-based, regulator-led AI framework (white paper); non-statutory |
+| Model AI Governance Framework | Singapore PDPC / IMDA | https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework | Voluntary framework translating ethical AI principles into implementable practices |
+
 ## Sector-specific (cross-reference)
 
 These entries sit primarily under other domains. AI-enabled medical devices belong to Healthcare; model risk management belongs to Finance. They are indexed here because they set AI-governance expectations in regulated sectors.
@@ -55,11 +65,11 @@ These entries sit primarily under other domains. AI-enabled medical devices belo
 | Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations | FDA | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing | Draft guidance covering AI-enabled devices across the total product lifecycle (see Healthcare) |
 | Good Machine Learning Practice for Medical Device Development: Guiding Principles | FDA, Health Canada, MHRA | https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles | Ten joint GMLP principles for AI/ML medical devices; Oct 2021 (see Healthcare) |
 | Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices | FDA | https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices | FDA's list of AI/ML-enabled devices authorized for US marketing (see Healthcare) |
-| SR 11-7 — Guidance on Model Risk Management | Federal Reserve / OCC | https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm | Banking model-risk validation baseline applied to AI/ML models; revised by SR 26-2 (Apr 2026) (see Finance) |
+| SR 11-7 — Guidance on Model Risk Management | Federal Reserve / OCC | https://www.federalreserve.gov/frrs/guidance/supervisory-guidance-on-model-risk-management.htm | Banking model-risk validation baseline applied to AI/ML models; revised by SR 26-2 (Apr 2026) (see Finance) |
 
 ## Scope & maintenance
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors.
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where an instrument has a live successor (for example OMB M-25-21 replacing M-24-10, or SR 26-2 revising SR 11-7), the Notes column flags it; update rows as revisions and ratifications take effect.

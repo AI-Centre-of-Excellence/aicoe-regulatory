@@ -7,7 +7,6 @@ order: 1
 
 A curated index of authoritative, primary-source regulations, certification specifications, and standards governing aircraft airworthiness, aviation safety, aerospace quality, space systems, and defense trade and export control. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Airworthiness & certification
 
@@ -69,5 +68,5 @@ AS9100 also underpins aerospace manufacturing; it is indexed here as the sector'
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors.
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where a standard has a live revision (for example CS-25 amendments, or the ITU Radio Regulations 2024 edition), the Notes column or the issuer's own page flags the successor; update rows as revisions are adopted.

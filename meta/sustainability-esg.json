@@ -7,7 +7,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "organizations of any size or sector choosing to report sustainability impacts",
       "tags": ["gri", "sustainability-reporting", "impact-reporting", "voluntary"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "SASB Standards",
@@ -15,7 +19,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "companies reporting industry-specific, financially material sustainability information",
       "tags": ["sasb", "issb", "industry-standards", "financial-materiality"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information"],
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information",
@@ -23,7 +31,11 @@
       "legal_force": "framework",
       "applies_to": "entities adopting ISSB sustainability-related financial disclosure requirements",
       "tags": ["issb", "ifrs", "sustainability-disclosure", "financial-reporting"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["SASB Standards"],
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "IFRS S2 Climate-related Disclosures",
@@ -31,7 +43,11 @@
       "legal_force": "framework",
       "applies_to": "entities adopting ISSB climate-related financial disclosure requirements",
       "tags": ["issb", "ifrs", "climate-disclosure", "tcfd-aligned"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["TCFD Recommendations"],
+      "superseded_by": null,
+      "equivalents": ["TCFD Recommendations"],
+      "triggers": ["esg-reporting", "carbon-target", "sustainability-report"]
     },
     {
       "document": "IFRS Sustainability Disclosure Standards navigator",
@@ -39,7 +55,11 @@
       "legal_force": "framework",
       "applies_to": "anyone seeking free access to the issued ISSB sustainability disclosure standards",
       "tags": ["issb", "ifrs", "navigator", "access-point"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "TCFD Recommendations",
@@ -47,7 +67,11 @@
       "legal_force": "framework",
       "applies_to": "organizations disclosing climate-related financial risks and opportunities",
       "tags": ["tcfd", "climate-disclosure", "financial-risk", "four-pillar"],
-      "status": "superseded"
+      "status": "superseded",
+      "supersedes": null,
+      "superseded_by": ["IFRS S2 Climate-related Disclosures"],
+      "equivalents": ["IFRS S2 Climate-related Disclosures"],
+      "triggers": ["esg-reporting", "carbon-target", "sustainability-report"]
     },
     {
       "document": "TCFD Publications",
@@ -55,7 +79,11 @@
       "legal_force": "framework",
       "applies_to": "organizations implementing TCFD-aligned climate disclosure guidance",
       "tags": ["tcfd", "implementation-guidance", "climate-disclosure"],
-      "status": "superseded"
+      "status": "superseded",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "carbon-target", "sustainability-report"]
     },
     {
       "document": "International Integrated Reporting Framework (<IR>)",
@@ -63,7 +91,11 @@
       "legal_force": "framework",
       "applies_to": "organizations producing integrated reports connecting value creation across capitals",
       "tags": ["integrated-reporting", "ifrs-foundation", "value-creation"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "Corporate Sustainability Reporting Directive (CSRD) — Directive (EU) 2022/2464",
@@ -71,7 +103,11 @@
       "legal_force": "directive",
       "applies_to": "large EU companies and listed SMEs subject to phased mandatory sustainability reporting from FY2024",
       "tags": ["csrd", "eu-directive", "mandatory-reporting", "accounting-directive"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Non-Financial Reporting Directive (NFRD) — Directive 2014/95/EU"],
+      "superseded_by": null,
+      "equivalents": ["SEC Adopts Rules to Enhance and Standardize Climate-Related Disclosures for Investors"],
+      "triggers": ["esg-reporting", "eu-large-entity", "sustainability-report", "eu-market"]
     },
     {
       "document": "European Sustainability Reporting Standards (ESRS) — Delegated Regulation (EU) 2023/2772",
@@ -79,7 +115,11 @@
       "legal_force": "regulation",
       "applies_to": "companies in scope of CSRD applying the detailed ESRS disclosure requirements from 1 Jan 2024",
       "tags": ["esrs", "csrd", "eu-regulation", "disclosure-standards"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["GRI Standards", "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information"],
+      "triggers": ["esg-reporting", "eu-large-entity", "sustainability-report", "eu-market"]
     },
     {
       "document": "ESRS development and technical advice",
@@ -87,7 +127,11 @@
       "legal_force": "guidance",
       "applies_to": "stakeholders following EFRAG's technical drafting and advisory work on ESRS",
       "tags": ["efrag", "esrs", "technical-advice", "standard-setting"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-market"]
     },
     {
       "document": "Corporate sustainability reporting (CSRD hub)",
@@ -95,7 +139,11 @@
       "legal_force": "guidance",
       "applies_to": "companies and advisers seeking the European Commission's overview of CSRD scope and timeline",
       "tags": ["csrd", "european-commission", "overview", "guidance"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-large-entity", "eu-market"]
     },
     {
       "document": "EU Taxonomy Regulation — Regulation (EU) 2020/852",
@@ -103,7 +151,11 @@
       "legal_force": "regulation",
       "applies_to": "financial market participants and companies classifying environmentally sustainable economic activities",
       "tags": ["eu-taxonomy", "regulation", "sustainable-finance", "classification"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-large-entity", "eu-market"]
     },
     {
       "document": "EU taxonomy for sustainable activities",
@@ -111,7 +163,11 @@
       "legal_force": "guidance",
       "applies_to": "companies and investors applying the EU Taxonomy classification system",
       "tags": ["eu-taxonomy", "european-commission", "guidance", "sustainable-finance"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-market"]
     },
     {
       "document": "Sustainable Finance Disclosure Regulation (SFDR) — Regulation (EU) 2019/2088",
@@ -119,7 +175,11 @@
       "legal_force": "regulation",
       "applies_to": "financial market participants and advisers disclosing sustainability-related information in financial services",
       "tags": ["sfdr", "eu-regulation", "financial-services", "sustainability-disclosure"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-large-entity", "eu-market"]
     },
     {
       "document": "Sustainable finance (framework overview)",
@@ -127,7 +187,11 @@
       "legal_force": "guidance",
       "applies_to": "stakeholders navigating the European Commission's linked taxonomy, disclosure and standards resources",
       "tags": ["sustainable-finance", "european-commission", "overview", "hub"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "eu-market"]
     },
     {
       "document": "SEC Adopts Rules to Enhance and Standardize Climate-Related Disclosures for Investors",
@@ -135,7 +199,11 @@
       "legal_force": "regulation",
       "applies_to": "SEC-registered public companies subject to climate-related disclosure requirements",
       "tags": ["sec", "climate-disclosure", "us-regulation", "stayed-litigation"],
-      "status": "proposed"
+      "status": "proposed",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Corporate Sustainability Reporting Directive (CSRD) — Directive (EU) 2022/2464"],
+      "triggers": ["esg-reporting", "carbon-target", "sustainability-report"]
     },
     {
       "document": "Climate Disclosure Final Rule (Release 33-11275)",
@@ -143,7 +211,11 @@
       "legal_force": "regulation",
       "applies_to": "SEC registrants required to disclose Scope 1/2 emissions and financial-statement climate effects",
       "tags": ["sec", "final-rule", "scope-1-2", "climate-disclosure"],
-      "status": "proposed"
+      "status": "proposed",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["SB 253 — Climate Corporate Data Accountability Act"],
+      "triggers": ["esg-reporting", "ghg-accounting", "carbon-target"]
     },
     {
       "document": "SB 253 — Climate Corporate Data Accountability Act",
@@ -151,7 +223,11 @@
       "legal_force": "law",
       "applies_to": "large companies doing business in California disclosing Scope 1-3 GHG emissions",
       "tags": ["california", "sb-253", "ghg-disclosure", "state-law"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["Climate Disclosure Final Rule (Release 33-11275)"],
+      "triggers": ["esg-reporting", "ghg-accounting", "carbon-target"]
     },
     {
       "document": "SB 261 — Greenhouse gases: climate-related financial risk",
@@ -159,7 +235,11 @@
       "legal_force": "law",
       "applies_to": "large companies doing business in California filing biennial climate financial-risk reports",
       "tags": ["california", "sb-261", "climate-risk", "state-law"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["TCFD Recommendations"],
+      "triggers": ["esg-reporting", "carbon-target"]
     },
     {
       "document": "GHG Protocol Corporate Accounting and Reporting Standard",
@@ -167,7 +247,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "organizations building corporate greenhouse gas emissions inventories",
       "tags": ["ghg-protocol", "corporate-standard", "emissions-inventory", "voluntary"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["ISO 14064-1:2018 — Greenhouse gases — Organization-level quantification and reporting"],
+      "triggers": ["ghg-accounting", "carbon-target", "sustainability-report"]
     },
     {
       "document": "Corporate Value Chain (Scope 3) Standard",
@@ -175,7 +259,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "organizations accounting for value-chain (Scope 3) emissions across 15 categories",
       "tags": ["ghg-protocol", "scope-3", "value-chain", "emissions-accounting"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["ghg-accounting", "carbon-target", "supply-chain-transparency"]
     },
     {
       "document": "Science Based Targets initiative (SBTi)",
@@ -183,7 +271,11 @@
       "legal_force": "framework",
       "applies_to": "companies seeking independent validation of emissions-reduction targets against climate science",
       "tags": ["sbti", "target-validation", "climate-science", "voluntary"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["carbon-target", "ghg-accounting", "sustainability-report"]
     },
     {
       "document": "SBTi Corporate Net-Zero Standard",
@@ -191,7 +283,11 @@
       "legal_force": "framework",
       "applies_to": "companies setting and validating science-based corporate net-zero targets",
       "tags": ["sbti", "net-zero", "target-setting", "framework"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["SBTi Corporate Net-Zero Standard v1"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["carbon-target", "ghg-accounting", "sustainability-report"]
     },
     {
       "document": "CDP",
@@ -199,7 +295,11 @@
       "legal_force": "framework",
       "applies_to": "companies, cities and investors disclosing environmental impact data",
       "tags": ["cdp", "environmental-disclosure", "voluntary", "global-system"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "ghg-accounting", "sustainability-report"]
     },
     {
       "document": "Sustainable Development Goals (the 17 Goals)",
@@ -207,7 +307,11 @@
       "legal_force": "framework",
       "applies_to": "UN Member States and organizations aligning strategy to the 2030 Agenda",
       "tags": ["un-sdgs", "2030-agenda", "global-goals", "framework"],
-      "status": "current"
+      "status": "current",
+      "supersedes": ["Millennium Development Goals"],
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "UN Global Compact",
@@ -215,7 +319,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "companies voluntarily committing to corporate sustainability principles",
       "tags": ["un-global-compact", "corporate-sustainability", "voluntary", "membership"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "The Ten Principles of the UN Global Compact",
@@ -223,7 +331,11 @@
       "legal_force": "voluntary-standard",
       "applies_to": "companies committing to human rights, labour, environment and anti-corruption principles",
       "tags": ["un-global-compact", "ten-principles", "human-rights", "anti-corruption"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "supply-chain-transparency"]
     },
     {
       "document": "Principles for Responsible Investment (PRI)",
@@ -231,7 +343,11 @@
       "legal_force": "framework",
       "applies_to": "investors incorporating ESG considerations into investment practice",
       "tags": ["pri", "responsible-investment", "esg-integration", "un-supported"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": null,
+      "triggers": ["esg-reporting", "sustainability-report"]
     },
     {
       "document": "Taskforce on Nature-related Financial Disclosures (TNFD)",
@@ -239,7 +355,11 @@
       "legal_force": "framework",
       "applies_to": "organizations disclosing nature-related risks, dependencies and impacts",
       "tags": ["tnfd", "nature-risk", "disclosure-framework", "biodiversity"],
-      "status": "current"
+      "status": "current",
+      "supersedes": null,
+      "superseded_by": null,
+      "equivalents": ["TCFD Recommendations"],
+      "triggers": ["esg-reporting", "sustainability-report", "supply-chain-transparency"]
     }
   ]
 }

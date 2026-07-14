@@ -7,7 +7,6 @@ order: 1
 
 A curated index of authoritative, primary-source frameworks, standards, and regulations governing corporate sustainability and ESG reporting. Every link points to the issuing body's own canonical page or document.
 
-> All links in this file were verified as resolving to the stated document as of **2026-07-07**.
 
 ## Sustainability reporting frameworks
 
@@ -68,5 +67,5 @@ A curated index of authoritative, primary-source frameworks, standards, and regu
 
 - **Primary sources only.** Every link points to the issuing body's own canonical page or document, not to secondary summaries or mirrors.
 - **One row per document.** Keep the tables normalized; do not duplicate a standard across sections.
-- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing, and refresh the "verified as of" date in the intro.
+- **Verify on change.** When adding or updating a row, confirm the URL resolves to the stated document before committing.
 - **Current versions.** Where a framework has a live revision (for example the SBTi Corporate Net-Zero Standard v2, or ESRS amendments under the EU omnibus), the Notes column flags the successor; update rows as revisions reach adoption.
