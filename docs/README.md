@@ -53,6 +53,9 @@ Run `python3 wiki/build_wiki.py` after any change to regenerate the output.
 **Sustainability & ESG**
 - [Sustainability & ESG](sustainability-esg.md) — reporting frameworks (GRI/ISSB/TCFD), EU regulation (CSRD/ESRS/Taxonomy/SFDR), GHG accounting, UN principles.
 
+**Environment & Air Quality**
+- [Air quality](air-quality.md) — WHO 2021 guidelines, EU Ambient Air Quality Directive (2024/2881), US Clean Air Act & NAAQS, UK air quality regs & PM2.5 targets, ISO 16000 indoor air.
+
 **AI Agents**
 - [For AI agents](for-ai-agents.md) — machine-readable knowledge map and query contract (manifest, cross-refs, routing) for programmatic use.
 

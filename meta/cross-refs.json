@@ -687,6 +687,20 @@
       "type": "equivalent",
       "scope": "Same standard listed under two domains with different name formatting; aerospace-defense and manufacturing perspectives",
       "bidirectional": true
+    },
+    {
+      "from": "Directive (EU) 2024/2881 — Ambient Air Quality and Cleaner Air for Europe",
+      "to": "WHO Global Air Quality Guidelines (2021)",
+      "type": "references",
+      "scope": "The EU 2024 recast tightens limit values toward the WHO 2021 health-based guideline levels",
+      "bidirectional": false
+    },
+    {
+      "from": "The Air Quality Standards Regulations 2010 (SI 2010/1001)",
+      "to": "Directive 2008/50/EC — Ambient Air Quality and Cleaner Air for Europe",
+      "type": "references",
+      "scope": "The UK regulations transpose the EU ambient air quality directives into domestic law",
+      "bidirectional": false
     }
   ]
 }

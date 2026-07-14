@@ -63,6 +63,7 @@ DOMAIN_ORDER = [
     "Food & Agriculture",
     "Consumer Protection",
     "Sustainability & ESG",
+    "Environment & Air Quality",
 ]
 
 # --- Lucide icons (inline SVG, offline-safe; no CDN) ---------------------------
