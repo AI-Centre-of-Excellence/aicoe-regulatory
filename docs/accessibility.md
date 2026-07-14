@@ -15,7 +15,7 @@ A curated index of authoritative, primary-source accessibility standards, regula
 | Web Content Accessibility Guidelines (WCAG) 2.2 | W3C | https://www.w3.org/TR/WCAG22/ | Current W3C Recommendation for web content accessibility; 13 guidelines, 86 success criteria at A/AA/AAA |
 | WCAG 2.1 | W3C | https://www.w3.org/TR/WCAG21/ | Adds 17 success criteria over 2.0 for mobile, low-vision and cognitive accessibility |
 | WCAG 2 Overview | W3C WAI | https://www.w3.org/WAI/standards-guidelines/wcag/ | Navigator page linking all WCAG 2.x versions, conformance and translations |
-| WCAG 3.0 Working Draft | W3C WAI | https://www.w3.org/WAI/standards-guidelines/wcag/wcag3/ | Next-generation guidelines; Working Draft March 2026, not yet a Recommendation |
+| WCAG 3.0 Working Draft | W3C WAI | https://www.w3.org/TR/wcag-3.0/ | Next-generation guidelines; Working Draft March 2026, not yet a Recommendation |
 | WAI-ARIA 1.2 | W3C | https://www.w3.org/TR/wai-aria-1.2/ | Ontology of roles, states and properties for accessible rich internet applications; W3C Recommendation June 2023 |
 | ARIA Authoring Practices Guide (APG) | W3C WAI | https://www.w3.org/WAI/ARIA/apg/ | Non-normative reference for building accessible widgets and patterns with ARIA |
 | Authoring Tool Accessibility Guidelines (ATAG) 2.0 | W3C | https://www.w3.org/TR/ATAG20/ | Requirements for authoring tools to be accessible and to produce accessible content; W3C Recommendation 2015 |
@@ -62,7 +62,7 @@ A curated index of authoritative, primary-source accessibility standards, regula
 | Document | Issuer | Link | Notes |
 |---|---|---|---|
 | ISO/IEC 30071-1:2019 — Development of user interface accessibility — Code of practice | ISO/IEC | https://www.iso.org/standard/70913.html | Organisational code of practice for creating accessible ICT products and services; paid publication |
-| ISO/IEC 40500:2012 — WCAG 2.0 as ISO standard | ISO/IEC | https://www.iso.org/standard/58525.html | WCAG 2.0 adopted as ISO/IEC international standard; catalogue page (paid) |
+| ISO/IEC 40500:2012 — WCAG 2.0 as ISO standard | ISO/IEC | https://www.iso.org/standard/58625.html | WCAG 2.0 adopted as ISO/IEC international standard; catalogue page (paid) |
 | ISO 24586:2022 — Ageing population accessibility | ISO | https://www.iso.org/standard/78934.html | Guidelines for accessible design considering the needs of older persons; catalogue page (paid) |
 | WCAG 2.2 as ISO/IEC PAS | W3C / ISO | https://www.w3.org/press-releases/2025/wcag22-iso-pas | WCAG 2.2 approved as ISO/IEC PAS in October 2025; press release with background |
 
@@ -70,9 +70,9 @@ A curated index of authoritative, primary-source accessibility standards, regula
 
 | Document | Issuer | Link | Notes |
 |---|---|---|---|
-| WCAG Conformance Requirements | W3C WAI | https://www.w3.org/WAI/WCAG22/Conformance | Normative conformance levels (A, AA, AAA) and applicability notes |
+| WCAG Conformance Requirements | W3C WAI | https://www.w3.org/TR/WCAG22/#conformance | Normative conformance levels (A, AA, AAA) and applicability notes |
 | WCAG-EM 1.0 — Website Accessibility Conformance Evaluation Methodology | W3C WAI | https://www.w3.org/TR/WCAG-EM/ | Structured methodology for evaluating website conformance to WCAG |
-| WCAG-EM 2.0 First Public Draft Note | W3C WAI | https://www.w3.org/WAI/news/2026-02-05/wcag-em-2-0/ | Updated evaluation methodology aligned with WCAG 3 development; February 2026 |
+| WCAG-EM 2.0 First Public Draft Note | W3C WAI | https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/ | Updated evaluation methodology aligned with WCAG 3 development; February 2026 |
 | WAI evaluation resources hub | W3C WAI | https://www.w3.org/WAI/test-evaluate/ | Links to evaluation tools, methods and checklists |
 | W3C WAI tutorials | W3C WAI | https://www.w3.org/WAI/tutorials/ | Practical tutorials for accessible menus, forms, tables, carousels and images |
 | WAI-ARIA Authoring Practices — patterns | W3C WAI | https://www.w3.org/WAI/ARIA/apg/patterns/ | Reference implementations of accessible widget patterns (accordion, dialog, menu, etc.) |

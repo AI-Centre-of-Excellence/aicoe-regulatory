@@ -222,7 +222,7 @@
         {
           "document": "WCAG 3.0 Working Draft",
           "issuer": "W3C WAI",
-          "link": "https://www.w3.org/WAI/standards-guidelines/wcag/wcag3/",
+          "link": "https://www.w3.org/TR/wcag-3.0/",
           "url": "accessibility.html#w3c-standards-wcag-aria-atag",
           "section": "W3C standards (WCAG, ARIA, ATAG)",
           "notes": "Next-generation guidelines; Working Draft March 2026, not yet a Recommendation",
@@ -894,7 +894,7 @@
         {
           "document": "ISO/IEC 40500:2012 — WCAG 2.0 as ISO standard",
           "issuer": "ISO/IEC",
-          "link": "https://www.iso.org/standard/58525.html",
+          "link": "https://www.iso.org/standard/58625.html",
           "url": "accessibility.html#international-standards-isoiec",
           "section": "International standards (ISO/IEC)",
           "notes": "WCAG 2.0 adopted as ISO/IEC international standard; catalogue page (paid)",
@@ -973,7 +973,7 @@
         {
           "document": "WCAG Conformance Requirements",
           "issuer": "W3C WAI",
-          "link": "https://www.w3.org/WAI/WCAG22/Conformance",
+          "link": "https://www.w3.org/TR/WCAG22/#conformance",
           "url": "accessibility.html#testing-conformance-evaluation",
           "section": "Testing, conformance & evaluation",
           "notes": "Normative conformance levels (A, AA, AAA) and applicability notes",
@@ -1021,7 +1021,7 @@
         {
           "document": "WCAG-EM 2.0 First Public Draft Note",
           "issuer": "W3C WAI",
-          "link": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2-0/",
+          "link": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/",
           "url": "accessibility.html#testing-conformance-evaluation",
           "section": "Testing, conformance & evaluation",
           "notes": "Updated evaluation methodology aligned with WCAG 3 development; February 2026",
