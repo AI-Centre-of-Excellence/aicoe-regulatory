@@ -4,6 +4,10 @@
 
 `aicoe-regulatory` is a public, docs-first regulatory knowledge base for the AI Centre of Excellence. It catalogues authoritative regulations, standards, frameworks, and guidance across regulated domains. The same source content is published as a static human-readable website and as machine-readable indexes for AI agents.
 
+## Home & Deployment
+
+`Gitea` (`aicoe/aicoe-regulatory`) is the canonical home and the only place developers push. A **Gitea push mirror** auto-deploys every push to the public GitHub repo `AI-Centre-of-Excellence/aicoe-regulatory` (sync-on-commit). Never push directly to GitHub — push to Gitea and the mirror handles GitHub.
+
 Do not place secrets, personal data, client material, or unpublished drafts in tracked files. Local-only material belongs under `private/`, which is gitignored and must never be committed or deployed.
 
 ## Architecture & Data Flow
