@@ -86,7 +86,7 @@ The ICH E2 series above governs safety data management during development. The e
 | Good Pharmacovigilance Practices (GVP) | EMA | https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/good-pharmacovigilance-practices-gvp | EU GVP Modules I–XVI landing page |
 | EudraVigilance | EMA | https://www.ema.europa.eu/en/human-regulatory-overview/research-development/pharmacovigilance-research-development/eudravigilance | EU database of suspected adverse reactions |
 | EU Risk Management Plan (RMP) | EMA | https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/pharmacovigilance-marketing-authorisation/risk-management/risk-management-plans | RMP guidance; read with GVP Module V |
-| CIOMS Working Groups | CIOMS | https://www.cioms.ch/working-groups/ | Working Group reports on pharmacovigilance and drug safety |
+| CIOMS Working Groups | CIOMS | https://cioms.ch/ | Working Group reports on pharmacovigilance and drug safety |
 | 21 CFR 314.80 — Postmarketing reporting of adverse drug experiences | FDA (eCFR, Title 21) | https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-B/section-314.80 | Drugs; 15-day alert and periodic reports |
 | 21 CFR 600.80 — Postmarketing reporting of adverse experiences | FDA (eCFR, Title 21) | https://www.ecfr.gov/current/title-21/chapter-I/subchapter-F/part-600/subpart-D/section-600.80 | Biologics; parallel to 314.80 |
 | FDA Adverse Event Reporting System (FAERS) | FDA | https://www.fda.gov/drugs/drug-approvals-and-databases/fda-adverse-event-reporting-system-faers-database | Post-market safety surveillance database |

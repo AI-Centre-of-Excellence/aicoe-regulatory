@@ -4715,7 +4715,7 @@
         {
           "document": "CIOMS Working Groups",
           "issuer": "CIOMS",
-          "link": "https://www.cioms.ch/working-groups/",
+          "link": "https://cioms.ch/",
           "url": "clinical-research.html#pharmacovigilance-drug-safety",
           "section": "Pharmacovigilance & drug safety",
           "notes": "Working Group reports on pharmacovigilance and drug safety",
@@ -7247,7 +7247,7 @@
         {
           "document": "Telecommunications Act, 2023",
           "issuer": "India Code (NIC)",
-          "link": "https://www.indiacode.nic.in/bitstream/123456789/20101/1/A2023-44.pdf",
+          "link": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20101/1/A202344.pdf",
           "url": "cybersecurity.html#india-cybersecurity-incident-reporting",
           "section": "India cybersecurity & incident reporting",
           "notes": "Act No. 44 of 2023; replaces the Indian Telegraph Act 1885; spectrum assignment, right-of-way, telecom infrastructure protection",
@@ -8161,7 +8161,7 @@
         {
           "document": "Digital Personal Data Protection Act, 2023 (DPDP Act)",
           "issuer": "India Code (NIC)",
-          "link": "https://www.indiacode.nic.in/handle/123456789/22037?view_type=browse",
+          "link": "https://www.indiacode.nic.in/indiacode/handle/123456789/22037?view_type=browse",
           "url": "data-protection-privacy.html#other-jurisdictions",
           "section": "Other jurisdictions",
           "notes": "India's first cross-sectoral data-privacy law; establishes Data Protection Board, data fiduciary duties, data principal rights",
@@ -8220,7 +8220,7 @@
         {
           "document": "Information Technology Act, 2000 (IT Act)",
           "issuer": "India Code (NIC)",
-          "link": "https://www.indiacode.nic.in/handle/123456789/1362",
+          "link": "https://www.indiacode.nic.in/indiacode/handle/123456789/1362",
           "url": "data-protection-privacy.html#other-jurisdictions",
           "section": "Other jurisdictions",
           "notes": "Parent legislation for electronic governance, cybercrime and data protection; Section 43A and SPDI Rules govern sensitive data handling",
@@ -8247,7 +8247,7 @@
         {
           "document": "IT (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011 (SPDI Rules)",
           "issuer": "India Code (NIC)",
-          "link": "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=The+Information+Technology+%28Reasonable+Security+Practices+and+Procedures+and+Sensitive+Personal+Data+or+Information%29+Rules%2C+2011.",
+          "link": "https://www.indiacode.nic.in/indiacode/handle/123456789/1362/simple-search?query=The+Information+Technology+%28Reasonable+Security+Practices+and+Procedures+and+Sensitive+Personal+Data+or+Information%29+Rules%2C+2011.",
           "url": "data-protection-privacy.html#other-jurisdictions",
           "section": "Other jurisdictions",
           "notes": "Notification GSR 313(E), 11 Apr 2011; reasonable security practices for bodies corporate handling sensitive personal data",
@@ -8329,7 +8329,7 @@
         {
           "document": "Aadhaar Act, 2016",
           "issuer": "India Code (NIC)",
-          "link": "https://www.indiacode.nic.in/handle/123456789/2160",
+          "link": "https://www.indiacode.nic.in/indiacode/handle/123456789/2160",
           "url": "data-protection-privacy.html#other-jurisdictions",
           "section": "Other jurisdictions",
           "notes": "Act No. 18 of 2016; establishes UIDAI; statutory framework for Aadhaar enrolment, authentication and data protection",
@@ -8356,7 +8356,7 @@
         {
           "document": "Aadhaar Act — UIDAI legal framework",
           "issuer": "UIDAI",
-          "link": "https://uidai.gov.in/en/legal-framework/aadhaar-act.html",
+          "link": "https://uidai.gov.in/legal-framework",
           "url": "data-protection-privacy.html#other-jurisdictions",
           "section": "Other jurisdictions",
           "notes": "Official UIDAI page with the full text of the Act and amendments",
