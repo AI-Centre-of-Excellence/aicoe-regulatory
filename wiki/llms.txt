@@ -55,7 +55,7 @@ Always consult the `link` for authoritative text.
 ### Life Sciences
 - Clinical research — /clinical-research.html (82 links)
 - Healthcare — /healthcare.html (39 links)
-- Medical devices — /medical-devices.html (28 links)
+- Medical devices — /medical-devices.html (32 links)
 
 ### Financial Services
 - Financial services — /financial-services.html (32 links)

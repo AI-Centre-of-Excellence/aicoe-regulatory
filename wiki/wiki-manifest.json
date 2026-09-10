@@ -13450,7 +13450,7 @@
       "url": "medical-devices.html",
       "source": "medical-devices.md",
       "intro": "A curated index of authoritative, primary-source regulations and standards governing medical device approval, quality management, risk management, and safety. Every link points to the issuing body's own canonical page or document.",
-      "link_count": 28,
+      "link_count": 32,
       "sections": [
         {
           "title": "US regulation (FDA)",
@@ -13467,6 +13467,10 @@
         {
           "title": "Safety & performance",
           "id": "safety-performance"
+        },
+        {
+          "title": "Device communication & interoperability",
+          "id": "device-communication-interoperability"
         },
         {
           "title": "International harmonisation",
@@ -14117,6 +14121,116 @@
           "triggers": [
             "medical-device",
             "labelling"
+          ]
+        },
+        {
+          "document": "IEEE 11073-20601 — Health informatics: Personal health device communication — Application profile (Optimized Exchange Protocol)",
+          "issuer": "IEEE",
+          "link": "https://standards.ieee.org/ieee/11073-20601/6780/",
+          "url": "medical-devices.html#device-communication-interoperability",
+          "section": "Device communication & interoperability",
+          "notes": "Application-layer protocol + Domain Information Model for personal health device communication; agent/manager discovery, negotiation and data exchange. Catalogue page; paid",
+          "jurisdiction": "International",
+          "legal_force": "voluntary-standard",
+          "applies_to": "Application-layer protocol + Domain Information Model for personal health device communication; agent/manager discovery, negotiation and data exchange",
+          "tags": [
+            "ieee",
+            "11073",
+            "device-communication",
+            "interoperability",
+            "phd"
+          ],
+          "status": "current",
+          "supersedes": null,
+          "superseded_by": null,
+          "equivalents": null,
+          "triggers": [
+            "medical-device",
+            "device-communication",
+            "interoperability",
+            "health-data-exchange"
+          ]
+        },
+        {
+          "document": "IEEE 11073-10101 — Health informatics: Point-of-care medical device communication — Nomenclature",
+          "issuer": "IEEE",
+          "link": "https://standards.ieee.org/ieee/11073-10101/6780/",
+          "url": "medical-devices.html#device-communication-interoperability",
+          "section": "Device communication & interoperability",
+          "notes": "MDC_ object identifiers (OIDs) for medical concepts (e.g. SpO₂, heart rate); the semantic terminology layer enabling interoperable device data. Catalogue page; paid",
+          "jurisdiction": "International",
+          "legal_force": "voluntary-standard",
+          "applies_to": "MDC_ object identifiers (OIDs) for medical concepts (e.g. SpO₂, heart rate); the semantic terminology layer enabling interoperable device data",
+          "tags": [
+            "ieee",
+            "11073",
+            "nomenclature",
+            "terminology",
+            "interoperability"
+          ],
+          "status": "current",
+          "supersedes": null,
+          "superseded_by": null,
+          "equivalents": null,
+          "triggers": [
+            "medical-device",
+            "device-communication",
+            "terminology",
+            "health-data-exchange"
+          ]
+        },
+        {
+          "document": "IEEE 11073-10404 — Personal health device communication: Device specialization — Pulse oximeter",
+          "issuer": "IEEE",
+          "link": "https://standards.ieee.org/ieee/11073-10404/6780/",
+          "url": "medical-devices.html#device-communication-interoperability",
+          "section": "Device communication & interoperability",
+          "notes": "Device-specific data model and attributes for pulse oximeters; one of the 104xx specializations (ECG, BP, thermometer, glucose, weighing scale, etc.). Catalogue page; paid",
+          "jurisdiction": "International",
+          "legal_force": "voluntary-standard",
+          "applies_to": "Device-specific data model and attributes for pulse oximeters; one of the 104xx specializations (ECG, BP, thermometer, glucose, weighing scale, etc.)",
+          "tags": [
+            "ieee",
+            "11073",
+            "pulse-oximeter",
+            "device-specialization",
+            "interoperability"
+          ],
+          "status": "current",
+          "supersedes": null,
+          "superseded_by": null,
+          "equivalents": null,
+          "triggers": [
+            "medical-device",
+            "device-communication",
+            "pulse-oximeter",
+            "health-data-exchange"
+          ]
+        },
+        {
+          "document": "IEEE 11073-10201 — Health informatics: Point-of-care medical device communication — Domain Information Model",
+          "issuer": "IEEE",
+          "link": "https://standards.ieee.org/ieee/11073-10201/6780/",
+          "url": "medical-devices.html#device-communication-interoperability",
+          "section": "Device communication & interoperability",
+          "notes": "Object model (devices, channels, metrics, alerts) underlying 11073 communication. Catalogue page; paid",
+          "jurisdiction": "International",
+          "legal_force": "voluntary-standard",
+          "applies_to": "Object model (devices, channels, metrics, alerts) underlying 11073 communication",
+          "tags": [
+            "ieee",
+            "11073",
+            "domain-information-model",
+            "interoperability"
+          ],
+          "status": "current",
+          "supersedes": null,
+          "superseded_by": null,
+          "equivalents": null,
+          "triggers": [
+            "medical-device",
+            "device-communication",
+            "health-data-exchange"
           ]
         },
         {

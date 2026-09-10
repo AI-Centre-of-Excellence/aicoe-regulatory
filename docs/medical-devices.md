@@ -51,6 +51,15 @@ A curated index of authoritative, primary-source regulations and standards gover
 | ISO 14155:2021 — Clinical investigation of medical devices for human subjects | ISO | https://www.iso.org/standard/72552.html | Good clinical practice for medical device investigations. Catalogue page; paid |
 | ISO 20417:2021 — Information to be supplied by the manufacturer | ISO | https://www.iso.org/standard/72583.html | Labelling and information requirements for medical devices. Catalogue page; paid |
 
+## Device communication & interoperability
+
+| Document | Issuer | Link | Notes |
+|---|---|---|---|
+| IEEE 11073-20601 — Health informatics: Personal health device communication — Application profile (Optimized Exchange Protocol) | IEEE | https://standards.ieee.org/ieee/11073-20601/6780/ | Application-layer protocol + Domain Information Model for personal health device communication; agent/manager discovery, negotiation and data exchange. Catalogue page; paid |
+| IEEE 11073-10101 — Health informatics: Point-of-care medical device communication — Nomenclature | IEEE | https://standards.ieee.org/ieee/11073-10101/6780/ | MDC_ object identifiers (OIDs) for medical concepts (e.g. SpO₂, heart rate); the semantic terminology layer enabling interoperable device data. Catalogue page; paid |
+| IEEE 11073-10404 — Personal health device communication: Device specialization — Pulse oximeter | IEEE | https://standards.ieee.org/ieee/11073-10404/6780/ | Device-specific data model and attributes for pulse oximeters; one of the 104xx specializations (ECG, BP, thermometer, glucose, weighing scale, etc.). Catalogue page; paid |
+| IEEE 11073-10201 — Health informatics: Point-of-care medical device communication — Domain Information Model | IEEE | https://standards.ieee.org/ieee/11073-10201/6780/ | Object model (devices, channels, metrics, alerts) underlying 11073 communication. Catalogue page; paid |
+
 ## International harmonisation
 
 | Document | Issuer | Link | Notes |

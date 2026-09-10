@@ -14,7 +14,7 @@ standards that apply.
 All files are at the site root:
 
 - [llms.txt](llms.txt) - the query contract. Read this first.
-- [wiki-manifest.json](wiki-manifest.json) - the authoritative dataset. 563 entries across 24 topics
+- [wiki-manifest.json](wiki-manifest.json) - the authoritative dataset. 567 entries across 24 topics
   and 13 domains. Each entry is one standard, law, or framework with routing
   metadata.
 - [search-index.json](search-index.json) - flat full-text index used by the site search. Can be
